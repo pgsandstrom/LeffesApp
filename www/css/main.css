@@ -132,25 +132,21 @@
 }
 
 .carousel > li.next-in {
-    animation: next-in 0.5s;
-    -webkit-animation: next-in 0.5s;
+    animation: next-in 0.3s;
+    -webkit-animation: next-in 0.3s;
 }
 
 .carousel > li.next-out {
-    animation: next-out 0.5s;
-    -webkit-animation: next-out 0.5s;
+    animation: next-out 0.3s;
+    -webkit-animation: next-out 0.3s;
 }
 
 .carousel > li.prev-in {
-    animation: prev-in 0.5s;
-    -webkit-animation: prev-in 0.5s;
+    animation: prev-in 0.3s;
+    -webkit-animation: prev-in 0.3s;
 }
 
 .carousel > li.prev-out {
-    animation: prev-out 0.5s;
-    -webkit-animation: prev-out 0.5s;
-}
-
-.hide {
-    display: none;
+    animation: prev-out 0.3s;
+    -webkit-animation: prev-out 0.3s;
 }

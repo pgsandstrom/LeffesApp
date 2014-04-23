@@ -75,7 +75,7 @@
 //        _.defer(update(listener));
         setTimeout(function () {
             update(listener);
-        }, 1);
+        }, 2000);
     };
 
 })();

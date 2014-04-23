@@ -4,30 +4,30 @@ $(function () {
     var innovation = window.innovation = window.innovation || {};
     innovation.view = innovation.view || {};
 
+    var $carousel = $('.carousel')
+
     var currentIndex = 0;
     var retrievedAllPages = false;
 
     var itemCount = $('.carousel > li').length;
 
     var updateItemCount = function () {
-        itemCount = carousel.children().length;
+        itemCount = $carousel.children().length;
     };
 
     var updateButtons = function () {
         if (currentIndex === 0) {
-            $('.prev').addClass('hide');
+            $('.prev').hide();
         } else {
-            $('.prev').removeClass('hide');
+            $('.prev').show();
         }
 
-        if (currentIndex === itemCount - 1) {
-            $('.next').addClass('hide');
+        if (itemCount === 0 || currentIndex === itemCount - 1) {
+            $('.next').hide();
         } else {
-            $('.next').removeClass('hide');
+            $('.next').show();
         }
     };
-
-    var carousel = $('.carousel');
 
     /* add the active class to the first item to hide all the others */
     $('.carousel > li:eq(' + currentIndex + ')').addClass('active');
@@ -59,12 +59,12 @@ $(function () {
 
     var updateView = function (newPosts) {
         console.log("update view");
-
+        $('#init-loading').hide();
 
         newPosts.forEach(function (post) {
-            var firstAdd = carousel.children().length === 0;
+            var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
-            carousel.append('<li class="' + initClass + '">' + post.content + '</li>');
+            $carousel.append('<li class="' + initClass + '">' + post.content + '</li>');
         });
 
         updateItemCount();
