@@ -150,3 +150,7 @@
     animation: prev-out 0.5s;
     -webkit-animation: prev-out 0.5s;
 }
+
+.hide {
+    display: none;
+}
