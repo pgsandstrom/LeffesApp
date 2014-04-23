@@ -47,7 +47,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-
-//window.innovation.api.get(1);
-
-window.innovation.data.getNextPage();

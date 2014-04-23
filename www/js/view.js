@@ -4,8 +4,16 @@ $(function () {
     var innovation = window.innovation = window.innovation || {};
     innovation.view = innovation.view || {};
 
+    var currentIndex = 0;
+    var retrievedAllPages = false;
 
-    innovation.view.updateButtons = function () {
+    var itemCount = $('.carousel > li').length;
+
+    var updateItemCount = function () {
+        itemCount = carousel.children().length;
+    };
+
+    var updateButtons = function () {
         if (currentIndex === 0) {
             $('.prev').addClass('hide');
         } else {
@@ -19,10 +27,7 @@ $(function () {
         }
     };
 
-
-    var currentIndex = 0,
-        itemCount = $('.carousel > li').length;
-    //TODO refresh itemCount
+    var carousel = $('.carousel');
 
     /* add the active class to the first item to hide all the others */
     $('.carousel > li:eq(' + currentIndex + ')').addClass('active');
@@ -41,18 +46,47 @@ $(function () {
         $active.on('animationend webkitAnimationEnd oAnimationEnd', function () {
             $active.removeClass('active next-out prev-out');
             $active.off('animationend webkitAnimationEnd oAnimationEnd');
-            console.log("$active animationend");
         });
         $next.on('animationend webkitAnimationEnd oAnimationEnd', function () {
             $next.removeClass('next-in prev-in');
             $next.off('animationend webkitAnimationEnd oAnimationEnd');
-            console.log("next animationend");
         });
 
-        innovation.view.updateButtons();
+        updateButtons();
 
         return false;
     });
 
-    innovation.view.updateButtons();
+    var updateView = function (newPosts) {
+        console.log("update view");
+
+
+        newPosts.forEach(function (post) {
+            var firstAdd = carousel.children().length === 0;
+            var initClass = firstAdd ? 'active' : '';
+            carousel.append('<li class="' + initClass + '">' + post.content + '</li>');
+        });
+
+        updateItemCount();
+        updateButtons();
+    };
+
+    var Listener = function Listener() {
+    };
+
+    Listener.prototype.status = function (status, newPosts) {
+        console.log("status update: " + status);
+        if (status === innovation.data.Status.DONE) {
+            retrievedAllPages = true;
+        } else if (status === innovation.data.Status.UPDATED) {
+            updateView(newPosts);
+        } else if (status === innovation.data.Status.NETWORK_ERROR) {
+            //TODO
+        } else if (status === innovation.data.Status.SERVER_ERROR) {
+            //TODO
+        }
+    };
+
+    updateButtons();
+    innovation.data.update(new Listener());
 });
