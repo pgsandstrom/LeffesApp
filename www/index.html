@@ -6,31 +6,35 @@
     <meta name="format-detection" content="telephone=no"/>
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
     <!--<meta name="viewport"-->
-          <!--content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>-->
+    <!--content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>-->
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/carousel.css"/>
 
     <title>Hello World</title>
 </head>
 <body>
 <div class="content">
-    <div id="carousel">
-        <ul>
-            <li class="pane1"><h2>Swipe...</h2></li>
-            <li class="pane2"><h2>...or drag...</h2></li>
-            <li class="pane3"><h2>...or swipe...</h2></li>
-            <li class="pane4"><h2>..or drag...</h2></li>
-            <li class="pane5"><h2>Dit is het einde!</h2></li>
-        </ul>
-    </div>
+    <ul class="carousel">
+        <li class="pane1"><h2>Swipe...</h2></li>
+        <li class="pane2"><h2>...or drag...</h2></li>
+        <li class="pane3"><h2>...or swipe...</h2></li>
+        <li class="pane4"><h2>..or drag...</h2></li>
+        <li class="pane5"><h2>Dit is het einde!</h2></li>
+    </ul>
+
+    <a href="#" class="carousel-nav prev"><</a>
+    <a href="#" class="carousel-nav next">></a>
 </div>
 <script type="text/javascript" src="js/vendor/jquery-2.1.0.min.js"></script>
-<script type="text/javascript" src="js/vendor/hammer.min.js"></script>
-<script type="text/javascript" src="js/vendor/modernizr.custom.49329.js"></script>
+<!--<script type="text/javascript" src="js/vendor/hammer.min.js"></script>-->
+<!--<script type="text/javascript" src="js/vendor/modernizr.custom.49329.js"></script>-->
 <!--TODO lägg till phonegap.js eller nåt här?-->
 <script type="text/javascript" src="js/api.js"></script>
-<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+<!--<script type="text/javascript" src="js/carousel.js"></script>-->
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
     app.initialize();
