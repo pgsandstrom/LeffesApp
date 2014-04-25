@@ -71,11 +71,11 @@
         if (isRetrieving) {
             return;
         }
+
         isRetrieving = true;
-//        _.defer(update(listener));
         setTimeout(function () {
             update(listener);
-        }, 2000);
+        }, 0);
     };
 
 })();

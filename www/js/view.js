@@ -4,7 +4,7 @@ $(function () {
     var innovation = window.innovation = window.innovation || {};
     innovation.view = innovation.view || {};
 
-    var $carousel = $('.carousel')
+    var $carousel = $('.carousel');
 
     var currentIndex = 0;
     var retrievedAllPages = false;
@@ -17,15 +17,19 @@ $(function () {
 
     var updateButtons = function () {
         if (currentIndex === 0) {
-            $('.prev').hide();
+            $('.prev').parent().hide();
+            $('.prev-disabled').parent().show();
         } else {
-            $('.prev').show();
+            $('.prev').parent().show();
+            $('.prev-disabled').parent().hide();
         }
 
         if (itemCount === 0 || currentIndex === itemCount - 1) {
-            $('.next').hide();
+            $('.next').parent().hide();
+            $('.next-disabled').parent().show();
         } else {
-            $('.next').show();
+            $('.next').parent().show();
+            $('.next-disabled').parent().hide();
         }
     };
 

@@ -1,152 +1,69 @@
-@keyframes next-in {
-    0% {
-        opacity: 0;
-        transform: translatex(50px);
-        -ms-transform: translatex(50px);
-        -webkit-transform: translatex(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translatex(0px);
-        -ms-transform: translatex(0px);
-        -webkit-transform: translatex(0px);
-    }
+#page {
+
 }
 
-@keyframes next-out {
-    0% {
-        opacity: 1;
-        transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -webkit-transform: translateX(0px);
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(-50px);
-        -ms-transform: translateX(-50px);
-        -webkit-transform: translateX(-50px);
-    }
+#content {
+    width: 100%;
 }
 
-@keyframes prev-in {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
-        -ms-transform: translateX(-50px);
-        -webkit-transform: translateX(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -webkit-transform: translateX(0px);
-    }
+#menu {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    max-height: 100px;
+    min-height: 40px;
+    background: #000000;
 }
 
-@keyframes prev-out {
-    0% {
-        opacity: 1;
-        transform: translatex(0px);
-        -ms-transform: translatex(0px);
-        -webkit-transform: translatex(0px);
-    }
-    100% {
-        opacity: 0;
-        transform: translatex(50px);
-        -ms-transform: translatex(50px);
-        -webkit-transform: translatex(50px);
-    }
+.menu-item {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
 }
 
-@-webkit-keyframes next-in {
-    0% {
-        opacity: 0;
-        transform: translatex(50px);
-        -ms-transform: translatex(50px);
-        -webkit-transform: translatex(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translatex(0px);
-        -ms-transform: translatex(0px);
-        -webkit-transform: translatex(0px);
-    }
+.menu-item>a {
+    display: inline-block;
 }
 
-@-webkit-keyframes next-out {
-    0% {
-        opacity: 1;
-        transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -webkit-transform: translateX(0px);
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(-50px);
-        -ms-transform: translateX(-50px);
-        -webkit-transform: translateX(-50px);
-    }
+a.prev:link {
+    content: url('../img/prev.png');
 }
 
-@-webkit-keyframes prev-in {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
-        -ms-transform: translateX(-50px);
-        -webkit-transform: translateX(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -webkit-transform: translateX(0px);
-    }
+a.prev:active {
+    content: url('../img/prev-pressed.png');
 }
 
-@-webkit-keyframes prev-out {
-    0% {
-        opacity: 1;
-        transform: translatex(0px);
-        -ms-transform: translatex(0px);
-        -webkit-transform: translatex(0px);
-    }
-    100% {
-        opacity: 0;
-        transform: translatex(50px);
-        -ms-transform: translatex(50px);
-        -webkit-transform: translatex(50px);
-    }
+a.prev-disabled:link {
+    content: url('../img/prev-disabled.png');
 }
 
-.carousel {
-    position: relative;
-    list-style: none;
+a.next:link {
+    content: url('../img/next.png');
 }
 
-.carousel > li {
-    position: absolute;
+a.next:active {
+    content: url('../img/next-pressed.png');
 }
 
-.carousel > li:not(.active) {
-    display: none;
+a.next-disabled:link {
+    content: url('../img/next-disabled.png');
 }
 
-.carousel > li.next-in {
-    animation: next-in 0.3s;
-    -webkit-animation: next-in 0.3s;
+a.plus:link {
+    content: url('../img/plus.png');
 }
 
-.carousel > li.next-out {
-    animation: next-out 0.3s;
-    -webkit-animation: next-out 0.3s;
+a.plus:active {
+    content: url('../img/plus-pressed.png');
 }
 
-.carousel > li.prev-in {
-    animation: prev-in 0.3s;
-    -webkit-animation: prev-in 0.3s;
+a.share:link {
+    content: url('../img/share.png');
 }
 
-.carousel > li.prev-out {
-    animation: prev-out 0.3s;
-    -webkit-animation: prev-out 0.3s;
+a.share:active {
+    content: url('../img/share-pressed.png');
 }
