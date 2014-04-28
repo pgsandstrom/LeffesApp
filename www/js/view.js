@@ -11,6 +11,15 @@ $(function () {
 
     var itemCount = $('.carousel > li').length;
 
+    $(".share").on("click", function(){
+        var $sm = $("#submenu");
+        if ($sm.hasClass("hidden")) {
+            $("#submenu").removeClass("hidden");
+        } else {
+            $("#submenu").addClass("hidden");
+        }
+    });
+
     var updateItemCount = function () {
         itemCount = $carousel.children().length;
     };
@@ -37,8 +46,8 @@ $(function () {
     $('.carousel > li:eq(' + currentIndex + ')').addClass('active');
 
     $('.carousel-nav').on('click', function () {
-        var $active = $('.carousel > li.active'),
-            isNext = $(this).hasClass('next');
+        var $active = $('.carousel > li.active');
+        var isNext = $(this).hasClass('next');
 
 
         currentIndex = (currentIndex + (isNext ? 1 : -1));
