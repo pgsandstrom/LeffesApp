@@ -1,7 +1,24 @@
+ANDROID
+-------
+
+Setup
+-----
+Installera cordova, phonegap ger bara problem: https://cordova.apache.org/
 Fixa alla miljövariabler: Java, Android, Ant
 
+Skapa projekt
+-------------
 tror det var typ "create ./ se.tusentips.app LeffesApp"
 
+Setup projekt
+-------------
 cordova platform add android
 
+Bygg
+----
 cordova build android
+
+sen hitta apk och kör:
+adb install -r *apk-namn*
+eller om du inte vill behålla datan:
+adb uninstall se.tusentips.app & adb install *apk-namn*
