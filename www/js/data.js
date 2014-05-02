@@ -28,7 +28,7 @@
 
         if (pagesCount === undefined) {
             pagesCount = data.pages;
-            console.log("pages: " + pagesCount);
+//            console.log("pages: " + pagesCount);
         }
 
         return data.posts;
@@ -54,7 +54,7 @@
             updatePostList(newPosts);
             listener.status(innovation.data.Status.UPDATED, newPosts);
         } finally {
-            console.log("finished update");
+//            console.log("finished update");
             isRetrieving = false;
         }
     };

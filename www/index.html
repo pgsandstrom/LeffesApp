@@ -12,16 +12,17 @@
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/carousel.css"/>
 
-    <title>Hello World</title>
+    <title>Tusen tips</title>
 </head>
 <body>
-    <div id="fb-root"></div>
+<!--<div id="fb-root"></div>-->
 <div id="page">
 
     <div id="menu">
-        <div id="submenu" class="hidden">
-<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-width="72" data-type="button"></div>
-        </div>
+        <!--<div id="submenu" class="hidden">-->
+            <!--<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-width="72"-->
+                 <!--data-type="button"></div>-->
+        <!--</div>-->
         <div class="menu-item">
             <a href="#" class="carousel-nav prev"></a>
         </div>
@@ -39,7 +40,9 @@
             <a href="#" class="plus" onclick="window.open('http://www.dn.se', '_system');"></a>
         </div>
         <div class="menu-item">
-            <a href="#" class="share"></a>
+            <!--<a href="#" class="share"></a>-->
+            <!--<a href="#" class="plus" onclick="innovation.share.link('DN', 'http://www.dn.se');"></a>-->
+            <a href="#" class="plus share2"></a>
         </div>
     </div>
 
@@ -54,8 +57,9 @@
 </div>
 <script type="text/javascript" src="js/vendor/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="js/vendor/underscore-min.js"></script>
-<!--TODO lägg till phonegap.js eller nåt här?-->
-<script type="text/javascript" src="js/facebook.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+<!--<script type="text/javascript" src="js/facebook.js"></script>-->
 <script type="text/javascript" src="js/api.js"></script>
 <script type="text/javascript" src="js/data.js"></script>
 <script type="text/javascript" src="js/view.js"></script>

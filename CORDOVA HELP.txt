@@ -10,6 +10,10 @@ Skapa projekt
 -------------
 tror det var typ "create ./ se.tusentips.app LeffesApp"
 
+Kör följande kommando för att fixa plugin:
+cordova plugin add https://github.com/leecrossley/cordova-plugin-social-message.git
+
+
 Setup projekt
 -------------
 cordova platform add android

@@ -71,10 +71,11 @@ $(function () {
     });
 
     var updateView = function (newPosts) {
-        console.log("update view");
+//        console.log("update view");
         $('#init-loading').hide();
 
-        newPosts.forEach(function (post) {
+//        newPosts.forEach(function (post) {
+        _.each(newPosts, function(post) {
             var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
             $carousel.append('<li class="' + initClass + '">' + post.content + '</li>');
@@ -88,7 +89,7 @@ $(function () {
     };
 
     Listener.prototype.status = function (status, newPosts) {
-        console.log("status update: " + status);
+//        console.log("status update: " + status);
         if (status === innovation.data.Status.DONE) {
             retrievedAllPages = true;
         } else if (status === innovation.data.Status.UPDATED) {
