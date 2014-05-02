@@ -1,0 +1,7 @@
+Fixa alla miljövariabler: Java, Android, Ant
+
+tror det var typ "create ./ se.tusentips.app LeffesApp"
+
+cordova platform add android
+
+cordova build android
