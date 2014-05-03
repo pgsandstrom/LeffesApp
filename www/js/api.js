@@ -3,7 +3,9 @@
 
 //   en viss kategori: http://tusentips.se/api/get_category_posts/?category_slug=tips
 
-    //rubbet: http://tusentips.se/page/2/?json=1
+    //rubbet:
+    //sida 1: http://tusentips.se/?json=1
+    //sida 2: http://tusentips.se/page/2/?json=1
 
     var HOST = 'http://tusentips.se';
 

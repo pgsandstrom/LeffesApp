@@ -1,59 +1,52 @@
 {
     "status": "ok",
     "count": 10,
-    "count_total": 24,
-    "pages": 3,
+    "count_total": 31,
+    "pages": 4,
     "posts": [
         {
-            "id": 53,
+            "id": 95,
             "type": "post",
-            "slug": "lar-av-googles-innovativa-ledarskap",
-            "url": "http://tusentips.se/lar-av-googles-innovativa-ledarskap/",
+            "slug": "lat-inte-uppfinnar-jocke-hindra-dig",
+            "url": "http://tusentips.se/lat-inte-uppfinnar-jocke-hindra-dig/",
             "status": "publish",
-            "title": "Lär av Googles innovativa ledarskap",
-            "title_plain": "Lär av Googles innovativa ledarskap",
-            "content": "<p><i>Hur kan <a href=\"https://sv.wikipedia.org/wiki/Google\" target=\"_blank\"><strong>Google</strong></a> vara ett så innovativt och snabbfotat företag? Annika Steiber fick som första universitetsforskare i världen komma in på företaget under ett år. Med sig därifrån har hon en modell för ett nytt ledarskap som lockar fram ständig innovation.</i></p>\n<div id=\"attachment_56\" style=\"width: 310px\" class=\"wp-caption alignnone\"><a href=\"http://tusentips.wpengine.com/wp-content/uploads/2014/04/google-dublin-office-design.jpg\"><img class=\"size-medium wp-image-56\" alt=\"Googles kontor i Dublin, Irland.\" src=\"http://tusentips.wpengine.com/wp-content/uploads/2014/04/google-dublin-office-design-300x199.jpg\" width=\"300\" height=\"199\" /></a><p class=\"wp-caption-text\">En vanlig dag på jobbet hos Google.</p></div>\n<p>Annika Steibers slutsatser finns i hennes nyutkomna bok ”Googlemodellen”, som finansierats av Vinnova och finns att ladda hem gratis från Vinnovas hemsida.</p>\n<p>I boken listar hon sex managementprinciper som krävs för kontinuerlig innovation (se separat artikel <a title=\"Sex strategier för ständig innovation\" href=\"http://tusentips.wpengine.com/sex-strategier-for-standig-innovation/\" target=\"_blank\"><b>här</b></a>) och konstaterar att Google uppfyller alla sex.</p>\n<p>Hon beskriver också detaljerat hur Google lyckas både styra sitt bolag med drygt 30 000 anställda och ge dem de stora frihetsgrader som krävs för att klara av en så hög innovationstakt.</p>\n<p>Google har lyckats med att både växa snabbt och behålla sin innovationskraft. Och det rör sig inte bara om gradvisa förbättringar – vissa innovationer har varit banbrytande och ändrat spelreglerna i hela branscher.</p>\n<p>I korthet kan man säga att Googles ledningsfilosofi bygger på två huvudprinciper:</p>\n<p><i>1. Styr med vision och företagskultur, inte med regler och byråkrati.</i></p>\n<p><i>2. Tro på de enskilda människornas idéer. </i></p>\n<p><b>FÖRETAGSKULTUREN</b></p>\n<p>På Google drar man sig inte det minsta för att beskriva i detalj vilken kultur som gäller. Man hymlar inte med att ingenjören är kung på företaget (målet är hälften ingenjörer) och man är ytterst noggrann i sina rekryteringsprocesser för att få in människor med rätt attityd och ”googliness”.</p>\n<p>”I de allra flesta företag är kulturen något som ’blir som den blir’. I Google bygger man mycket medvetet upp den företagskultur som företaget behöver som drivkraft för innovation”, skriver Annika Steiber i sin bok.</p>\n<p>Google har till och med en särskild ”Chief Culture Officer”.</p>\n<p><b>REKRYTERINGARNA</b></p>\n<p>Google rekryterar helst nyutexaminerade som inte färgats av andra företagskulturer. Sedan skolas de in i ett mycket strukturerat program för att både passa in med sina beteenden och utveckla sin individualism och självständighet.</p>\n<p>När en ny medarbetare tolkar en situation rätt enligt kulturens normer får han eller hon positiv förstärkning. Om normerna bryts blir det korrigerande återkoppling. Formandet sker mycket medvetet och med stöd från en HR-avdelning där en tredjedel är disputerade och en tredjedel före detta managementkonsulter.</p>\n<p><b>LEDARSKAPET</b></p>\n<p>Målet är stor innovativkraft och därför har man byggt organisationen runt de som ska komma på idéerna – de enskilda medarbetarna. Sedan stöttar man upp med ledarskap och processer och chefer som i första hand ska fungera som coacher.</p>\n<p>”Att man lägger ner så stor omsorg på att bevara en viss kultur ger enskilda medarbetare en tydlig värdegrund för självständiga beslut. Förståelsen för kulturen och dess värderingar (…) minskar och eliminerar i många fall behovet av formella regler och instruktioner”, konstaterar Annika Steiber i sin bok.</p>\n<p>En av Googles mest kända egenheter är den så kallade tjugoprocentsregeln. Den ger alla medarbetare möjlighet att satsa motsvarande en dag i veckan åt att utveckla en egen idé fram till koncept eller prototyp. Detta är ett sätt att göra företaget både produktivt och innovativt samtidigt – även i lågkonjunktur.</p>\n<p><b>STRUKTUREN</b></p>\n<p>Alla processer härstammar från grundarnas värderingar. Larry Page gillar till exempel inte hierarki, byråkrati och kortsiktig kvartalsekonomi. Därför är organisationen platt och umgänget informellt.</p>\n<p>Google slår vakt om att aldrig bli överstrukturerat. Man litar mycket på medarbetarnas självorganisering och jagar onödig byråkrati, eftersom den bromsar snabbheten, riskviljan och innovationskraften.</p>\n<p>Detta betyder dock inte att företaget är en lekstuga där cheferna har släppt greppet. Tvärtom. Det unika är att man fattat så medvetna och radikala beslut om vad som ska struktureras och vad som får flyta fritt.</p>\n<p><b>IDÉPROCESSEN</b></p>\n<p>Innovationsledarskapet har lånat in mycket riskkapitaltänkande i bolagsmiljön. Den som vill förverkliga en idé får till exempel ”pitcha” den internt i ett ”draknäste” av beslutsfattare. Det finns också tydliga kriterier för vad en idé ska leva upp till för att få finansiering.</p>\n<p>En innovationsportfölj med ett flertal olika projekt drivs samtidigt och processerna är tydliga för hur man uppmuntrar, testar och beslutar om nya idéer.</p>\n<p>Mycket är alltså noga styrt, från vision och strategier ner till umgängesformer och färgsättning på kontoren. Men annat är ovanligt fritt, informellt och transparent, som arbetsuppgifterna och bolagets alla nyckeltal som finns öppet på intranätet.</p>\n<p>Annika Steiber förutser att Googles förhållningssätt på sikt kommer att påverka den allmänna synen på företagens utvecklingsarbete:</p>\n<p>”Den tidigare uppfattningen var att vissa personer är innovatörer men inte andra. Idag vet vi att alla människor kan tränas att innovera systematiskt, precis som man kan arbeta systematiskt med kvalitetsförbättring.”</p>\n<p>&nbsp;</p>\n<p>Ladda hem Annika Steibers bok ”Googlemodellen” gratis från Vinnovas <strong><a href=\"www.vinnova.se/sv/Aktuellt--publicerat/Publikationer/Produkter/googlemodellen/\" target=\"_blank\">hemsida</a></strong>.<a href=\"http://www.vinnova.se/sv/Aktuellt--publicerat/Publikationer/Produkter/googlemodellen/\" target=\"_blank\"><br />\n</a></p>\n<p>Läs även artikeln <a title=\"Sex strategier för ständig innovation\" href=\"http://tusentips.wpengine.com/sex-strategier-for-standig-innovation/\"><b>Sex strategier för ständig innovation</b></a></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Lär av Googles innovativa ledarskap' data-link='http://tusentips.se/lar-av-googles-innovativa-ledarskap/' data-summary=''></div>",
-            "excerpt": "<p>Hur kan Google vara ett så innovativt och snabbfotat företag? Annika Steiber fick som första universitetsforskare i världen komma in på företaget under ett år. Med sig därifrån har hon en modell för ett nytt ledarskap som lockar fram ständig innovation. Annika Steibers slutsatser finns i hennes nyutkomna bok ”Googlemodellen”, som finansierats av Vinnova och [&hellip;]</p>\n",
-            "date": "2014-04-04 18:12:44",
-            "modified": "2014-04-08 19:04:25",
+            "title": "Låt inte Uppfinnar-Jocke hindra dig",
+            "title_plain": "Låt inte Uppfinnar-Jocke hindra dig",
+            "content": "<p>Säg innovation och Uppfinnar-Jocke dyker upp på näthinnan – sinnebilden av det tekniska geniet som med närmast magisk talang löser problem som du knappt visste fanns.</p>\n<p>Men låt inte tanken stanna vid verkstaden eller laboratoriet. Då missar du innovationsmöjligheterna i tre av de fyra dimensioner som forskningen kallar ”Fyra P”:</p>\n<p>• <b>Produktinnovation. </b>Framtagandet av<b> </b>både varor och tjänster. Exempel: en ny bilmodell med bättre prestanda och ny design.</p>\n<p>• <b>Processinnovation.</b> Ett nytt sätt att tillverka eller leverera en befintlig produkt. Exempel: bilfabriken installerar robotar som svetsar ihop karosserna snabbare.</p>\n<p><b>• Positionsinnovation.</b> Förmågan att förändra användningen eller uppfattningen om en produkt. Exempel: Häagen Dazs beskrev sig som ”glass för vuxna” och hittade en ny kundgrupp.</p>\n<p><b>• Paradigminnovation. </b>Något som förändrar ett helt synsätt. Henry Fords löpande band förnyade processerna, men det förändrade samtidigt synen på bilen som en handgjord lyxvara till ett massproducerat transportmedel för den breda massan.</p>\n<p><i>Läs mer:</i></p>\n<p>Tidd, J. &amp; Bessant, J. (2009). <i><strong><a href=\"www.adlibris.com/se/bok/managing-innovation-integrating-technological-market-and-organizational-c-9780470998106\" target=\"_blank\">Managing Innovation: Integrating Technological, Market and Organizational Change</a></strong>.</i> John Wiley Sons.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Låt inte Uppfinnar-Jocke hindra dig ' data-link='http://tusentips.se/lat-inte-uppfinnar-jocke-hindra-dig/' data-summary=''></div>",
+            "excerpt": "<p>Säg innovation och Uppfinnar-Jocke dyker upp på näthinnan – sinnebilden av det tekniska geniet som med närmast magisk talang löser problem som du knappt visste fanns. Men låt inte tanken stanna vid verkstaden eller laboratoriet. Då missar du innovationsmöjligheterna i tre av de fyra dimensioner som forskningen kallar ”Fyra P”: • Produktinnovation. Framtagandet av både [&hellip;]</p>\n",
+            "date": "2014-05-02 08:30:24",
+            "modified": "2014-04-23 11:31:28",
             "categories": [
                 {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
                     "description": "",
                     "parent": 0,
-                    "post_count": 14
+                    "post_count": 17
                 }
             ],
             "tags": [
                 {
-                    "id": 25,
-                    "slug": "google",
-                    "title": "Google",
+                    "id": 43,
+                    "slug": "forskning",
+                    "title": "forskning",
                     "description": "",
-                    "post_count": 2
+                    "post_count": 1
                 },
                 {
                     "id": 18,
                     "slug": "innovation",
                     "title": "innovation",
                     "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 7,
-                    "slug": "ledarskap",
-                    "title": "ledarskap",
-                    "description": "",
-                    "post_count": 9
+                    "post_count": 10
                 },
                 {
                     "id": 6,
                     "slug": "strategi",
                     "title": "strategi",
                     "description": "",
-                    "post_count": 5
+                    "post_count": 7
                 }
             ],
             "author": {
@@ -67,64 +60,497 @@
                 "description": ""
             },
             "comments": [],
-            "attachments": [
-                {
-                    "id": 56,
-                    "url": "http://tusentips.wpengine.com/wp-content/uploads/2014/04/google-dublin-office-design.jpg",
-                    "slug": "google-dublin-office-design",
-                    "title": "google-dublin-office-design",
-                    "description": "",
-                    "caption": "Googles kontor i Dublin, Irland.",
-                    "parent": 53,
-                    "mime_type": "image/jpeg",
-                    "images": {
-                        "full": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/google-dublin-office-design.jpg",
-                            "width": 500,
-                            "height": 332
-                        },
-                        "thumbnail": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/google-dublin-office-design-150x150.jpg",
-                            "width": 150,
-                            "height": 150
-                        },
-                        "medium": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/google-dublin-office-design-300x199.jpg",
-                            "width": 300,
-                            "height": 199
-                        },
-                        "large": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/google-dublin-office-design.jpg",
-                            "width": 500,
-                            "height": 332
-                        }
-                    }
-                }
-            ],
+            "attachments": [],
             "comment_count": 0,
             "comment_status": "open",
             "custom_fields": {}
         },
         {
-            "id": 52,
+            "id": 94,
             "type": "post",
-            "slug": "sex-strategier-for-standig-innovation",
-            "url": "http://tusentips.se/sex-strategier-for-standig-innovation/",
+            "slug": "lita-inte-for-mycket-pa-dig-sjalv",
+            "url": "http://tusentips.se/lita-inte-for-mycket-pa-dig-sjalv/",
             "status": "publish",
-            "title": "Sex strategier för ständig innovation",
-            "title_plain": "Sex strategier för ständig innovation",
-            "content": "<p><i>Först lämnade vi industrisamhället för informationssamhället. Nu har vi nått nästa fas – innovationssamhället. För att lyckas där behöver vi nya ledarskapsprinciper som hjälper oss att skapa framgång av kaos.</i></p>\n<p>Svenska Annika Steiber från Chalmers är den första universitetsforskaren i världen som blivit insläppt på Googles huvudkontor i Silicon Valley för att kunna studera företaget under ett helt år. Nu har hon gett ut boken ”Googlemodellen” om sitt unika forskningsprojekt.</p>\n<p>Enligt Annika Steiber är världen mitt uppe i ett paradigmskifte som leder oss in i vad hon kallar innovationssamhället.</p>\n<p>Värden som gav företagen konkurrensfördelar i informationssamhället – kompetens, kunskap och information – har blivit lättillgängliga stapelvaror i dag. Samtidigt ökar konkurrensen och förändringstakten dramatiskt i och med globaliseringen och internetrevolutionen.</p>\n<p>I dag kan väletablerade och livskraftiga företag bli utkonkurrerade på mycket kort tid. Allt får kortare livscykler, inte bara produkter utan även affärsmodeller. Även företagen har fått kortare livslängd (samtidigt som vi människor lever allt längre).</p>\n<p>”Fram till slutet av nittiotalet klarade vi oss ganska bra med stegvisa förändringar inom ramen för i stort sett samma tänkande. Det fanns förändringar i omvärlden redan då, men de var ganska beskedliga jämfört med vad vi nu står inför”, skriver Annika Steiber.</p>\n<p>Nu när kompetens och information är tillgängligt överallt handlar överlevnaden om vem som snabbast får fram de bästa idéerna – och förverkligar dem. Detta innebär att rätt management för innovation har blivit avgörande.</p>\n<p>Det håller inte längre att ursäkta sin brist på innovation med att man måste satsa allt man har av tid och pengar på sin kärnverksamhet. Dagens mest framgångsrika företag klarar av att göra både-och. Och de som inte gör det riskerar att utplånas.</p>\n<p>I 1900-talets förhållandevis stabila affärsmiljöer kom man långt med ordning, kontroll och struktur. Men i dag ligger tryggheten inte längre i att ha minutiös kontroll på alla sina processer, regler och detaljer, menar Annika Steiber.</p>\n<p>Byråkratisk precision skapar möjligen känslan av kontroll, men det är en falsk trygghet i en ny hypersnabb värld.</p>\n<p>Google är världens näst högst värderade företag efter Apple och anses vara ett av de allra mest innovativa. Trots över 30 000 anställda beskriver Google sig självt som semistrukturerat – ”50 procent ordning och 50 procent kaos”.</p>\n<p>Kaos är dock ett tillstånd som många chefer ogillar, särskilt i större företag. Många försöker därför bekämpa osäkerheten med ännu fler processer, ännu mer detaljstyrning och ännu stelare hierarkier. De håller fast vid den traditionella tayloristiska modellen med en uppdelning i anställda som tänker och anställda som gör. Och de kräver av sina medarbetare – outtalat eller ej – att ”allt ska göras rätt från början”.</p>\n<p>Det fungerar möjligen vid ett löpande band, men inte i innovationssamhället. Där krävs kontinuerlig och radikal innovation, vilket inte bara handlar om att ha en spänstig FoU-avdelning. Det gäller att ständigt förnya såväl produkterna som processer, marknadsföring och organisation.</p>\n<p>”Ett företags innovationsförmåga kan till stor del förklaras av hur företaget leds och organiseras snarare än av dess tekniska skicklighet”, konstaterar Annika Steiber i sin bok.</p>\n<p>Hon menar att kontinuerlig innovation kräver sex viktiga managementförmågor:</p>\n<p><b>1. Klara stora och snabba förändringar.</b> Man kan inte längre lita på att samma gamla kärnkompetenser ska ge långsiktig konkurrenskraft. I stället krävs vad Annika Steiber kallar dynamisk kapabilitet, alltså förmågan att känna av nya hot, ta tillvara nya möjligheter och när som helst kunna göra stora och snabba anpassningar.</p>\n<p><b>2. Alltid ligga steget före. </b>Det räcker inte med brandkårsutryckningar och att tänka om när man blir tvungen. En förnyelseinriktad organisation är i en ständig omstöpningsprocess och vänjer sig vid att leva i gränslandet mellan ordning och kaos. Målet bör vara tydligt, men färdplanen tillräckligt vag för att det ska uppstå självorganisering bland medarbetarna. En viss struktur krävs, men också friheten att improvisera och experimentera.</p>\n<p><b>3.</b> <b>Låta alla medarbetare vara kreativa.</b> Kontinuerligt innovativa företag har en fast tro på att var och en vill och kan vara kreativ och att innovationer i första hand drivs av inre individuell motivation. Därför sätter man individerna i centrum och låter dem göra sådant de brinner för.</p>\n<p>Framgångsfaktorer är enkla rutiner, små team, naturliga hierarkier, transparens och frihet att ta egna initiativ och fatta beslut. Styrningen sker i första hand genom en stark, attraktiv och trovärdig vision och tydliga värderingar.</p>\n<p><b>4. Vara en både-och-organisation. </b>Det är en svår konst att samtidigt både satsa på innovation och behålla greppet om sin nuvarande produktion. Men dagens mest framgångsrika företag hittar denna balans. De låter gärna så många medarbetare som möjligt vara delaktiga i såväl nytänkandet som den dagliga produktionen.</p>\n<p><b>5. Riva gränser mot omvärlden. </b>Så kallad Open Innovation är närmast en förutsättning för att klara ständig förnyelse. Företaget måste nätverka och bilda allianser med kunder, leverantörer, startup-företag, universitet, statliga myndigheter och även konkurrenter för att hänga med i utvecklingen. Det kan kräva ordentliga uppgörelser med gamla föreställningar och företagskulturer.</p>\n<p><b>6. Se företaget som ett system. </b>Annika Steiber betonar att företag måste gå från ett processperspektiv till ett systemperspektiv. Med det menas att man betraktar företaget som bestående av ett antal beståndsdelar, som affärsidé, styrelse, medarbetare, företagskultur, organisationsstruktur, varumärke och kommunikation. Dessa måste samverka som ömsesidigt beroende delar i stället för att ses som egna ”boxar” som maximerar produktiviteten var och en.</p>\n<p>&nbsp;</p>\n<p>Ladda ner Annika Steibers bok ”Googlemodellen” gratis från Vinnovas hemsida: <a href=\"http://www.vinnova.se/sv/Aktuellt--publicerat/Publikationer/Produkter/googlemodellen/\" target=\"_blank\">www.vinnova.se/sv/Aktuellt&#8211;publicerat/Publikationer/Produkter/googlemodellen/</a></p>\n<p>&nbsp;</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Sex strategier för ständig innovation' data-link='http://tusentips.se/sex-strategier-for-standig-innovation/' data-summary=''></div>",
-            "excerpt": "<p>Först lämnade vi industrisamhället för informationssamhället. Nu har vi nått nästa fas – innovationssamhället. För att lyckas där behöver vi nya ledarskapsprinciper som hjälper oss att skapa framgång av kaos. Svenska Annika Steiber från Chalmers är den första universitetsforskaren i världen som blivit insläppt på Googles huvudkontor i Silicon Valley för att kunna studera företaget [&hellip;]</p>\n",
-            "date": "2014-04-04 13:08:23",
-            "modified": "2014-04-08 19:06:25",
+            "title": "Lita inte för mycket på dig själv",
+            "title_plain": "Lita inte för mycket på dig själv",
+            "content": "<p>Varför är det där rödljuset alltid rött? Varför hamnar du i matvaruaffären alltid i fel kö?</p>\n<p>Svar: Det du upplever stämmer inte. Din egen hjärna spelar dig ett spratt, eftersom den är riggad att tänka åt ett och samma håll – att bekräfta det den redan håller för sant. Detta fenomen kallas inom psykologin för <i>confirmation bias</i>:</p>\n<ul>\n<li>Vi accepterar oreflekterat information som vi redan håller för sann.</li>\n<li>Vi tenderar att ignorera eller spela ner information som säger emot våra sanningar.</li>\n<li>Effekten är starkare för djupt rotade eller känslomässigt laddade övertygelser.</li>\n</ul>\n<p>Tillbaka till rödljuset. Om du tror att en viss trafiksignal alltid är röd så lägger du märke till det när du står där med bilen. När ljuset är grönt blåser du bara förbi utan att lägga händelsen på minnet.</p>\n<p>Confirmation bias kan sätta krokben för din kreativitet på minst två sätt.</p>\n<ul>\n<li>Din världsbild kan bli begränsad. Fenomen, trender, mekanismer eller åsikter som inte går i linje med det du redan vet går dig förbi.</li>\n<li>Du skyddar dina idéer genom att lyssna på de människor eller den information som bekräftar idéns förträfflighet. Åsikter eller information som talar emot idén riskerar du att ignorera.</li>\n</ul>\n<p>Hur bemästrar du din confirmation bias? Det är inte nödvändigt att börja acceptera allt du läser och hör rakt av. Däremot är det en bra idé att skapa ett utrymme i minnet – en slags karantän – där du kan placera information som du inte håller med om, men som du kan beakta när du slipar på dina idéer. Det har både du själv och din innovationsförmåga mycket att vinna på.</p>\n<p>Läs om confirmation bias och andra tankefällor i boken:</p>\n<p><a title=\"Tänka Snabbt och Långsamt\" href=\"http://www.bokus.com/bok/9789186815721/tanka-snabbt-och-langsamt/\">Kahneman, D. (2013). <i>Thinking, fast and slow.</i> Farrar Straus Giroux.</a></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Lita inte för mycket på dig själv' data-link='http://tusentips.se/lita-inte-for-mycket-pa-dig-sjalv/' data-summary=''></div>",
+            "excerpt": "<p>Varför är det där rödljuset alltid rött? Varför hamnar du i matvaruaffären alltid i fel kö? Svar: Det du upplever stämmer inte. Din egen hjärna spelar dig ett spratt, eftersom den är riggad att tänka åt ett och samma håll – att bekräfta det den redan håller för sant. Detta fenomen kallas inom psykologin för [&hellip;]</p>\n",
+            "date": "2014-05-01 08:30:49",
+            "modified": "2014-05-02 17:55:06",
             "categories": [
                 {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
                     "description": "",
                     "parent": 0,
-                    "post_count": 14
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 27,
+                    "slug": "kompetens",
+                    "title": "kompetens",
+                    "description": "",
+                    "post_count": 2
+                },
+                {
+                    "id": 22,
+                    "slug": "misstag",
+                    "title": "misstag",
+                    "description": "",
+                    "post_count": 5
+                },
+                {
+                    "id": 21,
+                    "slug": "psykologi",
+                    "title": "psykologi",
+                    "description": "",
+                    "post_count": 5
+                },
+                {
+                    "id": 23,
+                    "slug": "tankefallor",
+                    "title": "tankefällor",
+                    "description": "",
+                    "post_count": 4
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [
+                {
+                    "id": 5,
+                    "name": "Lars Lundgren",
+                    "url": "",
+                    "date": "2014-05-02 17:51:33",
+                    "content": "<p>Intressant!</p>\n",
+                    "parent": 0
+                }
+            ],
+            "attachments": [],
+            "comment_count": 1,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 93,
+            "type": "post",
+            "slug": "snilleblixtarnas-principer-del-3",
+            "url": "http://tusentips.se/snilleblixtarnas-principer-del-3/",
+            "status": "publish",
+            "title": "Snilleblixtarnas principer (del 3)",
+            "title_plain": "Snilleblixtarnas principer (del 3)",
+            "content": "<p>Är alla innovationer briljanta och unika sammanträffanden? Eller finns det några mönster i dem?</p>\n<p>Den ryske patentingenjören Genrich Altshuller analyserade uppfinningsrik problemlösning mycket systematiskt på 1940-talet och hittade tusentals mönster. Det resulterade i 40 så kallade TRIZ-principer som du kan låta dig inspireras av för att kläcka nya idéer.</p>\n<p>Vi ger dig ett litet urval av Altshullers principer, uppdelade på tre ”Dagens tips”. Använd dem när du vill tänka nya banor eller varför inte när du har idétorka. Här är sista delen:</p>\n<p><b>• Välsignelser i förklädnad. </b>Nackdelar som går att vända till fördelar. Hitta sätt att använda en brist för att öka nyttan. Exempel: Post-it-lappen, som uppfanns när någon blandade ett lim som aldrig torkade.</p>\n<p><b>• Feedback.</b> Använd reaktioner som input för att förbättra en funktion. Exempel: Telefonnummer för klagomål på produktförpackningen, gymmets roddmaskin som gör mer motstånd ju hårdare du drar.</p>\n<p><b>• Självbetjäning. </b>Låt ett objekt eller system utföra vissa funktioner på egen hand. Exempel: Börsrobotar som handlar med aktier och fattar egna beslut enligt förutbestämda regler.</p>\n<p><b>• Billiga kortlivade produkter.</b> Producera föremål med enklare material och konstruktion som blir billigare och mer användarvänliga. Exempel: Engångsrakhyvlar, engångshandskar, engångstallrikar.</p>\n<p><b>• Fasförändringar.</b> Använd förändringen av ett ämne från fast form till flytande eller gasform för att uppnå önskvärda effekter. Exempel: Den visslande tekannan.</p>\n<p><b>• Temperaturförändringar.</b> Utnyttja att material får olika egenskaper vid olika temperaturer. Exempel: Plastramar i kylskåp som är hårda vid 8 grader men mjukar i 40-gradigt vatten så att de kan krängas på och av hyllplanen av glas.</p>\n<p>&nbsp;</p>\n<p>http://www.aitriz.org</p>\n<p><i> </i></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Snilleblixtarnas principer (del 3) ' data-link='http://tusentips.se/snilleblixtarnas-principer-del-3/' data-summary=''></div>",
+            "excerpt": "<p>Är alla innovationer briljanta och unika sammanträffanden? Eller finns det några mönster i dem? Den ryske patentingenjören Genrich Altshuller analyserade uppfinningsrik problemlösning mycket systematiskt på 1940-talet och hittade tusentals mönster. Det resulterade i 40 så kallade TRIZ-principer som du kan låta dig inspireras av för att kläcka nya idéer. Vi ger dig ett litet urval [&hellip;]</p>\n",
+            "date": "2014-04-30 08:30:18",
+            "modified": "2014-04-23 11:23:13",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 9,
+                    "slug": "entreprenorskap",
+                    "title": "entreprenörskap",
+                    "description": "",
+                    "post_count": 7
+                },
+                {
+                    "id": 14,
+                    "slug": "ideer",
+                    "title": "idéer",
+                    "description": "",
+                    "post_count": 10
+                },
+                {
+                    "id": 11,
+                    "slug": "kreativitet",
+                    "title": "kreativitet",
+                    "description": "",
+                    "post_count": 13
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [],
+            "attachments": [],
+            "comment_count": 0,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 92,
+            "type": "post",
+            "slug": "snilleblixtarnas-principer-del-2",
+            "url": "http://tusentips.se/snilleblixtarnas-principer-del-2/",
+            "status": "publish",
+            "title": "Snilleblixtarnas principer (del 2)",
+            "title_plain": "Snilleblixtarnas principer (del 2)",
+            "content": "<p>Är alla innovationer briljanta och unika sammanträffanden? Eller finns det några mönster i dem?</p>\n<p>Den ryske patentingenjören Genrich Altshuller analyserade uppfinningsrik problemlösning mycket systematiskt på 1940-talet och hittade tusentals mönster. Det resulterade i 40 så kallade TRIZ-principer som du kan låta dig inspireras av för att kläcka nya idéer.</p>\n<p>Vi ger dig ett litet urval av Altshullers principer, uppdelade på tre dagar. Använd dem när du vill tänka nya banor eller varför inte när du har idétorka. Här är dagens skörd:</p>\n<p><b>• Dämpa i förväg.</b> Inse att ingenting uppfattas som hundraprocentigt trovärdigt och kompensera i förväg för tänkbara missöden. Exempel: Lackskyddande bilvax, pengarna-tillbaka-garanti.</p>\n<p><b>• Tänk tvärtom.</b> Vänd någonting bak och fram eller upp och ner. Exempel: Heinz ketchupflaska som står på korken.</p>\n<p><b>• Var dynamisk.</b> Gör en vara eller tjänst kortlivad, tillfällig eller föränderlig. Exempel: Rabatt på tidiga bokningar, en sommarklinik för fästingvaccinering.</p>\n<p><b>• Lite mer eller lite mindre. </b>Ge varan eller tjänsten mer eller mindre än vanligt av någon egenskap och se vad som händer. Exempel: Extra tjock soppa, tunna dunjackor för sommaren.</p>\n<p><b>• Använd bara kraft som ger värde.</b> Upptäck funktioner som använder energi i onödan och bli mer effektiv. Exempel: Bilar med start-stopp-funktion som stänger av motorn vid rödljusen.</p>\n<p><b>• Öka tempot.</b> Om något ger dåligt resultat – gör det snabbare för att rensa bort onödiga moment. Exempel: Speeddating.</p>\n<p>&nbsp;</p>\n<p>http://www.aitriz.org</p>\n<p><i> </i></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Snilleblixtarnas principer (del 2)' data-link='http://tusentips.se/snilleblixtarnas-principer-del-2/' data-summary=''></div>",
+            "excerpt": "<p>Är alla innovationer briljanta och unika sammanträffanden? Eller finns det några mönster i dem? Den ryske patentingenjören Genrich Altshuller analyserade uppfinningsrik problemlösning mycket systematiskt på 1940-talet och hittade tusentals mönster. Det resulterade i 40 så kallade TRIZ-principer som du kan låta dig inspireras av för att kläcka nya idéer. Vi ger dig ett litet urval [&hellip;]</p>\n",
+            "date": "2014-04-29 08:30:33",
+            "modified": "2014-04-23 11:21:42",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 9,
+                    "slug": "entreprenorskap",
+                    "title": "entreprenörskap",
+                    "description": "",
+                    "post_count": 7
+                },
+                {
+                    "id": 14,
+                    "slug": "ideer",
+                    "title": "idéer",
+                    "description": "",
+                    "post_count": 10
+                },
+                {
+                    "id": 11,
+                    "slug": "kreativitet",
+                    "title": "kreativitet",
+                    "description": "",
+                    "post_count": 13
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [],
+            "attachments": [],
+            "comment_count": 0,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 91,
+            "type": "post",
+            "slug": "snilleblixtarnas-principer-del-1",
+            "url": "http://tusentips.se/snilleblixtarnas-principer-del-1/",
+            "status": "publish",
+            "title": "Snilleblixtarnas principer (del 1)",
+            "title_plain": "Snilleblixtarnas principer (del 1)",
+            "content": "<p>Är alla innovationer briljanta och unika sammanträffanden? Eller finns det några mönster i dem?</p>\n<p>Den ryske patentingenjören Genrich Altshuller analyserade uppfinningsrik problemlösning mycket systematiskt på 1940-talet och hittade tusentals mönster. Det resulterade i 40 så kallade TRIZ-principer som du kan låta dig inspireras av för att kläcka nya idéer.</p>\n<p>Vi ger dig ett litet urval av Altshullers principer, uppdelade på tre stycken ”Dagens tips”. Använd dem när du vill tänka nya banor eller varför inte när du har idétorka. Här är de första:</p>\n<p><b>•</b> <b>Segmentera, fragmentisera och dela upp</b>. Det handlar om att dela upp en produkt i oberoende delar för att isolera deras goda eller dåliga egenskaper. Exempel: En butik i butiken, som Ikea på jobbet.</p>\n<p><b>• Kombinera, slå ihop och integrera.</b> Lägga ihop funktioner eller egenskaper och få ett nytt resultat. Exempel: Mobiltelefon med GPS-navigering, bokhandel med kafé.</p>\n<p><b>• Separera och isolera.</b> Uteslut en skadlig del eller använd bara nödvändiga delar. Exempel: koffeinfritt kaffe.</p>\n<p><b>• Slå ihop funktioner.</b> Gör en produkt mer universell med flera funktioner. Exempel: Borrmaskinen som också är en skruvdragare.</p>\n<p><b>• Förutseende försvar: </b>Analysera i förväg vad som kan gå fel och skapa en produkt som undviker risken. Exempel: Solskyddskräm, självriskreducering.</p>\n<p><b>• Förutseende handling:</b> Skapa något som vidtar en åtgärd eller löser ett problem i förväg. Exempel: Lokalbedövning.</p>\n<p>&nbsp;</p>\n<p>http://www.aitriz.org</p>\n<p><i> </i></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Snilleblixtarnas principer (del 1)' data-link='http://tusentips.se/snilleblixtarnas-principer-del-1/' data-summary=''></div>",
+            "excerpt": "<p>Är alla innovationer briljanta och unika sammanträffanden? Eller finns det några mönster i dem? Den ryske patentingenjören Genrich Altshuller analyserade uppfinningsrik problemlösning mycket systematiskt på 1940-talet och hittade tusentals mönster. Det resulterade i 40 så kallade TRIZ-principer som du kan låta dig inspireras av för att kläcka nya idéer. Vi ger dig ett litet urval [&hellip;]</p>\n",
+            "date": "2014-04-28 08:30:25",
+            "modified": "2014-04-23 11:20:23",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 9,
+                    "slug": "entreprenorskap",
+                    "title": "entreprenörskap",
+                    "description": "",
+                    "post_count": 7
+                },
+                {
+                    "id": 14,
+                    "slug": "ideer",
+                    "title": "idéer",
+                    "description": "",
+                    "post_count": 10
+                },
+                {
+                    "id": 11,
+                    "slug": "kreativitet",
+                    "title": "kreativitet",
+                    "description": "",
+                    "post_count": 13
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [],
+            "attachments": [],
+            "comment_count": 0,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 90,
+            "type": "post",
+            "slug": "optimistens-sju-dodssynder",
+            "url": "http://tusentips.se/optimistens-sju-dodssynder/",
+            "status": "publish",
+            "title": "Optimistens sju dödssynder",
+            "title_plain": "Optimistens sju dödssynder",
+            "content": "<p>Vilken strålande idé! Alla på företaget är eld och lågor och du sätter genast igång att förverkliga din nya innovation.</p>\n<p>Vad kunderna verkligen tycker är det ingen som bryr sig om att seriöst försöka ta reda på. Fulla av iver och optimism chansar ni hellre än att fastna i en dyr och krånglig marknadsundersökningsprocess.</p>\n<p>Känner du igen dig? I så fall kan du ha fallit offer för någon eller flera av optimistens sju dödssynder, här formulerade efter inspiration från forskarna G.A. Stevens och J Burley.</p>\n<p>Dessa sju synder får företagare att rusa iväg och sjösätta nya fantastiska idéer utan att kolla med kunderna först, vilket kan sluta i en och annan dyr läxa.</p>\n<p><b>1. Arrogans.</b> Vi vet vad som är bäst för kunderna.</p>\n<p><b>2. Enfald.</b> Vi tänkte inte på att fråga dem.</p>\n<p><b>3. Vana.</b> Vi brukar inte göra undersökningar.</p>\n<p><b>4. Lättja.</b> Det är jobbigt och trassligt.</p>\n<p><b>5. Rädsla.</b> Kunderna kanske kritiserar eller avvisar oss.</p>\n<p><b>6. Paranoia.</b> Någon där ute kan stjäla vår idé.</p>\n<p><b>7. Panik.</b> Vi måste ut på marknaden innan någon annan hinner före.</p>\n<p>&nbsp;</p>\n<p>Stevens &amp; Burley: <i>”3000 Raw Ideas = 1 Commercial Success!”</i>, Research Technology Management, Vol 40 1997.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Optimistens sju dödssynder' data-link='http://tusentips.se/optimistens-sju-dodssynder/' data-summary=''></div>",
+            "excerpt": "<p>Vilken strålande idé! Alla på företaget är eld och lågor och du sätter genast igång att förverkliga din nya innovation. Vad kunderna verkligen tycker är det ingen som bryr sig om att seriöst försöka ta reda på. Fulla av iver och optimism chansar ni hellre än att fastna i en dyr och krånglig marknadsundersökningsprocess. Känner [&hellip;]</p>\n",
+            "date": "2014-04-25 08:30:35",
+            "modified": "2014-04-23 11:05:50",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 22,
+                    "slug": "misstag",
+                    "title": "misstag",
+                    "description": "",
+                    "post_count": 5
+                },
+                {
+                    "id": 6,
+                    "slug": "strategi",
+                    "title": "strategi",
+                    "description": "",
+                    "post_count": 7
+                },
+                {
+                    "id": 23,
+                    "slug": "tankefallor",
+                    "title": "tankefällor",
+                    "description": "",
+                    "post_count": 4
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [],
+            "attachments": [],
+            "comment_count": 0,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 88,
+            "type": "post",
+            "slug": "glom-inte-lilla-i",
+            "url": "http://tusentips.se/glom-inte-lilla-i/",
+            "status": "publish",
+            "title": "Glöm inte ”lilla i”",
+            "title_plain": "Glöm inte ”lilla i”",
+            "content": "<p>Innovation är ett stort ord som ofta för tankarna till nya banbrytande varor och tjänster, som Apples iPhone. Telefonen lanserades 2006 och förändrade världen.</p>\n<p>Men glöm inte de små förbättringarna som också utgör innovation.</p>\n<p>Det finns ett problem med att endast fokusera på att få fram banbrytande innovationer. Uppgiften kan bli överväldigande och det kan bli lockande att ägna sig åt andra mer brådskande arbetsuppgifter.</p>\n<p>Dessutom är det lätt att tänka att endast en liten del av företaget ska syssla med innovation, till exempel utvecklingsavdelningarna.</p>\n<p>Tricket är att göra innovation hanterbart. Ett smart sätt är att dela upp arbetet i två kategorier, ”stora” och ”lilla” I:</p>\n<p>Detta är ”stora” I:</p>\n<ul>\n<li>Skapa banbrytande produkter, varor eller tjänster.</li>\n<li>Göra intåg på nya marknader.</li>\n<li>Förbättra befintliga produkter eller tjänster.</li>\n<li>Genomföra större förbättringar av organisationens processer, till exempel produktionsprocesser, belönings- eller ledningssystem.</li>\n<li>Genomföra omstruktureringar, organisationsförändringar, eller implementera nya rutiner och policies.</li>\n</ul>\n<p>Detta är ”lilla” i:</p>\n<ul>\n<li>Förbättra de dagliga processerna, till exempel hur ni håller möten.</li>\n<li>Hitta sätt att spara tid, till exempel genom att införa nya metoder, smartare schemaläggning eller smidigare kommunikationsverktyg.</li>\n<li>Jaga regler och rutiner som har blivit onödiga.</li>\n<li>Skapa nya rutiner för små saker som kanske inte är standardiserade och därför tar onödig tanketid, till exempel att göra en avtackning eller skriva ett arbetsintyg.</li>\n</ul>\n<p>Alla behöver inte jobba med de stora innovationerna. Men alla kan göra något. Börja med att göra en lista på vilka innovationer som är relevanta för din arbetsplats utifrån uppdelningen stora och lilla i.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Glöm inte ”lilla i”' data-link='http://tusentips.se/glom-inte-lilla-i/' data-summary=''></div>",
+            "excerpt": "<p>Innovation är ett stort ord som ofta för tankarna till nya banbrytande varor och tjänster, som Apples iPhone. Telefonen lanserades 2006 och förändrade världen. Men glöm inte de små förbättringarna som också utgör innovation. Det finns ett problem med att endast fokusera på att få fram banbrytande innovationer. Uppgiften kan bli överväldigande och det kan [&hellip;]</p>\n",
+            "date": "2014-04-24 08:30:03",
+            "modified": "2014-04-23 08:15:10",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 20,
+                    "slug": "inkrementell-innovation",
+                    "title": "inkrementell innovation",
+                    "description": "",
+                    "post_count": 2
+                },
+                {
+                    "id": 42,
+                    "slug": "process",
+                    "title": "process",
+                    "description": "",
+                    "post_count": 1
+                },
+                {
+                    "id": 5,
+                    "slug": "radikal-innovation",
+                    "title": "radikal innovation",
+                    "description": "",
+                    "post_count": 4
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [
+                {
+                    "id": 4,
+                    "name": "Mårten Westberg",
+                    "url": "http://www.eiba.se",
+                    "date": "2014-04-24 09:50:21",
+                    "content": "<p>Vilket bra vokabulär!<br />\nStora I och lilla i gör det ju små vardagliga förbättringars släktskap med stora innovationer tydligt.</p>\n",
+                    "parent": 0
+                }
+            ],
+            "attachments": [],
+            "comment_count": 1,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 86,
+            "type": "post",
+            "slug": "tre-orsaker-till-idetorka",
+            "url": "http://tusentips.se/tre-orsaker-till-idetorka/",
+            "status": "publish",
+            "title": "Tre orsaker till idétorka",
+            "title_plain": "Tre orsaker till idétorka",
+            "content": "<p>Du uppmanar dina medarbetare att komma med nya idéer, men ingenting händer. Varför? Forskarna Joe Tidd och Scott Isaksen listar några vanliga hinder i sin bok ”Meeting the Innovation Challenge”:</p>\n<p>• <b>Det är farligt att komma med idéer.</b> Den som skulle komma med en dålig idé får betala ett högt pris. Man blir förlöjligad med kommentarer och höjda ögonbryn eller märker att misslyckanden blir ihågkomna och kan hota karriären. Bristen på tillit gör också att andra kan stjäla goda idéer och lansera dem som sina egna.</p>\n<p>Du som chef har naturligtvis inte uppmanat till detta klimat, men om det finns där har medarbetarna full koll på det.</p>\n<p>• <b>Det finns för lite tid att få idéer.</b> Visst händer det att någon får en snilleblixt i badkaret, men i praktiken är det sällsynt. Även de till synes enklaste idéerna är resultat av arbete som kräver tid. Om medarbetarna får för lite tid kommer de att fastna i sina dagliga projekt och uppgifter, som alltid går först.</p>\n<p>• <b>Det finns för mycket tid för idéer.</b> Obegränsat med tid och utrymme är faktiskt inte heller någon lösning. Det kan göra medarbetarna vilsna och uttråkade. Om det finns för många idéer att utvärdera blir besluten allt långsammare och mer byråkratiska.</p>\n<p>Joe Tidd menar att det finns ett optimalt mellanläge, ett lagom ”slack”, som både ger utrymme för improvisation vid sidan om det dagliga och sätter press på medarbetarna att begränsa sig och få sina idéer ur händerna.</p>\n<p><a title=\"Isaksen, S., &amp; Tidd, J. (2006). Meeting the innovation challenge. Wiley.\" href=\"http://www.bokus.com/bok/9780470029190/meeting-the-innovation-challenge/\"><span style=\"line-height: 1.5em;\">Isaksen, S., &amp; Tidd, J. (2006). </span><i style=\"line-height: 1.5em;\">Meeting the innovation challenge.</i><span style=\"line-height: 1.5em;\"> Wiley.</span></a></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Tre orsaker till idétorka' data-link='http://tusentips.se/tre-orsaker-till-idetorka/' data-summary=''></div>",
+            "excerpt": "<p>Du uppmanar dina medarbetare att komma med nya idéer, men ingenting händer. Varför? Forskarna Joe Tidd och Scott Isaksen listar några vanliga hinder i sin bok ”Meeting the Innovation Challenge”: • Det är farligt att komma med idéer. Den som skulle komma med en dålig idé får betala ett högt pris. Man blir förlöjligad med [&hellip;]</p>\n",
+            "date": "2014-04-23 08:30:06",
+            "modified": "2014-04-22 22:17:54",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "id": 14,
+                    "slug": "ideer",
+                    "title": "idéer",
+                    "description": "",
+                    "post_count": 10
+                },
+                {
+                    "id": 18,
+                    "slug": "innovation",
+                    "title": "innovation",
+                    "description": "",
+                    "post_count": 10
+                },
+                {
+                    "id": 11,
+                    "slug": "kreativitet",
+                    "title": "kreativitet",
+                    "description": "",
+                    "post_count": 13
+                },
+                {
+                    "id": 13,
+                    "slug": "kultur",
+                    "title": "kultur",
+                    "description": "",
+                    "post_count": 5
+                },
+                {
+                    "id": 7,
+                    "slug": "ledarskap",
+                    "title": "ledarskap",
+                    "description": "",
+                    "post_count": 9
+                }
+            ],
+            "author": {
+                "id": 2,
+                "slug": "tusentips",
+                "name": "tusentips",
+                "first_name": "",
+                "last_name": "",
+                "nickname": "tusentips",
+                "url": "http://tusentips.wpengine.com",
+                "description": ""
+            },
+            "comments": [],
+            "attachments": [],
+            "comment_count": 0,
+            "comment_status": "open",
+            "custom_fields": {}
+        },
+        {
+            "id": 78,
+            "type": "post",
+            "slug": "se-upp-for-segelfartygseffekten",
+            "url": "http://tusentips.se/se-upp-for-segelfartygseffekten/",
+            "status": "publish",
+            "title": "Se upp för segelfartygseffekten",
+            "title_plain": "Se upp för segelfartygseffekten",
+            "content": "<div id=\"attachment_79\" style=\"width: 310px\" class=\"wp-caption alignnone\"><a href=\"http://tusentips.se/wp-content/uploads/2014/04/59821177_cuttysark1.jpg\"><img class=\"size-medium wp-image-79\" alt=\"Snabbseglaren Cutty Sark från 1869.\" src=\"http://tusentips.se/wp-content/uploads/2014/04/59821177_cuttysark1-300x168.jpg\" width=\"300\" height=\"168\" /></a><p class=\"wp-caption-text\">Snabbseglaren Cutty Sark från 1869.</p></div>\n<p>Vad hände med segelfartygen när ångfartygen slog igenom på 1800-talet? Insåg timmermännen vad klockan var slagen, packade ihop sina hyvlar och gick hem?</p>\n<p>Nej, tvärtom.</p>\n<p>I sin desperation inför den nya tekniken fick varven plötsligt en häpnadsväckande innovationskraft. Segelskeppen förbättrades mer under sina sista 50 år än vad de tidigare hade gjort under 300.</p>\n<p>Med facit i hand är ångans seger uppenbar. Men i slutet av 1800-talet framstod segeltekniken som både vital och konkurrenskraftig.</p>\n<p>Fenomenet har fått ett eget begrepp i managementlitteraturen – ”segelfartygseffekten” – myntat av W.H. Ward hos brittiska Institute of Physics 1967. Det beskriver det plötsliga uppsving som en dödsdömd teknik kan få under hotet från en ny och bättre. Men det sätter också fingret på hur denna uppflammande innovationslust kan försena oundvikliga teknikgenombrott.</p>\n<p>Finns det några branscher i dag som visar tecken på en segelfartygseffekt?</p>\n<p>Säkert, men det är svårt att avgöra vilka de är innan de har blivit utkonkurrerade. Under tiden kan vi fundera på framtiden för exempelvis dagstidningen på papper, kontokortet och postväsendet.</p>\n<p>Vilken är förresten din egen bransch? Den har väl inga likheter med segelfartyg?</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Se upp för segelfartygseffekten' data-link='http://tusentips.se/se-upp-for-segelfartygseffekten/' data-summary=''></div>",
+            "excerpt": "<p>Vad hände med segelfartygen när ångfartygen slog igenom på 1800-talet? Insåg timmermännen vad klockan var slagen, packade ihop sina hyvlar och gick hem? Nej, tvärtom. I sin desperation inför den nya tekniken fick varven plötsligt en häpnadsväckande innovationskraft. Segelskeppen förbättrades mer under sina sista 50 år än vad de tidigare hade gjort under 300. Med [&hellip;]</p>\n",
+            "date": "2014-04-22 08:30:15",
+            "modified": "2014-04-16 14:07:06",
+            "categories": [
+                {
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
+                    "description": "",
+                    "parent": 0,
+                    "post_count": 17
                 }
             ],
             "tags": [
@@ -136,168 +562,25 @@
                     "post_count": 2
                 },
                 {
-                    "id": 25,
-                    "slug": "google",
-                    "title": "Google",
-                    "description": "",
-                    "post_count": 2
-                },
-                {
-                    "id": 18,
-                    "slug": "innovation",
-                    "title": "innovation",
-                    "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 27,
-                    "slug": "kompetens",
-                    "title": "kompetens",
+                    "id": 41,
+                    "slug": "konkurrens",
+                    "title": "konkurrens",
                     "description": "",
                     "post_count": 1
                 },
                 {
-                    "id": 13,
-                    "slug": "kultur",
-                    "title": "kultur",
+                    "id": 21,
+                    "slug": "psykologi",
+                    "title": "psykologi",
                     "description": "",
                     "post_count": 5
                 },
                 {
-                    "id": 7,
-                    "slug": "ledarskap",
-                    "title": "ledarskap",
-                    "description": "",
-                    "post_count": 9
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 48,
-            "type": "post",
-            "slug": "dina-ideer-kan-vara-battre-an-vad-du-tror",
-            "url": "http://tusentips.se/dina-ideer-kan-vara-battre-an-vad-du-tror/",
-            "status": "publish",
-            "title": "Dina idéer kan vara bättre än vad du tror",
-            "title_plain": "Dina idéer kan vara bättre än vad du tror",
-            "content": "<p><i>Varför tvekar den lärde att uttala sig medan den okunnige gärna ger ett tvärsäkert svar? Svaret handlar om med än bara ödmjukhet och övermod och får sin förklaring av ett speciellt psykologiskt fenomen.</i></p>\n<p>Sokrates uttryckte tanken först: ”Nu när jag vet så mycket, så står det klart för mig hur lite jag egentligen vet”. Sedan dess har fenomenet uppmärksammats av många visa tänkare från Konfucius till Darwin och Shakespeare.</p>\n<p>I modern tid är fenomenet känt som Dunning-Kruger effekten, efter forskarna David Dunning och Justin Kruger vid Cornell University. De visade med en serie psykologiska experiment att det finns en skillnad mellan experter och inkompetenta i hur man resonerar kring sin egen expertis.</p>\n<p>Inkompetenta tenderar bland annat att:</p>\n<ul>\n<li>Överskatta sin egen förmåga.</li>\n<li>Inte förstå att andra har större kompetens.</li>\n<li>Inte inse vidden av den egna inkompetensen.</li>\n</ul>\n<p>En observation är att människor med svag humor tenderar att anse att de har skämtlynne i världsklass. Om detta beror på Dunning-Kruger effekten kan få vara osagt, men en paradoxal attityd bland de mest innovativa företagen i Sverige är bristen på självförtroende.</p>\n<p>Påpekanden om att ”ni är bäst i världen” möts av ett ”jo, men…”. Attityden kan förstås vara en funktion av en stor ödmjukhet, men det kan också bero på Dunning-Kruger effekten.</p>\n<p>För experter gäller nämligen samma principer som för de inkompetenta – fast tvärtom. Experterna tror att de kan mindre än vad de faktiskt kan. De underskattar sin egen förmåga, kunskap och erfarenhet.</p>\n<p>Föreställ dig att du blickar ut över ett landskap från en hög kulle. Dina erfarenheter, kunskaper och färdigheter representerar åkrar, berg, kyrktorn och hus. Experten har så mycket av dessa erfarenheter, kunskaper och färdigheter att landskapet sträcker sig både bortom horisonten, liksom utanför själva synvinkeln. Det är svårt att få en överblick.</p>\n<p>Novisen kan däremot överblicka alla sina erfarenheter, kunskaper och färdigheter. Detta gör novisen mer självsäker.</p>\n<p>Vad betyder det här praktiskt för dig? För det första ska du sträcka på dig för att inte låta din expertis hindra dig. Det finns en risk att du tänker att dina idéer är banala, att någon annan säkert redan har tagit fram någon likadan eller smartare innovation. Detta för att du tänker tre steg för långt och konkurrerar med din egen största fiende: dig själv.</p>\n<p>Gör i stället research på dina idéer. Har någon annan skapat detta? Vilket värde skulle min nya innovation skapa? Är den genomförbar?</p>\n<p>Om du anser att du redan vet allt som finns att veta i ditt område är det dags att tänka om. Du behöver läsa fler böcker och besöka fler konferenser. Kunskap är nämligen råvaran bakom innovation och du behöver tillgång till den senaste.</p>\n<p>Kanske var det Bertrand Russel som uttryckte det bäst: ”Felet med vår värld är att de dumma är så säkra på sin sak och de kloka så fulla av tvivel”.</p>\n<p>&nbsp;</p>\n<p>Ladda ned en artikel om Dunning-Kruger effekten från <em><a href=\"http://psy.mq.edu.au/vision/~peterw/corella/237/incompetence.pdf\">Current Directions in Psychological Science</a></em></p>\n<p>Kruger, J., Dunning, D. (1999). Unskilled and Unaware of It: How Difficulties in Recognizing One&#8217;s Own Incompetence Lead to Inflated Self-Assessments. <a title=\"Journal of Personality and Social Psychology\" href=\"http://en.wikipedia.org/wiki/Journal_of_Personality_and_Social_Psychology\"><i>Journal of Personality and Social Psychology</i></a><i>,</i> 77 (6), 1121–34.</p>\n<p>Russel, B. (1951). <i>New Hopes for a Changing World.</i> New York: Simon and Schuster</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Dina idéer kan vara bättre än vad du tror' data-link='http://tusentips.se/dina-ideer-kan-vara-battre-an-vad-du-tror/' data-summary=''></div>",
-            "excerpt": "<p>Varför tvekar den lärde att uttala sig medan den okunnige gärna ger ett tvärsäkert svar? Svaret handlar om med än bara ödmjukhet och övermod och får sin förklaring av ett speciellt psykologiskt fenomen. Sokrates uttryckte tanken först: ”Nu när jag vet så mycket, så står det klart för mig hur lite jag egentligen vet”. Sedan [&hellip;]</p>\n",
-            "date": "2014-04-03 14:47:52",
-            "modified": "2014-04-03 14:52:27",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
-                {
-                    "id": 14,
-                    "slug": "ideer",
-                    "title": "idéer",
+                    "id": 6,
+                    "slug": "strategi",
+                    "title": "strategi",
                     "description": "",
                     "post_count": 7
-                },
-                {
-                    "id": 22,
-                    "slug": "misstag",
-                    "title": "misstag",
-                    "description": "",
-                    "post_count": 3
-                },
-                {
-                    "id": 21,
-                    "slug": "psykologi",
-                    "title": "psykologi",
-                    "description": "",
-                    "post_count": 4
-                },
-                {
-                    "id": 23,
-                    "slug": "tankefallor",
-                    "title": "tankefällor",
-                    "description": "",
-                    "post_count": 2
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 43,
-            "type": "post",
-            "slug": "faran-med-att-kopiera-det-du-inte-forstar",
-            "url": "http://tusentips.se/faran-med-att-kopiera-det-du-inte-forstar/",
-            "status": "publish",
-            "title": "Faran med att kopiera det du inte förstår",
-            "title_plain": "Faran med att kopiera det du inte förstår",
-            "content": "<p><i>Genom att härma framgångsrika företag lockas vi att tro att innovationerna och kunderna ska komma till oss också. Men se upp. Om du blint kopierar ett koncept utan att förstå de bakomliggande principerna kan du gå i samma fälla som ”Cargo cult”-sekten gjorde i Papua Nya Guinea.</i></p>\n<p><a href=\"http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult.jpg\"><img class=\"alignnone size-medium wp-image-65\" alt=\"Cargo cult\" src=\"http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult-300x228.jpg\" width=\"300\" height=\"228\" /></a></p>\n<p>Gruppen hade vandrat från sina bosättningar i regnskogen till de vita kolonisatörernas flygplats. Där väntade de andaktsfullt för att få se de stora silverglänsande maskinerna sänka sig från himlen med alla sina rikedomar ombord.</p>\n<p>”Cargo cult” var ett säreget psykologiskt fenomen som uppstod på 1960-talet hos isolerade öbefolkningar i Stilla havet. Amerikanerna som flög in mat, kylskåp och moderniteter märkte hur några öbor börjat jämna till små jordremsor, bygga egna plan och flygledartorn av bambu och klä sig i ”headsets” gjorda av kokosnötter.</p>\n<p>När antropologer undersökte saken fann de förklaringen. Invånarna trodde att deras förfäder hade skickat fraktplanen från paradiset. Om sektmedlemmarna bara kunde imitera de vita männens beteende tillräckligt väl skulle de stora planen till slut landa på deras egen landningsbana och göra dem rika.</p>\n<p>Det vore lätt att skratta och peka finger åt dessa okunniga urinvånare. Men sanningen är att även vi själva då och då drabbas av ett liknande Cargo cult-tänkande.</p>\n<p>I sin bok ”Tomhetens triumf” visar lundaforskaren Mats Alvesson många exempel på hur dagens organisationer kopierar och härmar idéer och managementkoncept utan att egentligen begripa dem. Om man bara implementerar den för dagen populäraste managementtrenden så kommer innovationerna, kunderna och pengarna. Mycket görs med en högst ytlig förståelse för vad som faktiskt skapar resultat.</p>\n<p>Intresset för lean är ett exempel. Erfarenheterna visar att de allra flesta leanimplementeringar misslyckas, eftersom cheferna som drar igång projekten bara ser de ytliga resultaten. De missar insikten att äkta lean kräver en förändring av deras egen människosyn och att de måste överföra verklig makt till sina medarbetare.</p>\n<p>Bakgrunden till allt Cargo cult-tänkande är att den mänskliga hjärnan är gjord för att se och tolka orsakssamband. Ur ett evolutionsperspektiv tjänar vi mer på att se för många samband – även sådana som inte finns – än att missa några verkliga och viktiga. Det kan förklara människans dragning till sådant som konspirationsteorier, vidskepelse och talmystik.</p>\n<p>Även våra sinnen kan lätt bli manipulerade av inbillade samband. Till exempel spreds för några år sedan en tro bland ljudintresserade att extra dyra och tjocka högtalarkablar skulle ge bättre ljud i stereon – vilket de sedan också upplevde när de lyssnade. Men i verkligheten lät ljudet exakt likadant.</p>\n<p>Var alltså vaksam och ärlig mot dig själv och ställ dig följande frågor:</p>\n<ul>\n<li>Gör jag några viktiga antaganden i mitt jobb om saker jag egentligen inte förstår på djupet?</li>\n<li>Vad kopierar vi från andra organisationer eller managementkoncept? Finns det en risk att vi inte fullt ut begriper principerna bakom det vi lånar?</li>\n<li>Finns det ”sanningar” i min organisation som egentligen inte tål en närmare verklighetskontroll?</li>\n</ul>\n<p>Någonstans där kanske du har din egen Cargo cult.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Faran med att kopiera det du inte förstår' data-link='http://tusentips.se/faran-med-att-kopiera-det-du-inte-forstar/' data-summary=''></div>",
-            "excerpt": "<p>Genom att härma framgångsrika företag lockas vi att tro att innovationerna och kunderna ska komma till oss också. Men se upp. Om du blint kopierar ett koncept utan att förstå de bakomliggande principerna kan du gå i samma fälla som ”Cargo cult”-sekten gjorde i Papua Nya Guinea. Gruppen hade vandrat från sina bosättningar i regnskogen [&hellip;]</p>\n",
-            "date": "2014-03-27 17:09:57",
-            "modified": "2014-04-08 20:14:53",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
-                {
-                    "id": 18,
-                    "slug": "innovation",
-                    "title": "innovation",
-                    "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 22,
-                    "slug": "misstag",
-                    "title": "misstag",
-                    "description": "",
-                    "post_count": 3
-                },
-                {
-                    "id": 21,
-                    "slug": "psykologi",
-                    "title": "psykologi",
-                    "description": "",
-                    "post_count": 4
                 }
             ],
             "author": {
@@ -313,34 +596,29 @@
             "comments": [],
             "attachments": [
                 {
-                    "id": 65,
-                    "url": "http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult.jpg",
-                    "slug": "cargo-cult",
-                    "title": "Cargo cult",
-                    "description": "",
-                    "caption": "",
-                    "parent": 43,
+                    "id": 79,
+                    "url": "http://tusentips.se/wp-content/uploads/2014/04/59821177_cuttysark1.jpg",
+                    "slug": "_59821177_cuttysark1",
+                    "title": "_59821177_cuttysark1",
+                    "description": "Snabbseglaren Cutty Sark från 1869.",
+                    "caption": "Snabbseglaren Cutty Sark från 1869.",
+                    "parent": 78,
                     "mime_type": "image/jpeg",
                     "images": {
                         "full": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult.jpg",
-                            "width": 472,
-                            "height": 359
+                            "url": "http://tusentips.se/wp-content/uploads/2014/04/59821177_cuttysark1.jpg",
+                            "width": 976,
+                            "height": 549
                         },
                         "thumbnail": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult-150x150.jpg",
+                            "url": "http://tusentips.se/wp-content/uploads/2014/04/59821177_cuttysark1-150x150.jpg",
                             "width": 150,
                             "height": 150
                         },
                         "medium": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult-300x228.jpg",
+                            "url": "http://tusentips.se/wp-content/uploads/2014/04/59821177_cuttysark1-300x168.jpg",
                             "width": 300,
-                            "height": 228
-                        },
-                        "large": {
-                            "url": "http://tusentips.se/wp-content/uploads/2014/04/Cargo-cult.jpg",
-                            "width": 472,
-                            "height": 359
+                            "height": 168
                         }
                     }
                 }
@@ -350,100 +628,25 @@
             "custom_fields": {}
         },
         {
-            "id": 41,
+            "id": 77,
             "type": "post",
-            "slug": "vad-ar-skillnaden-mellan",
-            "url": "http://tusentips.se/vad-ar-skillnaden-mellan/",
+            "slug": "leta-ideer-pa-fyra-olika-hall",
+            "url": "http://tusentips.se/leta-ideer-pa-fyra-olika-hall/",
             "status": "publish",
-            "title": "Vad är skillnaden mellan…",
-            "title_plain": "Vad är skillnaden mellan…",
-            "content": "<p><i>Här är ett antal begreppspar som ofta återkommer i diskussionerna om innovation och ledarskap. Vi förklarar orden och hur de förhåller sig till varandra.</i></p>\n<p><b style=\"line-height: 1.5em;\">Innovation/kreativitet</b><span style=\"line-height: 1.5em;\">. Det krävs mer än bara fantasifullt fritt idéskapande för att vara kreativ. En kreativ idé måste skapa något slags värde för personen eller organisationen. Dessutom måste den vara praktiskt genomförbar. </span>Kraven på en innovation är ännu större. En innovation är en <i>genomförd idé</i> som fungerar både tekniskt och kommersiellt.</p>\n<p><b>Produkt/process.</b> Detta kan sägas vara två huvudarenor för innovation, varav den ena ofta underskattas för sin förmåga att skapa lönsamhet. Ordet innovation får de flesta att associera till varor eller tjänster, alltså produkter som kan säljas till kunder. Men det behövs innovationer även i processerna att framställa, marknadsföra, sälja och leverera. Nytänkande och utveckling här kan ibland sänka framställningskostnaderna till en bråkdel och göra mycket mer för lönsamheten än små förbättringar av en redan etablerad produkt.</p>\n<p><b>Inkrementell/radikal.</b> Två huvudformer av innovation. Den radikala är en omvälvande, banbrytande och nyskapande innovation som plötsligt förändrar spelplanen. När innovationer ska beskrivas brukar exemplen ofta vara radikala. Inkrementell innovation är de små stegens utveckling som sker gradvis och successivt. Kraften i inkrementell innovation är nog så stor som i den radikala.</p>\n<p><b>Kunskap/kompetens. </b>Kunskap kan vara både vetande som kan uttryckas och tyst kunskap som baseras på träning och erfarenhet.<b> </b>Kompetens är ett mer sammansatt begrepp som innefattar kunskaper, färdigheter och attityder, men också erfarenheter, emotionella faktorer, personlighetsdrag och sociala förmågor. Kompetens blandas i dagligt tal lätt ihop med kvalifikationer, som snarare är formella krav på till exempel en viss utbildning.</p>\n<p><b>Klimat/kultur</b>. Klimatet på en arbetsplats är de mönster av beteenden, attityder och känslor som syns på ytan. Det går relativt lätt att förbättra klimatet med konkreta insatser. Kulturen handlar däremot om mer bestående värden, normer och antaganden som går på djupet och är svårare att se. Om du vill förändra en kultur behöver du ta dig an hela företaget och kartlägga både de uttalade och de outtalade värderingarna. Klimat kan däremot förändras på en enskild avdelning eller i en grupp.</p>\n<p><b>Management/leadership.</b> Dessa begrepp saknar glasklara översättningar. Men management handlar om att leda operativt på ett skickligt och effektivt sätt, att ”göra saker rätt”. Leadership är det strategiska ledarskapet, alltså att ”göra rätt saker”. En framgångsrik chef bör behärska båda, men också veta att var sak har sin tid. Få saker är så meningslösa som ett perfekt utförande av något som inte borde ha gjorts alls.</p>\n<p><b>Vision/mål.</b> En vision är en idé om vilken framtid företaget vill bidra till. Visionen behöver inte vara realistisk eller mätbar, men den ska inspirera och svara på varför företaget finns till (utöver att ge en viss avkastning). Mål är konkreta, avgränsade, mätbara och tidsatta framtida tillstånd som är möjliga att uppnå. Det är vanligt att målen blir beskrivningar av aktiviteter i stället för önskade tillstånd och att visionen inte ger begriplig vägledning. Grundorsaken brukar vara att företaget saknar en tydlig strategi.</p>\n<p><b>Entreprenör/intraprenör.</b> De populära framgångshistorierna brukar handla om små kreativa entreprenörer som lyckas i kampen mot stora tröga företag. Men faktum är att storföretagen generellt är mycket duktiga på innovation. De kan satsa enorma resurser och har många skickliga intraprenörer anställda. Intraprenörerna agerar i en mer skyddad miljö och får resurser av sina företag. Det innebär mindre personligt risktagande och kamp för försörjningen, men i gengäld tvingas de ibland slåss mot interna strukturer. Entreprenören behöver inte fråga någon om lov och tar hem vinsten själv vid en succé. Men riskerna är betydligt större och forskningsresurserna ofta betydligt mindre.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Vad är skillnaden mellan…' data-link='http://tusentips.se/vad-ar-skillnaden-mellan/' data-summary=''></div>",
-            "excerpt": "<p>Här är ett antal begreppspar som ofta återkommer i diskussionerna om innovation och ledarskap. Vi förklarar orden och hur de förhåller sig till varandra. Innovation/kreativitet. Det krävs mer än bara fantasifullt fritt idéskapande för att vara kreativ. En kreativ idé måste skapa något slags värde för personen eller organisationen. Dessutom måste den vara praktiskt genomförbar. Kraven [&hellip;]</p>\n",
-            "date": "2014-03-27 14:55:52",
-            "modified": "2014-03-27 14:55:52",
+            "title": "Leta idéer på fyra olika håll",
+            "title_plain": "Leta idéer på fyra olika håll",
+            "content": "<p>I vilken ände ska en kommun starta när den vill bli mer innovativ kring sina tjänster? Neil Kleiman på den amerikanska sajten <a href=\"http://www.governing.com/blogs/bfc/col-ideation-innovation-delivery-teams-four-directions.html\" target=\"_blank\"><b>governing.com</b></a> rapporterar om hur ett antal amerikanska städer använde innovationsteam som använde en enkel lärprocess genom att titta åt fyra olika håll:</p>\n<p>• <b>Utåt</b>. Skanna av både andra kommuner i landet och andra länders exempel på fungerande lösningar.</p>\n<p><b>• Inåt.</b> Hur ser problemet ut i den egna kommunen och vad kan organisationen göra åt det?</p>\n<p>• <b>Bakåt.</b> Tala med intressenter – medborgare, företagare, anställda – och insatta experter om hur det har varit hittills.</p>\n<p><b>• Framåt.</b> Be både medarbetare och medborgare om deras idéer kring om hur tjänster och service borde se ut.</p>\n<p>I de amerikanska exemplen blickade innovationsteamet från Atlanta utåt genom att resa runt till andra städer och studera deras lösningar. Chicago-teamet tittade inåt och upptäckte att stadens 100-sidiga guide för att starta en restaurang var helt obegriplig. De testade nya idéer tills de fick fram en guide som nya krögare faktiskt kunde använda.</p>\n<p>Memphis såg bakåt genom att bjuda in lokala företagare som fick beskriva sin syn på stadens problem. Och Louisville startade en tävling bland alla sina anställda om de bästa förändringsförslagen, vilket gjorde att framtidsidéerna uppstod hos dem som sedan skulle genomföra dem.</p>\n<p>&nbsp;</p>\n<p>Läs mer här: Kleiman, N. (2012). <em>How ’ideation’ can power innovation</em>.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Leta idéer på fyra olika håll' data-link='http://tusentips.se/leta-ideer-pa-fyra-olika-hall/' data-summary=''></div>",
+            "excerpt": "<p>I vilken ände ska en kommun starta när den vill bli mer innovativ kring sina tjänster? Neil Kleiman på den amerikanska sajten governing.com rapporterar om hur ett antal amerikanska städer använde innovationsteam som använde en enkel lärprocess genom att titta åt fyra olika håll: • Utåt. Skanna av både andra kommuner i landet och andra [&hellip;]</p>\n",
+            "date": "2014-04-17 08:30:26",
+            "modified": "2014-04-16 10:49:28",
             "categories": [
                 {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
+                    "id": 24,
+                    "slug": "dagens-tips",
+                    "title": "dagens tips",
                     "description": "",
                     "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
-                {
-                    "id": 9,
-                    "slug": "entreprenorskap",
-                    "title": "entreprenörskap",
-                    "description": "",
-                    "post_count": 4
-                },
-                {
-                    "id": 20,
-                    "slug": "inkrementell-innovation",
-                    "title": "inkrementell innovation",
-                    "description": "",
-                    "post_count": 1
-                },
-                {
-                    "id": 18,
-                    "slug": "innovation",
-                    "title": "innovation",
-                    "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 11,
-                    "slug": "kreativitet",
-                    "title": "kreativitet",
-                    "description": "",
-                    "post_count": 10
-                },
-                {
-                    "id": 5,
-                    "slug": "radikal-innovation",
-                    "title": "radikal innovation",
-                    "description": "",
-                    "post_count": 3
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 40,
-            "type": "post",
-            "slug": "overskatta-inte-barnets-kreativitet",
-            "url": "http://tusentips.se/overskatta-inte-barnets-kreativitet/",
-            "status": "publish",
-            "title": "Överskatta inte barnets kreativitet",
-            "title_plain": "Överskatta inte barnets kreativitet",
-            "content": "<p><i>Visst är de flesta barn imponerande fria i tanken. Men kreativa på riktigt blir vi först som vuxna.</i></p>\n<p><i></i>En populär och ofta uttryckt föreställning är att barn skulle ha en särskilt ren och ursprunglig förmåga till kreativitet och att den med åren saboteras av skolgång eller olika former av uppfostran.</p>\n<p>”Ett barn har hundra språk men berövas nittionio”, är ett känt citat från grundaren av den italienska Reggio Emilia-pedagogiken, som har inspirerat många svenska förskolor. Och i en av de mest delade och uppskattade TED-talkföreläsningarna någonsin hävdar kreativitetsexperten Sir Ken Robinson att skolan successivt förstör barns kreativitet.</p>\n<p>Bör vuxenvärlden därmed ta på sig skuld för att systematiskt förtrycka människosläktets potentiella skaparkraft?</p>\n<p>Nja. Det beror i så fall på hur man väljer att definiera kreativitet. Om man lyssnar på framstående forskare som studerat kreativitet i organisationer, Theresa Amabile på Harvard University och Richard Woodman på Texas A&amp;M University, kan man nämligen ifrågasätta om barn är kreativa över huvud taget. Dessa forskare slår fast att kreativitet visserligen innebär att skapa något nytt och originellt, men att det nya också måste vara användbart och möjligt att genomföra.</p>\n<p>Barn är originella och fantasifulla. Men ett fullbordat kreativt tänkande kräver mer än så. Begrepp som realism och nytta är för abstrakta för särskilt yngre barn i förskole- eller tidig skolålder. Deras tänkande kan vara hisnande originellt, men det skapar inte värde för omvärlden genom att lösa definierade problem (annat än möjligen av ren tur).</p>\n<p>Vi bör alltså vara försiktiga med att romantisera människans barnsliga skapande. Med detta sagt finns ändå en hel del att lära av barnens sätt att handskas med idéer. Galna infall och gränslöst tänkande ”utanför boxen” är värdefulla bidrag i den kreativa processens första steg, idéfasen.</p>\n<p>Förutsättningen för effektiv brainstorming är att idéerna verkligen isoleras från invändningar och kritik och får flöda fritt på riktigt. Denna fas styrs inte bäst genom nejsägande, utan med uttalade avgränsningar. Avsätt ett särskilt möte, en särskild plats eller en viss tidsperiod för det fria idéskapandet. Eller var tydlig med att ge olika personer olika roller, där den ena enbart ska komma med infallen och den andra får sköta ifrågasättandet.</p>\n<p>I nästa fas handlar det om att byta spår och använda det vuxna omdömet, alltså att pröva idéerna genom att återföra dem till ”boxen”. Den är trots allt symbolen för den verklighet vi i de flesta fall måste förhålla oss till för att kunna göra affärer.</p>\n<p>Ett lyckat idéskapande följs alltså av att vi sorterar idéer efter deras nytta, genomförbarhet och det värde de kan skapa. Risken är annars att vårt urval styrs av vilka idéer som vore roligast att genomföra och som verkar mest motiverande för stunden.</p>\n<p>Det är lätt att förälska sig i sina mest ”kreativa” idéer, alltså de mest spirituella. Precis som barn är vi nämligen förtjusta i det originella och nyskapande. En effektiv kreativ process går dock ut på att först tänka som barnet och därefter tänka som den vuxne, inte att välja enbart den ena eller andra.</p>\n<p>Genom att träna dig på att separera dessa två olika tankemönster kan du med tiden få tillgång till båda samtidigt. Denna simultanförmåga är vad som utmärker rutinerade och skickliga kreatörer. För en utomstående kan de ge intryck av att enbart tänka fritt ­– och haspla ur sig idéer som sedan bara råkar vara användbara. Men hemligheten är deras förmåga att separera de två spåren i huvudet så att de inte stör varandra.</p>\n<p>Till exempel menar forskarna Gregory Feist och Michael D. Gorman att framgångsrika forskare i ett första skede kan vara väldigt öppna, utforskande och fria när de närmar sig en ny frågeställning. De letar vitt och brett efter idéer och lösningar, något som kallas för divergent tänkande. De skarpaste har också förmågan att smalna av och fokusera, för att välja ut den mest relevanta idén. Det kritiska, utvärderande tänkandet plockas fram. Detta kallas konvergent tänkande.</p>\n<p>Med andra ord: hylla gärna barnets fantasi och uppfinningsrikedom. Men glöm inte att också värdera den vuxna hjärnans bidrag till sann kreativitet – kunskap, erfarenhet och omdöme. Om detta vore oviktigt skulle alla stora uppfinningar ha skapats av sjuåringar.</p>\n<p><span style=\"line-height: 1.5em;\">Amabile, T. M., Conti, R., Coon, H., Lazenby, J., &amp; Herron, M. (1996). Assessing the work environment for creativity. </span><i style=\"line-height: 1.5em;\">Academy of Management Journal, 39</i><span style=\"line-height: 1.5em;\">, 1154–1184.</span></p>\n<p>Feist, G. J., &amp; Gorman, M. E. (1998). The psychology of science: Review and integration of a nascent discipline. <i>Review of General Psychology, 2</i>, 3–47.</p>\n<p>Woodman, R. W., Sawyer, J. E., &amp; Griffin, R. W. (1993). Toward a theory of organizational creativity. <i>Academy of Management Review, 18</i>, 293–321.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Överskatta inte barnets kreativitet' data-link='http://tusentips.se/overskatta-inte-barnets-kreativitet/' data-summary=''></div>",
-            "excerpt": "<p>Visst är de flesta barn imponerande fria i tanken. Men kreativa på riktigt blir vi först som vuxna. En populär och ofta uttryckt föreställning är att barn skulle ha en särskilt ren och ursprunglig förmåga till kreativitet och att den med åren saboteras av skolgång eller olika former av uppfostran. ”Ett barn har hundra språk [&hellip;]</p>\n",
-            "date": "2014-03-27 14:50:49",
-            "modified": "2014-04-04 18:31:48",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
+                    "post_count": 17
                 }
             ],
             "tags": [
@@ -452,266 +655,8 @@
                     "slug": "ideer",
                     "title": "idéer",
                     "description": "",
-                    "post_count": 7
-                },
-                {
-                    "id": 11,
-                    "slug": "kreativitet",
-                    "title": "kreativitet",
-                    "description": "",
                     "post_count": 10
                 },
-                {
-                    "id": 13,
-                    "slug": "kultur",
-                    "title": "kultur",
-                    "description": "",
-                    "post_count": 5
-                },
-                {
-                    "id": 15,
-                    "slug": "myter",
-                    "title": "myter",
-                    "description": "",
-                    "post_count": 3
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 38,
-            "type": "post",
-            "slug": "ar-ett-patent-vart-besvaret",
-            "url": "http://tusentips.se/ar-ett-patent-vart-besvaret/",
-            "status": "publish",
-            "title": "Är ett patent värt besväret?",
-            "title_plain": "Är ett patent värt besväret?",
-            "content": "<p><i>Hur meningsfullt är ett patent när multinationella företag stjäler innovationer och tvingar in upphovsmännen i utdragna rättegångar om miljardskadestånd? Kanske inte lika mycket som förr. Men tiden är ändå inte över för patentskyddet.</i></p>\n<p>Konflikten har kallats för århundradets patentstrid. Den har trappats upp de senaste fem åren kan i dag liknas vid ett handelskrig mellan världens högst värderade företag, Apple, och världen största mobiltillverkare, Samsung.</p>\n<p>Smartphonejättarna som började som samarbetspartners är i dag inblandade i över 50 rättsprocesser samtidigt i tio olika länder. 2012 vann Apple en spektakulär seger i USA där Samsung dömdes att betala ett rekordstort skadestånd på en miljard dollar, sju miljarder kronor, för att androidmobilerna gör intrång på Apples iPhonepatent.</p>\n<p>”Jag ska krossa Android, för det är en stulen produkt. Jag är villig att starta ett kärnvapenkrig kring detta”, hotade Apples förra vd Steve Jobs före sin bortgång.</p>\n<p>Frågan är dock om Apple självt är så mycket ädlare. Under hot om skadestånd sägs företaget ha gått med på att betala Nokia fyra miljarder kronor om året för rätten att få montera pekskärmen på iPhone.</p>\n<p>Systemet med patent kom till i industrialismens barndom för att skydda innovatörer från idéstölder. I snart 200 år har det bidragit till att företagare kunna satsa på extremt kostsam forskning och utveckling. Otaliga av världens viktigaste innovationer hade inte varit möjliga utan patentskydd.</p>\n<p>Dagens infekterade miljardstrider hotar dock att underminera hela systemet. Att utveckla nya produkter särskilt i mjukvaruindustrin har blivit ett vågspel. Erkända innovatörer protesterar i dag mot att stora och mäktiga företag och nationer (i synnerhet Kina) visar allt mindre respekt för uppfinnares immateriella rättigheter.</p>\n<p>”Nästan alla industriuppfinningar värda mer än 50 miljoner kronor stjäls. Patentintrång görs i<b> </b>dag rutinmässigt därför att det är helt riskfritt. I dag är<b> </b>många av landets mest framstående uppfinnare förlamade av juridiska processer, iscensatta av starka företag som ofta kallar sig riskkapitalister. Dessa processer kostar miljoner per år och pågår ibland i mer än tio år. De slutar normalt när uppfinnaren är utblottad och därför förlorat allt”, skrev bland andra uppfinnaren Håkan Lans i en debattartikel i Dagens Industri i januari 2014.</p>\n<p>Även om stora konkurrenter avstår från intrång så säger ett patent ingenting om möjligheten för en innovation att bli kommersiellt framgångsrik. I USA leder bara 1 procent av alla patent fram till lönsam tillverkning.</p>\n<p>Bör därför en modern innovatör avstå från att söka patent?</p>\n<p>Svaret är trots allt nej. I Sverige beviljas cirka 2 500 patent om året och i hela världen är siffran 400 000, vilket visar att innovatörerna fortsätter att se den kostnads- och arbetskrävande patentprocessen som värdefull.</p>\n<p>Svaret beror också på vilken bransch du arbetar i. I den forskningstunga läkemedelsindustrin är patenten avgörande för att hindra kopiering, medan bilindustrin har vant sig vid att goda innovationer kopieras snabbt. När olika märken köper tekniken av samma underleverantörer – eller av varandra – utövar de sin konkurrens med andra medel.</p>\n<p>Det mest uppenbara skälet att söka patent är för att kunna tjäna pengar på en teknik med ensamrätt och maximera sina intäkter så länge det går – att hitta en kassako. Men den italienska forskaren Elena Giraldoni har även funnit fyra andra vanliga patentstrategier:</p>\n<p>• <b>Agera offensivt</b>. Man skaffar ett flertal närliggande patent för att stoppa eller förebygga konkurrens.<br />\n• <b>Agera defensivt</b>. Man tar patent på nyckelidéer som man vill ha möjlighet att utveckla och kommersialisera senare utan att de blir imiterade.<br />\n• <b>Skaffa förhandlingsvapen.</b> Man tar patent som påtryckningsmedel för att få till stånd exempelvis en strategisk allians.<br />\n• <b>Bygga varumärke</b>. Man tar patent för att förbättra sitt företags image eller position, antingen för att attrahera kapital eller locka samarbetspartners.</p>\n<p>Läs mer:</p>\n<p>Giraldoni, E. (2007). Basic approaches to patent strategy. <i>International Journal of Innovation Management</i>, no 11.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Är ett patent värt besväret?' data-link='http://tusentips.se/ar-ett-patent-vart-besvaret/' data-summary=''></div>",
-            "excerpt": "<p>Hur meningsfullt är ett patent när multinationella företag stjäler innovationer och tvingar in upphovsmännen i utdragna rättegångar om miljardskadestånd? Kanske inte lika mycket som förr. Men tiden är ändå inte över för patentskyddet. Konflikten har kallats för århundradets patentstrid. Den har trappats upp de senaste fem åren kan i dag liknas vid ett handelskrig mellan [&hellip;]</p>\n",
-            "date": "2014-03-27 14:25:19",
-            "modified": "2014-03-27 17:08:24",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
-                {
-                    "id": 18,
-                    "slug": "innovation",
-                    "title": "innovation",
-                    "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 19,
-                    "slug": "patent",
-                    "title": "patent",
-                    "description": "",
-                    "post_count": 2
-                },
-                {
-                    "id": 6,
-                    "slug": "strategi",
-                    "title": "strategi",
-                    "description": "",
-                    "post_count": 5
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 37,
-            "type": "post",
-            "slug": "forsta-fackspraket",
-            "url": "http://tusentips.se/forsta-fackspraket/",
-            "status": "publish",
-            "title": "Förstå fackspråket",
-            "title_plain": "Förstå fackspråket",
-            "content": "<p><i>Här är din guide för att hänga med i facktermerna kring innovation. Vi definierar begreppen och ger exempel.</i></p>\n<p><b>Adhocracy.</b> En form att organisera sig som kännetecknas av låg struktur, få formella regler eller rutiner och hög flexibilitet. Motsatsen till byråkrati (bureaucracy). Kända företag som organiserar sig på detta sätt är Gore (står bakom materialet Gore-tex) och Valve (spelutvecklaren bakom Portal och Steam). Dessa företag anses mycket innovativa.</p>\n<p><strong>Blue Ocean.</strong> En strategi för vilken marknad ett företag vill placera sig på. En blå ocean är en helt ny marknad utan konkurrenter. Detta skall kontrasterad med en röd ocean, där den knivskarpa konkurrensen färgar vattnet just rött. Med sin iPad seglade Apple in på en blå ocean och kan fortfarande åtnjuta tronen som marknadsledare.</p>\n<p><b>Early Adopters.</b> På svenska ungefär ’tidiga användare’. Detta är en grupp kunder som tidigt och villigt tar till sig nya innovationer, exempelvis mobiltelefoner, och är beredda att satsa sina pengar på oprövad teknik för glädjen att ha den först. Företag brukar marknadsföra produkter mot den här kundgruppen eftersom man räknar med att de påverkar den större massan och därmed ger draghjälp åt marknadsföringen.</p>\n<p><strong>Google.</strong> Världens näst högst värderade företag efter Apple och det som av många i dag anses vara mest innovativt, både när det gäller nya produkter och nya managementprinciper för att skapa just innovation. Läs mer om Googlemodellen <a title=\"Lär av Googles innovativa ledarskap\" href=\"http://tusentips.wpengine.com/lar-av-googles-innovativa-ledarskap/\"><em>här</em></a>.</p>\n<p><b style=\"line-height: 1.5em;\">Joint venture.</b><span style=\"line-height: 1.5em;\"> När två företag går samman för att skapa en ny innovation kallas detta för en joint venture. Svenska ord är samriskföretag eller samföretag. Företagen delar på kompetens, risker och vinster. Ett exempel är när Ericsson med sin kompetens om mobiltelefoner ingick samarbete med Sony, duktiga på musikspelare, och skapade Sony Ericsson.</span></p>\n<p><b>Lean.</b> Ursprungligen en japansk filosofi för organisationsstyrning. Målet är att undvika slöseri på tid, pengar och arbete. Alla kostnader och allt arbete ska fokuseras för att ge värde åt slutkunden. Lean innebär en ständig jakt på nya små förbättringar av arbetssättet med detta fokus. Lean är ett populärt sätt att förändra och effektivisera organisationer i Sverige idag. Forskningen visar dock att de organisationer som lyckas har så hög tillit till sina medarbetare att de på allvar delegerar både makt och ansvar för det dagliga arbetet till dessa genom självstyrande team.</p>\n<p><b>Ledarskap.</b> Förmågan att påverka andras tankar eller handlingar. Ledarskap brukar skiljas från chefskap. En ledare får per definition sitt inflytande underifrån i den grupp som ska ledas (informellt ledarskap). En chef får sitt inflytande uppifrån genom att utses av ägaren eller en högre chef (formellt ledarskap). Ledarskapet blir starkast hos den som är erkänd som både formell och informell ledare samtidigt.</p>\n<p>Läs vår artikel <a title=\"Konsten att leda innovation\" href=\"http://tusentips.wpengine.com/konsten-att-leda-innovation/\"><i>Konsten att leda innovation</i></a> för sex snabba tips om hur du stimulerar innovation på arbetsplatsen.</p>\n<p><b>Motivation.</b> Motivation är den kraft som får oss att handla. Den är kopplad till våra behov och genomsyrar allt vi gör. Till och med att gå upp ur sängen på morgonen kräver motivation. Att vara kreativ kräver extra mycket motivation.</p>\n<p><b>Open Innovation.</b> När ett företag tar hjälp av omgivningen för att lösa ett problem eller ta fram en ny produkt kallas det open innovation. Rätt implementerat kan open innovation stärka innovationsförmågan kraftigt. Hos <em><a href=\"http://www.pgconnectdevelop.com/\">Procter &amp; Gamble </a></em>kommer ungefär hälften av de nya produktidéerna från källor utanför företaget. Andra företag som sysslar med open innovation är danska <em><a href=\"http://lego.cuusoo.com/\">LEGO </a></em>och amerikanska <em><a href=\"http://mystarbucksidea.force.com/\">Starbucks</a></em>.</p>\n<p>Läs vår artikel om open innovation <em><a title=\"Hemlighetsmakeri har blivit omodernt\" href=\"http://tusentips.wpengine.com/hemlighetsmakeri-har-blivit-omodernt/\">här</a></em>.</p>\n<p><b>Patent.</b> Ett sätt för ett företag eller person att skydda en idé med juridik. Om patentmyndigheten bedömer att idén är tillräckligt unik och nyskapande kan den få ett patent som ger innehavaren rätt till skadestånd från den som kopierar idén och säljer produkten utan lov. Patent är en del av immaterialrätten. Övriga delar är varumärkesskydd, designskydd och upphovsrätt.</p>\n<p><b style=\"line-height: 1.5em;\">R&amp;D.</b><span style=\"line-height: 1.5em;\"> Förkortningen står för Research and Development, på svenska Forskning och Utveckling (FoU). Många företag har speciella avdelningar för forskning och utveckling med fokus på att ta fram innovationer.</span></p>\n<p><b>Risk.</b> Innovationer misslyckas ofta, vilket innebär ödslad tid och resurser för företaget. Samtidigt kan företag inte överleva utan innovation. Att inte utvecklas är alltså också ett risktagande. Risk måste alltid hanteras.</p>\n<p><b>Serendipitet.</b> Upptäckter som är oväntade och som ofta leder till någonting positivt. Många upptäckter inom vetenskapen och företagsvärlden har skett på detta sätt.</p>\n<p>Läs vår artikel <em><a title=\"Myten om snilleblixten\" href=\"http://tusentips.wpengine.com/myten-om-snilleblixten/\">Myten om snilleblixten </a></em>för att lära dig mer om serendipitet.</p>\n<p><b style=\"line-height: 1.5em;\">Steve Jobs.</b><span style=\"line-height: 1.5em;\"> Det går inte att komma förbi Steve Jobs när man talar om innovation. Kreatören bakom <a href=\"http://www.fool.com/investing/general/2014/03/25/apple-samsung-and-google-most-valuable-brands-for.aspx\">världens högst värderade företag</a> (2014, mars) Apple och produkter som iPod, iPhone och iPad är hyllad för sin briljans. Men han var också ifrågasatt för sin otåliga, humörstyrda och krävande ledarstil. Vill du veta mer om Steve Jobs rekommenderar vi Walter Isaacsons ”Steve Jobs – en biografi”.</span></p>\n<p><b style=\"line-height: 1.5em;\">Strategi (för innovation)</b><span style=\"line-height: 1.5em;\">. Ett företags innovationsstrategi avgör till exempel vilken marknad företaget vill att dess produkter eller tjänster ska fokusera på, eller vilken teknologi företaget vill utveckla.</span></p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Förstå fackspråket' data-link='http://tusentips.se/forsta-fackspraket/' data-summary=''></div>",
-            "excerpt": "<p>Här är din guide för att hänga med i facktermerna kring innovation. Vi definierar begreppen och ger exempel. Adhocracy. En form att organisera sig som kännetecknas av låg struktur, få formella regler eller rutiner och hög flexibilitet. Motsatsen till byråkrati (bureaucracy). Kända företag som organiserar sig på detta sätt är Gore (står bakom materialet Gore-tex) [&hellip;]</p>\n",
-            "date": "2014-03-27 10:05:43",
-            "modified": "2014-04-04 18:22:11",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
-                {
-                    "id": 18,
-                    "slug": "innovation",
-                    "title": "innovation",
-                    "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 11,
-                    "slug": "kreativitet",
-                    "title": "kreativitet",
-                    "description": "",
-                    "post_count": 10
-                },
-                {
-                    "id": 7,
-                    "slug": "ledarskap",
-                    "title": "ledarskap",
-                    "description": "",
-                    "post_count": 9
-                },
-                {
-                    "id": 17,
-                    "slug": "serendipitet",
-                    "title": "serendipitet",
-                    "description": "",
-                    "post_count": 2
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 36,
-            "type": "post",
-            "slug": "turen-ar-ingen-slump",
-            "url": "http://tusentips.se/turen-ar-ingen-slump/",
-            "status": "publish",
-            "title": "Turen är ingen slump",
-            "title_plain": "Turen är ingen slump",
-            "content": "<p><i>Historien är full av berättelser om revolutionerande upptäckter som kom till av ren tur. Men en närmare granskning visar att turen oftast fick en hel del hjälp på traven.</i><b><i></i></b></p>\n<p><span style=\"line-height: 1.5em;\">Sildenafil var ett läkemedel som skulle hjälpa hjärtpatienter minska sina smärtor i bröstet genom att verka avslappnande för blodkärlen kring hjärtat. Men de kliniska försöken gick dåligt.</span></p>\n<p>Runt 1992 fick testningen kring Sildenafil läggas ner och forskarna begärde tillbaka askarna med piller från den grupp män som var försöksdeltagare. Men männen vägrade lämna tillbaka dem. Läkemedlet hade nämligen andra, mer oväntade effekter.</p>\n<p>Efter nya omgångar kliniska tester, denna gång med impotenta män, upptäckte Pfizer att de hade en potentiell storsäljare på handen. De marknadsförde läkemedlet under namnet Viagra (Ashburn &amp; Thor, 2004).</p>\n<p>Det finns ett ord för tursamma upptäckter: serendipitet. Historien är kantad av exempel som liknar Viagra. Astronomer som jagar fågelbon på sina paraboler (upptäckten av universums bakgrundsstrålning), en biolog som observerar att vissa mjölkerskor inte fick smittkoppor (vaccinet), och en kemist som glömmer att tvätta händerna och upptäcker att lunchmackan smakar sötare än vanligt (sötningsmedlet sackarin).</p>\n<p>Vissa historiker menar till och med att de flesta stora upptäckter skett på detta sätt. Vill man kan man uttrycka det i en formel:</p>\n<p><i>Nya upptäckter = nyfikenhet + kunskap (+ lite tur)</i></p>\n<p>Serendipitet är dock sällan ”Eureka”-tillfällen. I stället för ”aha!”<i> </i>utbrister upptäckaren ”varför?”.</p>\n<p>Varför var det just Edward Jenner som upptäckte vaccinet? För det första var han nyfiken. På hans tid, omkring sekelskiftet mellan 1700- och 1800-talet satte sjukdomen smittkoppor skräck i befolkningen. Dels var risken att dö i sjukdomen upp till 35 procent. Dels smittade den mycket lätt mellan människor.</p>\n<p>Jenner observerade att mjölkerskor som tidigare fått kokoppor inte kunde bli sjuka i smittkoppor och ställde frågan ”varför?” och började testa länken mellan kokoppor och smittkoppor systematiskt.</p>\n<p>Förutom att vara nyfiken var Jenner skolad. Som läkare var han lärd i vetenskapligt systematiskt tänkande. Han hade också sin egen praktik (komplett med till synes frivilliga försöksdeltagare) där han kunde genomföra sina tester.</p>\n<p>Jenner var dock inte först med att anta att det kunde finnas ett samband mellan immunitet och tidig utsatthet för sjukdomen. Flera hundra år tidigare praktiserade kineserna och indierna <i>ympning</i>, en metod där sekret från en smittkoppaböld rispades in i huden eller blåstes in i näsan. Detta kände Jenner till. Genom sin kunskap hade han skaffat sig en förförståelse och var därför helt rätt placerad för sin upptäckt.</p>\n<p>Det är alltså lätt att fascineras av de tursamma upptäckterna, men samtidigt lätt att glömma bort att det oftast finns en stor portion kunskap, tänkande och arbete i botten. Upptäckarna har haft förförståelsen som fått dem att över huvud taget inse att de upptäckt någonting nytt. ”Turen väljer den som är förberedd”, som Louis Pasteur uttryckte det.</p>\n<p>Går det därmed att öka sin tur?<b> </b>Jodå, här är några sätt att träna upp din förmåga:<b></b></p>\n<p>• Köp hem de senaste böckerna inom ditt arbetsområde och uppdatera dig om de nyaste tankarna.<br />\n• Lyft blicken och titta runt omkring. Försök se vad som inte stämmer eller passar in.<br />\n• Var nyfiken. Fråga varför, hela tiden. Svaren kan leda till nya insikter.</p>\n<p>Ashburn, T. T., &amp; Thor, K. B. (2004). Drug repositioning: Identifying and developing new uses for existing drugs.  <i>Nature Review: Drug Discovery</i>, <i>3,</i> 673-683.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Turen är ingen slump' data-link='http://tusentips.se/turen-ar-ingen-slump/' data-summary=''></div>",
-            "excerpt": "<p>Historien är full av berättelser om revolutionerande upptäckter som kom till av ren tur. Men en närmare granskning visar att turen oftast fick en hel del hjälp på traven. Sildenafil var ett läkemedel som skulle hjälpa hjärtpatienter minska sina smärtor i bröstet genom att verka avslappnande för blodkärlen kring hjärtat. Men de kliniska försöken gick [&hellip;]</p>\n",
-            "date": "2014-03-27 08:42:10",
-            "modified": "2014-03-27 08:42:10",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
-                {
-                    "id": 14,
-                    "slug": "ideer",
-                    "title": "idéer",
-                    "description": "",
-                    "post_count": 7
-                },
-                {
-                    "id": 11,
-                    "slug": "kreativitet",
-                    "title": "kreativitet",
-                    "description": "",
-                    "post_count": 10
-                },
-                {
-                    "id": 15,
-                    "slug": "myter",
-                    "title": "myter",
-                    "description": "",
-                    "post_count": 3
-                },
-                {
-                    "id": 17,
-                    "slug": "serendipitet",
-                    "title": "serendipitet",
-                    "description": "",
-                    "post_count": 2
-                }
-            ],
-            "author": {
-                "id": 2,
-                "slug": "tusentips",
-                "name": "tusentips",
-                "first_name": "",
-                "last_name": "",
-                "nickname": "tusentips",
-                "url": "http://tusentips.wpengine.com",
-                "description": ""
-            },
-            "comments": [],
-            "attachments": [],
-            "comment_count": 0,
-            "comment_status": "open",
-            "custom_fields": {}
-        },
-        {
-            "id": 13,
-            "type": "post",
-            "slug": "konsten-att-leda-innovation",
-            "url": "http://tusentips.se/konsten-att-leda-innovation/",
-            "status": "publish",
-            "title": "Konsten att leda innovation",
-            "title_plain": "Konsten att leda innovation",
-            "content": "<p><em>Röj vägen, kratta manegen och förvänta dig det bästa. Och håll fingrarna borta när dina medarbetare gör något nyskapande. Så leder du dem mot de nya idéer som ingen av er ännu har.</em></p>\n<p><span style=\"line-height: 1.5em;\">Innovation är komplext. Forsknings- och utvecklingsprocesser följer sällan alla sina utstakade planer. De påverkas av krafter både inifrån och utifrån organisationen. </span>Kan ledarskap överhuvudtaget påverka resultatet i en så turbulent miljö?</p>\n<p>Ja, forskningsläget talar för att det finns mycket för chefen att göra – och inte göra.</p>\n<p>I sin avhandling om innovationsledarskap vid Göteborgs universitet listar Leif Denti de viktigaste ledarskapsåtgärderna du som chef kan göra för att gynna innovation hos dina F&amp;U-medarbetare.</p>\n<p><b>• Stöd nya idéer.</b> Uppmuntra själva idéskapandet utan att ta död på initiativen. Stimulera dialog, utmana tänkandet och var snabb med återkoppling.</p>\n<p>• <b>Förvänta dig kreativitet.</b> Du får ofta det beteende du förväntar dig. Chefens attityd påverkar medarbetarnas uppfattning om sin egen kreativa förmåga.</p>\n<p>• <b>Ge motivationen understöd.</b> F&amp;U-medarbetare är redan starkt motiverade genom att de har stora kunskaper och arbetar på hög nivå av sin förmåga. Du kan inte ge dem mer motivation. Däremot kan du sabotera den de har genom negativa ledarbeteenden.</p>\n<p><b>• Ge frihet.</b> Det som framför allt hindrar medarbetares innovativa beteenden är när chefen inskränker deras frihet, oftast genom att detaljstyra mot en viss lösning. Då tänker inte medarbetaren ut en egen, bättre.</p>\n<p>• <b>Underlätta nya initiativ. </b>Överskatta inte motivation. Handling är viktigare. Medarbetare som tar många initiativ genomför fler innovationer. Ta därför rollen att förse dem med resurser och undanröja hinder för dem i och utanför organisationen.</p>\n<p><b>• Utveckla relationerna.</b> Relationerna är ett arbetsplatsens smörjmedel som skapas genom socialt utbyte. En medarbetare visar till exempel ansträngning och kunnande och får uppskattning, förtroende och inflytande i retur av sin chef.</p>\n<p>Avhandlingen heter <a title=\"Leadership and Innovation in R&amp;D Teams\" href=\"https://gupea.ub.gu.se/handle/2077/33160\"><i>Leadership and Innovation in R&amp;D Teams </i></a>och lades fram vid Göteborgs Universitet 2013. Den är gratis att ladda ned från universitetets webbplats.</p>\n<div class='shareaholic-canvas' data-app-id='6465857' data-app='share_buttons' data-title='Konsten att leda innovation' data-link='http://tusentips.se/konsten-att-leda-innovation/' data-summary=''></div>",
-            "excerpt": "<p>Röj vägen, kratta manegen och förvänta dig det bästa. Och håll fingrarna borta när dina medarbetare gör något nyskapande. Så leder du dem mot de nya idéer som ingen av er ännu har. Innovation är komplext. Forsknings- och utvecklingsprocesser följer sällan alla sina utstakade planer. De påverkas av krafter både inifrån och utifrån organisationen. Kan ledarskap [&hellip;]</p>\n",
-            "date": "2014-03-13 16:16:42",
-            "modified": "2014-03-13 16:16:42",
-            "categories": [
-                {
-                    "id": 3,
-                    "slug": "artiklar",
-                    "title": "artiklar",
-                    "description": "",
-                    "parent": 0,
-                    "post_count": 14
-                }
-            ],
-            "tags": [
                 {
                     "id": 10,
                     "slug": "initiativ",
@@ -720,18 +665,18 @@
                     "post_count": 4
                 },
                 {
-                    "id": 11,
-                    "slug": "kreativitet",
-                    "title": "kreativitet",
+                    "id": 39,
+                    "slug": "kommuner",
+                    "title": "kommuner",
                     "description": "",
-                    "post_count": 10
+                    "post_count": 1
                 },
                 {
-                    "id": 7,
-                    "slug": "ledarskap",
-                    "title": "ledarskap",
+                    "id": 40,
+                    "slug": "offentlig-sektor",
+                    "title": "offentlig sektor",
                     "description": "",
-                    "post_count": 9
+                    "post_count": 1
                 }
             ],
             "author": {
@@ -748,11 +693,7 @@
             "attachments": [],
             "comment_count": 0,
             "comment_status": "open",
-            "custom_fields": {
-                "views": [
-                    "0"
-                ]
-            }
+            "custom_fields": {}
         }
     ]
 }
