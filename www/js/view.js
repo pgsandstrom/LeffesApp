@@ -12,12 +12,7 @@ $(function () {
     var itemCount = $('.carousel > li').length;
 
     $(".share").on("click", function(){
-        var $sm = $("#submenu");
-        if ($sm.hasClass("hidden")) {
-            $("#submenu").removeClass("hidden");
-        } else {
-            $("#submenu").addClass("hidden");
-        }
+        innovation.data.share(currentIndex);
     });
 
     var updateItemCount = function () {
@@ -78,7 +73,8 @@ $(function () {
         _.each(newPosts, function(post) {
             var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
-            $carousel.append('<li class="' + initClass + '">' + post.content + '</li>');
+//            $carousel.append('<li class="INSERT-initClass"><div class=post-title>INSERT-title</div><div class="post-body">INSERT-post_content</div></li>');
+            $carousel.append('<li class="' + initClass + '"><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div></li>');
         });
 
         updateItemCount();

@@ -63,6 +63,12 @@
         return newPosts;
     };
 
+    innovation.data.share = function(index) {
+        var post = postList[index];
+        console.log("share " +post.title + " with url " +post.url);
+        innovation.share.link(post.title, post.url);
+    };
+
     /**
      * u know
      * @param listener should have status(status)done(status)-function.
