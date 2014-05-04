@@ -2,8 +2,6 @@ Ska se snygg ut på alla skärmstorlekar
 
 add comments
 
-How to do links that works on all platforms (in articles)
-
 "hamburgare"
 
 push
@@ -11,6 +9,8 @@ push
 stänga av push...
 
 Förhindra rotation
+
+Testa att länkar funkar på ios
 
 ---
 LÅG PRIO

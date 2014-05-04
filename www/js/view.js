@@ -79,11 +79,30 @@ $(function () {
             var initClass = firstAdd ? 'active' : '';
             var date = post.date.split(' ')[0]; // Split after first space to avoid time of day.
 
-            //fix links in content:
-            var content = post.content;
-
-            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + content + '</div><div class="comments"></div></li>');
+            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body"><a href="http://dn.se">hej2</a>' + post.content + '</div><div class="comments"></div></li>');
+//            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
             $carousel.append($post);
+
+            //fix links in content:
+
+            //this needs a plugin...
+            //http://stackoverflow.com/questions/17887348/phonegap-open-link-in-browser
+//            var $aList = $post.find('a');
+//            $aList.each(function (index) {
+//                var $a = $(this);
+//                var href = $a.attr('href');
+//                $a.attr('href', '#');
+//                $a.attr('onclick', 'window.open("' + href + '", "_system");');
+//            });
+
+            var $aList = $post.find('a');
+            $aList.each(function (index) {
+                var $a = $(this);
+                var href = $a.attr('href');
+                $a.attr('href', '#');
+                $a.attr('onclick', "navigator.app.loadUrl('" + href + "', { openExternal:true });");
+            });
+
 
             //fix comments:
             var $comments = $post.find('.comments');
