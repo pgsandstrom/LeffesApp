@@ -10,4 +10,9 @@ add comments
 
 How to do links that works on all platforms (in articles)
 
+"hamburgare"
+
 push
+
+stänga av push...
+

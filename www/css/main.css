@@ -73,6 +73,10 @@ body {
     padding-bottom: 103px; /* The current height of the bottom bar + 30px */
 }
 
+.post-date {
+    font-family: 'Gotham-Light';
+}
+
 .post-title {
     font-size: 30px;
     font-family: 'Gotham-Light';
