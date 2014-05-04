@@ -1,10 +1,8 @@
-Datum för artiklar
+Knappar funkar inte första gången på mobilen
 
 Ska se snygg ut på alla skärmstorlekar
 
-"Loading" för att ladda in fler artiklar
-
-Felhantering (nätverk etc)
+Felhantering enkel (nätverk etc)
 
 add comments
 
@@ -16,3 +14,14 @@ push
 
 stänga av push...
 
+Förhindra rotation
+
+Fixa appikon
+
+---
+LÅG PRIO
+---
+
+"Loading" för att ladda in fler artiklar
+
+Felhantering avancerad (nätverk etc)
