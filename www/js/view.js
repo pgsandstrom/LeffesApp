@@ -10,6 +10,10 @@ $(function () {
 
     var itemCount = $('.carousel > li').length;
 
+    $(".plus").on("click", function () {
+        //TODO öppna ett töntigt fönster
+    });
+
     $(".share").on("click", function () {
         innovation.data.share(currentIndex);
     });

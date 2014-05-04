@@ -7,10 +7,28 @@
     //sida 1: http://tusentips.se/?json=1
     //sida 2: http://tusentips.se/page/2/?json=1
 
+    //posta kommentar:
+    //http://tusentips.se?json=respond.submit_comment
+
     var HOST = 'http://tusentips.se';
 
     var innovation = window.innovation = window.innovation || {};
     innovation.api = innovation.api || {};
+
+    innovation.api.postComment = function (postId, name, email, content, callback) {
+        var url = HOST + '/?json=respond.submit_comment&post_id=' + postId + '&name=' + name + '&email=' + email + '&content=' + content;
+
+        $.ajax({
+            url: url,
+            success: function (data, textStatus, jqXHR) {
+                callback(data);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                callback();
+            },
+            async: true
+        });
+    };
 
     /**
      * get the articles and stuff!
@@ -40,7 +58,6 @@
 ////                alert( "finished" );
 //            });
 
-        var result;
         $.ajax({
             url: url,
             success: function (data, textStatus, jqXHR) {
