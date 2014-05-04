@@ -11,7 +11,7 @@ $(function () {
 
     var itemCount = $('.carousel > li').length;
 
-    $(".share").on("click", function(){
+    $(".share").on("click", function () {
         innovation.data.share(currentIndex);
     });
 
@@ -70,12 +70,31 @@ $(function () {
         $('#init-loading').hide();
 
 //        newPosts.forEach(function (post) {
-        _.each(newPosts, function(post) {
+        _.each(newPosts, function (post) {
+            //TODO: This is some ugly code right here
             var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
 //            $carousel.append('<li class="INSERT-initClass"><div class=post-title>INSERT-title</div><div class="post-body">INSERT-post_content</div></li>');
-            $carousel.append('<li class="' + initClass + '"><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div></li>');
+            var $post = $('<li class="' + initClass + '"><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
+            $carousel.append($post);
+
+            //fix comments:
+            var $comments = $post.find('.comments');
+            $comments.html('<div class="comments-title">Kommentarer</div><div class="comments-body"></div>');
+
+            var $commentsBody = $comments.find('.comments-body');
+            if (post.comments.length === 0) {
+                $commentsBody.html('Inga kommentarer ännu');
+            } else {
+                _.each(post.comments, function (comment) {
+                    $commentsBody.append('<div class="comment-title">' + comment.name + ' skriver:</div><div class="comment-body">' + comment.content + '</div><div class="comment-date">' + comment.date + '</div>');
+                });
+            }
+
         });
+
+        //fix to make sure shareaholic doesn't ruin the view:
+        $('.shareaholic-canvas').remove();
 
         updateItemCount();
         updateButtons();

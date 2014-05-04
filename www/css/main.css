@@ -59,6 +59,10 @@ body {
     /*margin-top: 10px;*/
 }
 
+.carousel > li {
+    padding-bottom: 103px; /* The current height of the bottom bar + 30px */
+}
+
 .post-title {
     font-size: 30px;
     font-family: 'Gotham-Light';
@@ -66,6 +70,39 @@ body {
 
 .post-body {
     padding-top: 5px;
+}
+
+.comments {
+
+}
+
+.comments-title {
+    font-size: 20px;
+    font-family: 'Gotham-Light';
+}
+
+.comments-body {
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Gotham-Light';
+}
+
+.comment-title {
+    font-family: 'Gotham-Bold';
+}
+
+.comment-body {
+
+}
+
+.comment-body > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.comment-date {
+    font-size: 80%;
+    padding-bottom: 15px;
 }
 
 #menu {
