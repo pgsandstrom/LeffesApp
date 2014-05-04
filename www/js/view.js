@@ -7,7 +7,6 @@ $(function () {
     var $carousel = $('.carousel');
 
     var currentIndex = 0;
-    var retrievedAllPages = false;
 
     var itemCount = $('.carousel > li').length;
 
@@ -60,6 +59,10 @@ $(function () {
             $next.off('animationend webkitAnimationEnd oAnimationEnd');
         });
 
+        if (isNext) {
+            innovation.data.update(currentIndex, new Listener());
+        }
+
         updateButtons();
 
         return false;
@@ -105,9 +108,7 @@ $(function () {
 
     Listener.prototype.status = function (status, newPosts) {
 //        console.log("status update: " + status);
-        if (status === innovation.data.Status.DONE) {
-            retrievedAllPages = true;
-        } else if (status === innovation.data.Status.UPDATED) {
+        if (status === innovation.data.Status.UPDATED) {
             updateView(newPosts);
         } else if (status === innovation.data.Status.NETWORK_ERROR) {
             //TODO
@@ -117,5 +118,5 @@ $(function () {
     };
 
     updateButtons();
-    innovation.data.update(new Listener());
+    innovation.data.update(currentIndex, new Listener());
 });

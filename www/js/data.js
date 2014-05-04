@@ -1,11 +1,12 @@
 (function () {
     "use strict";
 
+    var ARTICLES_LEFT_WHEN_UPDATE = 5;
+
     var innovation = window.innovation = window.innovation || {};
     innovation.data = innovation.data || {};
 
     innovation.data.Status = {};
-    innovation.data.Status.DONE = "done";
     innovation.data.Status.UPDATED = "updated";
     innovation.data.Status.NETWORK_ERROR = "network_error";
     innovation.data.Status.SERVER_ERROR = "server_error";
@@ -14,22 +15,24 @@
     var newPosts;
 
     var pagesCount;
-    var retrievedPagesCount;
+    var retrievedPagesCount = 0;
     var isRetrieving = false;
 
 
     var isNextPage = function () {
-        return pagesCount === undefined || retrievedPagesCount > pagesCount;
+        return pagesCount === undefined || retrievedPagesCount < pagesCount;
     };
 
     var getNextPage = function () {
 
-        var data = innovation.api.get(1);
+        var data = innovation.api.get(retrievedPagesCount + 1);
 
         if (pagesCount === undefined) {
             pagesCount = data.pages;
 //            console.log("pages: " + pagesCount);
         }
+
+        retrievedPagesCount++;
 
         return data.posts;
     };
@@ -45,11 +48,6 @@
 
     var update = function (listener) {
         try {
-            if (!isNextPage()) {
-                listener.status(innovation.data.Status.DONE);
-                return;
-            }
-
             newPosts = getNextPage();
             updatePostList(newPosts);
             listener.status(innovation.data.Status.UPDATED, newPosts);
@@ -73,10 +71,21 @@
      * u know
      * @param listener should have status(status)done(status)-function.
      */
-    innovation.data.update = function (listener) {
+    innovation.data.update = function (currentIndex, listener) {
         if (isRetrieving) {
             return;
         }
+
+        if (!isNextPage()) {
+            console.log("is no next page");
+            return;
+        }
+
+        if(postList !== undefined && postList.length > currentIndex + ARTICLES_LEFT_WHEN_UPDATE) {
+            console.log("dont update");
+            return;
+        }
+        console.log("update");
 
         isRetrieving = true;
         setTimeout(function () {

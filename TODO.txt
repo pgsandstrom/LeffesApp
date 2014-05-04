@@ -1,6 +1,8 @@
-Ladda in fler artiklar...
+Ska se snygg ut på alla skärmstorlekar
 
-comments
+"Loading" för att ladda in fler artiklar
+
+Felhantering (nätverk etc)
 
 add comments
 

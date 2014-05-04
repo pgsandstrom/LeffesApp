@@ -55,6 +55,15 @@ body {
     width: 100%;
 }
 
+#init-loading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gotham-Light';
+}
+
 .carousel {
     /*margin-top: 10px;*/
 }
