@@ -1,8 +1,4 @@
-Knappar funkar inte första gången på mobilen
-
 Ska se snygg ut på alla skärmstorlekar
-
-Felhantering enkel (nätverk etc)
 
 add comments
 
@@ -25,3 +21,5 @@ LÅG PRIO
 Felhantering avancerad (nätverk etc)
 
 Klicka på disablad knapp å du scrollas till toppen
+
+Knappar funkar inte första gången på mobilen

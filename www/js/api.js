@@ -12,11 +12,10 @@
     var innovation = window.innovation = window.innovation || {};
     innovation.api = innovation.api || {};
 
-
     /**
      * get the articles and stuff!
      * @param page 1-indexed
-     * @param callback callback that takes the data
+     * @param callback callback that takes the data (send null if error)
      */
     innovation.api.get = function (page, callback) {
         var url;
@@ -44,10 +43,10 @@
         var result;
         $.ajax({
             url: url,
-            success: function (data) {
+            success: function (data, textStatus, jqXHR) {
                 callback(data);
             },
-            error: function(data) {
+            error: function (jqXHR, textStatus, errorThrown) {
                 callback();
             },
             async: true

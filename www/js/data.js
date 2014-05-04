@@ -29,7 +29,13 @@
 
     var receivedNewPage = function (data) {
 
-        //TODO data is null if error...
+        //if error:
+        if(data === undefined) {
+            var firstPage = pagesCount === undefined;
+            innovation.view.retrieveError(firstPage);
+            isRetrieving = false;
+            return;
+        }
 
         if (pagesCount === undefined) {
             pagesCount = data.pages;

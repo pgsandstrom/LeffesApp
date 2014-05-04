@@ -78,7 +78,11 @@ $(function () {
             var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
             var date = post.date.split(' ')[0]; // Split after first space to avoid time of day.
-            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
+
+            //fix links in content:
+            var content = post.content;
+
+            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + content + '</div><div class="comments"></div></li>');
             $carousel.append($post);
 
             //fix comments:
@@ -109,9 +113,19 @@ $(function () {
         if (status === innovation.data.Status.UPDATED) {
             updateView(newPosts);
         } else if (status === innovation.data.Status.NETWORK_ERROR) {
-            //TODO
+            //TODO just nu använder vi retrieveError-funktionen...
         } else if (status === innovation.data.Status.SERVER_ERROR) {
-            //TODO
+            //TODO just nu använder vi retrieveError-funktionen...
+        }
+    };
+
+    /**
+     * There was an error retrieving data
+     * @param firstPage if it was the first page that failed
+     */
+    innovation.view.retrieveError = function (firstPage) {
+        if (firstPage) {
+            $('#init-loading').html("<div>Nätverksfel.</div><div>Var god starta om appen.</div>");
         }
     };
 
