@@ -16,8 +16,9 @@
     /**
      * get the articles and stuff!
      * @param page 1-indexed
+     * @param callback callback that takes the data
      */
-    innovation.api.get = function (page) {
+    innovation.api.get = function (page, callback) {
         var url;
 
         if (page === 1) {
@@ -44,16 +45,13 @@
         $.ajax({
             url: url,
             success: function (data) {
-                result = data;
+                callback(data);
             },
             error: function(data) {
-                //TODO
+                callback();
             },
-            async: false
+            async: true
         });
-
-        return result;
-
     };
 
 

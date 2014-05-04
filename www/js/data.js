@@ -24,8 +24,12 @@
     };
 
     var getNextPage = function () {
+        innovation.api.get(retrievedPagesCount + 1, receivedNewPage);
+    };
 
-        var data = innovation.api.get(retrievedPagesCount + 1);
+    var receivedNewPage = function (data) {
+
+        //TODO data is null if error...
 
         if (pagesCount === undefined) {
             pagesCount = data.pages;
@@ -34,7 +38,7 @@
 
         retrievedPagesCount++;
 
-        return data.posts;
+        update(data.posts);
     };
 
     var updatePostList = function (newPosts) {
@@ -46,32 +50,27 @@
     };
 
 
-    var update = function (listener) {
+    var update = function (newPosts) {
         try {
-            newPosts = getNextPage();
             updatePostList(newPosts);
-            listener.status(innovation.data.Status.UPDATED, newPosts);
+            innovation.view.update(innovation.data.Status.UPDATED, newPosts);
         } finally {
 //            console.log("finished update");
             isRetrieving = false;
         }
     };
 
-    innovation.data.getNewPosts = function () {
-        return newPosts;
-    };
+//    innovation.data.getNewPosts = function () {
+//        return newPosts;
+//    };
 
-    innovation.data.share = function(index) {
+    innovation.data.share = function (index) {
         var post = postList[index];
-        console.log("share " +post.title + " with url " +post.url);
+        console.log("share " + post.title + " with url " + post.url);
         innovation.share.link(post.title, post.url);
     };
 
-    /**
-     * u know
-     * @param listener should have status(status)done(status)-function.
-     */
-    innovation.data.update = function (currentIndex, listener) {
+    innovation.data.update = function (currentIndex) {
         if (isRetrieving) {
             return;
         }
@@ -81,16 +80,14 @@
             return;
         }
 
-        if(postList !== undefined && postList.length > currentIndex + ARTICLES_LEFT_WHEN_UPDATE) {
+        if (postList !== undefined && postList.length > currentIndex + ARTICLES_LEFT_WHEN_UPDATE) {
             console.log("dont update");
             return;
         }
         console.log("update");
 
         isRetrieving = true;
-        setTimeout(function () {
-            update(listener);
-        }, 0);
+        getNextPage();
     };
 
 })();

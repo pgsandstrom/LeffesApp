@@ -60,7 +60,7 @@ $(function () {
         });
 
         if (isNext) {
-            innovation.data.update(currentIndex, new Listener());
+            innovation.data.update(currentIndex);
         }
 
         updateButtons();
@@ -103,10 +103,8 @@ $(function () {
         updateButtons();
     };
 
-    var Listener = function Listener() {
-    };
 
-    Listener.prototype.status = function (status, newPosts) {
+    innovation.view.update = function (status, newPosts) {
 //        console.log("status update: " + status);
         if (status === innovation.data.Status.UPDATED) {
             updateView(newPosts);
@@ -118,5 +116,5 @@ $(function () {
     };
 
     updateButtons();
-    innovation.data.update(currentIndex, new Listener());
+    innovation.data.update(currentIndex);
 });
