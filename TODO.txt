@@ -16,8 +16,6 @@ stänga av push...
 
 Förhindra rotation
 
-Fixa appikon
-
 ---
 LÅG PRIO
 ---
@@ -25,3 +23,5 @@ LÅG PRIO
 "Loading" för att ladda in fler artiklar
 
 Felhantering avancerad (nätverk etc)
+
+Klicka på disablad knapp å du scrollas till toppen
