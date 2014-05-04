@@ -8,8 +8,6 @@ push
 
 stänga av push...
 
-Förhindra rotation
-
 Testa att länkar funkar på ios
 
 ---
@@ -23,3 +21,5 @@ Felhantering avancerad (nätverk etc)
 Klicka på disablad knapp å du scrollas till toppen
 
 Knappar funkar inte första gången på mobilen
+
+Fixa snygg rotation
