@@ -7,6 +7,13 @@
     <feature name="SocialMessage">
         <param name="android-package" value="uk.co.ilee.socialmessage.SocialMessage" />
     </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="PushNotificationPlugin">
+        <param name="android-package" value="com.urbanairship.phonegap.PushNotificationPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <name>TusenTips</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -19,4 +26,11 @@
     <preference name="Fullscreen" value="false" />
     <preference name="WebViewBounce" value="true" />
     <preference name="Orientation" value="portrait" />
+    <preference name="com.urbanairship.production_app_key" value="PRODUCTION_APP_KEY" />
+    <preference name="com.urbanairship.production_app_secret" value="PRODUCTION_APP_SECRET" />
+    <preference name="com.urbanairship.development_app_key" value="GPulvSYLTm6zy2sW438R3w" />
+    <preference name="com.urbanairship.development_app_secret" value="M0s9mNlYTuOBilfov07aHw" />
+    <preference name="com.urbanairship.in_production" value="false" />
+    <preference name="com.urbanairship.enable_push_onlaunch" value="true" />
+    <preference name="com.urbanairship.gcm_sender" value="tusentips1" />
 </widget>
