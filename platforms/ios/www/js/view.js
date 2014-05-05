@@ -11,7 +11,7 @@ $(function () {
     var itemCount = $('.carousel > li').length;
 
     $(".plus").on("click", function () {
-        //TODO öppna ett töntigt fönster
+        $('#comment-window').toggle();
     });
 
     $(".share").on("click", function () {
@@ -83,8 +83,7 @@ $(function () {
             var initClass = firstAdd ? 'active' : '';
             var date = post.date.split(' ')[0]; // Split after first space to avoid time of day.
 
-            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body"><a href="http://dn.se">hej2</a>' + post.content + '</div><div class="comments"></div></li>');
-//            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
+            var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
             $carousel.append($post);
 
             //fix links in content:
@@ -153,5 +152,5 @@ $(function () {
     };
 
     updateButtons();
-    innovation.data.update(currentIndex);
+//    innovation.data.update(currentIndex);
 });

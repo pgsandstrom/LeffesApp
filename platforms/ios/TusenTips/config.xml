@@ -19,8 +19,15 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
     <feature name="SocialMessage">
         <param name="ios-package" value="SocialMessage" />
+    </feature>
+    <feature name="PushNotificationPlugin">
+        <param name="ios-package" value="PushNotificationPlugin" />
+        <param name="onload" value="true" />
     </feature>
     <name>TusenTips</name>
     <description>
@@ -34,4 +41,11 @@
     <preference name="Fullscreen" value="false" />
     <preference name="WebViewBounce" value="true" />
     <preference name="Orientation" value="portrait" />
+    <preference name="com.urbanairship.production_app_key" value="PRODUCTION_APP_KEY" />
+    <preference name="com.urbanairship.production_app_secret" value="PRODUCTION_APP_SECRET" />
+    <preference name="com.urbanairship.development_app_key" value="GPulvSYLTm6zy2sW438R3w" />
+    <preference name="com.urbanairship.development_app_secret" value="M0s9mNlYTuOBilfov07aHw" />
+    <preference name="com.urbanairship.in_production" value="false" />
+    <preference name="com.urbanairship.enable_push_onlaunch" value="true" />
+    <preference name="com.urbanairship.gcm_sender" value="tusentips1" />
 </widget>
