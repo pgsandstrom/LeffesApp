@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <!--<meta name="viewport"-->
+    <!--content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>-->
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/carousel.css"/>
+
+    <title>Tusen tips</title>
+</head>
+<body>
+<!--<div id="fb-root"></div>-->
+<div id="page">
+
+    <!--<div id="header">-->
+    <!--<div id="header-black"></div>-->
+    <!--<div id="logo-container">-->
+    <!--<img id="header-logo" src="img/header.png" alt=""/>-->
+    <!--</div>-->
+    <!--</div>-->
+    <img id="title-full" src="img/title-full.png" alt=""/>
+
+    <div id="menu">
+        <div class="menu-item">
+            <a href="#" class="carousel-nav prev"></a>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="prev-disabled"></a>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="carousel-nav next"></a>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="next-disabled"></a>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="plus"></a>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="share"></a>
+        </div>
+    </div>
+
+    <img id="bottom_fade" src="img/bottom-fade.png" alt=""/>
+
+    <div id="init-loading">Laddar artiklar...</div>
+
+    <div id="content">
+        <ul class="carousel">
+        </ul>
+    </div>
+
+    <!--<div id="comment-window" style="display: none">-->
+    <div id="comment-window">
+        <div id="comment-background"></div>
+        <div id="comment-popup">
+            <textarea name="comment_input" id="comment_input" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/vendor/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="js/vendor/underscore-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    app.initialize();
+</script>
+</body>
+</html>
