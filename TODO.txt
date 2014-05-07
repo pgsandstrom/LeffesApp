@@ -1,14 +1,14 @@
 Ska se snygg ut på alla skärmstorlekar
 
-add comments
-
 "hamburgare"
 
-push
+push för android
 
 stänga av push...
 
 Hitta något länk-sätt som funkar... eller stäng av dem...
+
+Bättre felhantering så man inte behöver döda appen...
 
 ---
 LÅG PRIO

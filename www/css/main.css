@@ -144,7 +144,7 @@ body {
 }
 
 #comment-popup {
-    position: fixed;
+    position: absolute;
     background-color: #ffffff;
     top: 25%;
     width: 100%;
@@ -158,6 +158,7 @@ body {
 #comment-input {
     height: 300px;
     width: 100%;
+    font-size: 18px;
 }
 
 .comment-button {
@@ -184,6 +185,7 @@ body {
 .comment-extra {
     /*display: block;*/
     width: 49.5%;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 

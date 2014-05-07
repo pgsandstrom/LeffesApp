@@ -70,6 +70,10 @@
 //        return newPosts;
 //    };
 
+    innovation.data.getPost = function(index) {
+        return postList[index];
+    };
+
     innovation.data.share = function (index) {
         var post = postList[index];
         console.log("share " + post.title + " with url " + post.url);
