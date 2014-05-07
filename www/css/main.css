@@ -136,6 +136,7 @@ body {
 }
 
 #comment-background {
+    position: fixed;
     width: 100%;
     height: 100%;
     background-color: #000000;
@@ -143,7 +144,7 @@ body {
 }
 
 #comment-popup {
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     top: 25%;
     width: 100%;
@@ -178,6 +179,12 @@ body {
 
 #comment-cancel {
     background-color: red;
+}
+
+.comment-extra {
+    /*display: block;*/
+    width: 49.5%;
+    margin-bottom: 10px;
 }
 
 #menu {
