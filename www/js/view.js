@@ -30,32 +30,32 @@ $(function () {
 //        console.log("name: " + name);
 //        console.log("mail: " + mail);
 
-        if(text === '') {
+        if (text === '') {
             alert("Du måste ange en kommentar");
             return;
         }
-        if(name === '') {
+        if (name === '') {
             alert("Du måste ange ett namn");
             return;
         }
-        if(mail === '') {
+        if (mail === '') {
             alert("Du måste ange en mail");
             return;
         }
-        if(mail === '') {
+        if (mail === '') {
             alert("Du måste ange en mail");
             return;
         }
 
-        if(!validateEmail(mail)) {
+        if (!validateEmail(mail)) {
             alert("Du måste ange en giltig mail");
             return;
         }
 
         $("#comment-post").text("Skickar...");
 
-        innovation.api.postComment(post.id, name, mail, text, function(data) {
-            console.log("data: "+data);
+        innovation.api.postComment(post.id, name, mail, text, function (data) {
+            console.log("data: " + data);
             $('#comment-input').val('');
             $('#comment-name').val('');
             $('#comment-mail').val('');
@@ -141,13 +141,13 @@ $(function () {
 
             //this needs a plugin...
             //http://stackoverflow.com/questions/17887348/phonegap-open-link-in-browser
-//            var $aList = $post.find('a');
-//            $aList.each(function (index) {
-//                var $a = $(this);
-//                var href = $a.attr('href');
-//                $a.attr('href', '#');
-//                $a.attr('onclick', 'window.open("' + href + '", "_system");');
-//            });
+            var $aList = $post.find('a');
+            $aList.each(function (index) {
+                var $a = $(this);
+                var href = $a.attr('href');
+                $a.attr('href', '#');
+                $a.attr('onclick', 'window.open("' + href + '", "_system");');
+            });
 
             //does not work for iOS7:
 //            var $aList = $post.find('a');

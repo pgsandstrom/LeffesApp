@@ -43,6 +43,7 @@
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		E0DA0A14F2BF4D83AE3D03B5 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F195BF2DD76E4C0C81B726EA /* CDVDevice.m */; };
 		EB9C8C4EE69C45A08F68FB4B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B61E5A973C498F8033E394 /* Social.framework */; };
+		5F7E4C684E1246EFA70056AA /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B04672FC84497A78263DD /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,8 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = TusenTips/config.xml; sourceTree = "<group>"; };
 		FE67750896A44F619B4AD44A /* SocialMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialMessage.m; path = uk.co.ilee.socialmessage/SocialMessage.m; sourceTree = "<group>"; };
 		FE933F447F3240C2937FD973 /* UAAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UAAnalytics.h; path = com.urbanairship.phonegap.PushNotification/UAAnalytics.h; sourceTree = "<group>"; };
+		5B0B04672FC84497A78263DD /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "Plugins\org.apache.cordova.inappbrowser\CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		380D9C9A4E7B47BFA5B59552 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "Plugins\org.apache.cordova.inappbrowser\CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +404,8 @@
 				21BF88926C1D4C77A69640C1 /* UA_Reachability.h */,
 				FE67750896A44F619B4AD44A /* SocialMessage.m */,
 				AFE53E587B124AE89FA0BE5D /* SocialMessage.h */,
+				5B0B04672FC84497A78263DD /* CDVInAppBrowser.m */,
+				380D9C9A4E7B47BFA5B59552 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = TusenTips/Plugins;
@@ -582,6 +587,7 @@
 				E0DA0A14F2BF4D83AE3D03B5 /* CDVDevice.m in Sources */,
 				5ADB4C9784614C88BE247A3D /* PushNotificationPlugin.m in Sources */,
 				6271A78F21AD4B8EA62019FD /* SocialMessage.m in Sources */,
+				5F7E4C684E1246EFA70056AA /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
