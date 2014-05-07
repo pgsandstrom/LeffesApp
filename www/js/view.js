@@ -11,7 +11,16 @@ $(function () {
     var itemCount = $('.carousel > li').length;
 
     $(".plus").on("click", function () {
+        console.log("clicked plus");
         $('#comment-window').toggle();
+    });
+
+    $("#comment-cancel").on("click", function () {
+        $('#comment-window').toggle();
+    });
+
+    $("#comment-post").on("click", function () {
+        console.log("POST LE COMMENT!");
     });
 
     $(".share").on("click", function () {

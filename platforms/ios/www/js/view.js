@@ -11,6 +11,7 @@ $(function () {
     var itemCount = $('.carousel > li').length;
 
     $(".plus").on("click", function () {
+        console.log("clicked plus");
         $('#comment-window').toggle();
     });
 
@@ -98,13 +99,14 @@ $(function () {
 //                $a.attr('onclick', 'window.open("' + href + '", "_system");');
 //            });
 
-            var $aList = $post.find('a');
-            $aList.each(function (index) {
-                var $a = $(this);
-                var href = $a.attr('href');
-                $a.attr('href', '#');
-                $a.attr('onclick', "navigator.app.loadUrl('" + href + "', { openExternal:true });");
-            });
+            //does not work for iOS7:
+//            var $aList = $post.find('a');
+//            $aList.each(function (index) {
+//                var $a = $(this);
+//                var href = $a.attr('href');
+//                $a.attr('href', '#');
+//                $a.attr('onclick', "navigator.app.loadUrl('" + href + "', { openExternal:true });");
+//            });
 
 
             //fix comments:
@@ -152,5 +154,5 @@ $(function () {
     };
 
     updateButtons();
-//    innovation.data.update(currentIndex);
+    innovation.data.update(currentIndex);
 });

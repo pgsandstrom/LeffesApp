@@ -8,7 +8,7 @@ push
 
 stänga av push...
 
-Testa att länkar funkar på ios
+Hitta något länk-sätt som funkar... eller stäng av dem...
 
 ---
 LÅG PRIO

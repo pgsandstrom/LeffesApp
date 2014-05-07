@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0424A550F1DA438DB9FDA1D1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF43FB1CFB2948A38E638ACF /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
