@@ -59,7 +59,7 @@ body {
     width: 100%;
 }
 
-#init-loading {
+.big-message {
     position: absolute;
     top: 50%;
     width: 100%;

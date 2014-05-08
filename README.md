@@ -13,3 +13,6 @@ cordova plugin add https://github.com/leecrossley/cordova-plugin-social-message.
 
 https://github.com/urbanairship/phonegap-ua-push
 cordova plugin add https://github.com/urbanairship/phonegap-ua-push.git
+
+https://github.com/apache/cordova-plugin-inappbrowser/blob/master/doc/index.md
+cordova plugin add org.apache.cordova.inappbrowser
