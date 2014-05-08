@@ -10,6 +10,22 @@ $(function () {
 
     var itemCount = $('.carousel > li').length;
 
+    $('input').click(function () {
+        // Detta är ett fulhack som kommer behöva fixas när vi inför fler settings
+        var inputStuff = $(this);
+//        var checked = inputStuff.attr('checked');
+        var checked = inputStuff[0].checked;
+        console.log("checked: " + checked);
+
+        if(checked) {
+            //TODO fixa så denna har någon effekt
+        }
+    });
+
+    $("#hamburger").on("click", function () {
+        $("#settings").toggleClass("settings-open");
+    });
+
     $(".reload").on("click", function () {
         $('#init-loading').show();
         $('#network-error').hide();

@@ -6,8 +6,6 @@ push för android
 
 stänga av push...
 
-Bättre felhantering så man inte behöver döda appen...
-
 ---
 LÅG PRIO
 ---
