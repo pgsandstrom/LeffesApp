@@ -34,6 +34,6 @@
     <preference name="com.urbanairship.development_app_key" value="GPulvSYLTm6zy2sW438R3w" />
     <preference name="com.urbanairship.development_app_secret" value="M0s9mNlYTuOBilfov07aHw" />
     <preference name="com.urbanairship.in_production" value="false" />
-    <preference name="com.urbanairship.enable_push_onlaunch" value="true" />
-    <preference name="com.urbanairship.gcm_sender" value="tusentips1" />
+    <preference name="com.urbanairship.enable_push_onlaunch" value="false" />
+    <preference name="com.urbanairship.gcm_sender" value="1038001972805" />
 </widget>

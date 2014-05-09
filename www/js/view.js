@@ -15,12 +15,16 @@ $(function () {
         var inputStuff = $(this);
 //        var checked = inputStuff.attr('checked');
         var checked = inputStuff[0].checked;
-        console.log("checked: " + checked);
-
-        if(checked) {
-            //TODO fixa så denna har någon effekt
-        }
+        innovation.push.setPush(checked);
     });
+
+    innovation.view.setPushCheckbox = function (active) {
+        if (active && active !== "false") {
+            $('input')[0].checked = active;
+        } else {
+            $('input')[0].checked = undefined;
+        }
+    };
 
     $("#hamburger").on("click", function () {
         $("#settings").toggleClass("settings-open");
@@ -231,4 +235,11 @@ $(function () {
 
     updateButtons();
     innovation.data.update(currentIndex);
+
+    //ful lösning, men här initeras push:
+    //vänta nån sekund, jag tror biblioteket måste laddas eller nåt...
+    setTimeout(function () {
+        innovation.push.init();
+    }, 1000);
+
 });
