@@ -4,6 +4,7 @@
     height: 100%;
     background-color: #444444;
     z-index: 500;
+    pointer-events: auto;
     -webkit-transition: width 300ms ease-in-out, height 300ms ease-in-out;
     -moz-transition: width 300ms ease-in-out, height 300ms ease-in-out;
     -o-transition: width 300ms ease-in-out, height 300ms ease-in-out;
