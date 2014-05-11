@@ -22,6 +22,9 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
     <feature name="SocialMessage">
         <param name="ios-package" value="SocialMessage" />
     </feature>
@@ -48,7 +51,4 @@
     <preference name="com.urbanairship.in_production" value="false" />
     <preference name="com.urbanairship.enable_push_onlaunch" value="true" />
     <preference name="com.urbanairship.gcm_sender" value="tusentips1" />
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
-    </feature>
 </widget>

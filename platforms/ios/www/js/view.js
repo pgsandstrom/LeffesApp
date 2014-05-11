@@ -15,6 +15,56 @@ $(function () {
         $('#comment-window').toggle();
     });
 
+    $("#comment-cancel").on("click", function () {
+        $('#comment-window').hide();
+    });
+
+    $("#comment-post").on("click", function () {
+        var post = innovation.data.getPost(currentIndex);
+        var text = $('#comment-input').val();
+        var name = $('#comment-name').val();
+        var mail = $('#comment-mail').val();
+
+//        console.log("id: " + post.id);
+//        console.log("text: " + text);
+//        console.log("name: " + name);
+//        console.log("mail: " + mail);
+
+        if (text === '') {
+            alert("Du måste ange en kommentar");
+            return;
+        }
+        if (name === '') {
+            alert("Du måste ange ett namn");
+            return;
+        }
+        if (mail === '') {
+            alert("Du måste ange en mail");
+            return;
+        }
+        if (mail === '') {
+            alert("Du måste ange en mail");
+            return;
+        }
+
+        if (!validateEmail(mail)) {
+            alert("Du måste ange en giltig mail");
+            return;
+        }
+
+        $("#comment-post").text("Skickar...");
+
+        innovation.api.postComment(post.id, name, mail, text, function (data) {
+            console.log("data: " + data);
+            $('#comment-input').val('');
+            $('#comment-name').val('');
+            $('#comment-mail').val('');
+            $("#comment-post").text("SKICKA");
+            $('#comment-window').hide();
+            alert("Ditt meddelande väntar nu godkännande innan publicering");
+        });
+    });
+
     $(".share").on("click", function () {
         innovation.data.share(currentIndex);
     });
@@ -91,13 +141,13 @@ $(function () {
 
             //this needs a plugin...
             //http://stackoverflow.com/questions/17887348/phonegap-open-link-in-browser
-//            var $aList = $post.find('a');
-//            $aList.each(function (index) {
-//                var $a = $(this);
-//                var href = $a.attr('href');
-//                $a.attr('href', '#');
-//                $a.attr('onclick', 'window.open("' + href + '", "_system");');
-//            });
+            var $aList = $post.find('a');
+            $aList.each(function (index) {
+                var $a = $(this);
+                var href = $a.attr('href');
+                $a.attr('href', '#');
+                $a.attr('onclick', 'window.open("' + href + '", "_system");');
+            });
 
             //does not work for iOS7:
 //            var $aList = $post.find('a');
@@ -131,6 +181,10 @@ $(function () {
         updateButtons();
     };
 
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
 
     innovation.view.update = function (status, newPosts) {
 //        console.log("status update: " + status);

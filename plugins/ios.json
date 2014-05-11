@@ -13,11 +13,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SocialMessage\"><param name=\"ios-package\" value=\"SocialMessage\" /></feature>",
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "xml": "<feature name=\"SocialMessage\"><param name=\"ios-package\" value=\"SocialMessage\" /></feature>",
                             "count": 1
                         }
                     ],
@@ -109,10 +109,10 @@
         "com.urbanairship.phonegap.PushNotification": {
             "PACKAGE_NAME": "se.tusentips.app"
         },
-        "uk.co.ilee.socialmessage": {
+        "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "se.tusentips.app"
         },
-        "org.apache.cordova.inappbrowser": {
+        "uk.co.ilee.socialmessage": {
             "PACKAGE_NAME": "se.tusentips.app"
         }
     },
