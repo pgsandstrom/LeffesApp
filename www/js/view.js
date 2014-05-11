@@ -27,7 +27,10 @@ $(function () {
     };
 
     $("#hamburger").on("click", function () {
-        $("#settings").toggleClass("settings-open");
+        $("#settings").toggle();
+        setTimeout(function () {
+            $("#settings").toggleClass("settings-open");
+        }, 1);
     });
 
     $(".reload").on("click", function () {
