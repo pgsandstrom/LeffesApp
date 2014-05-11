@@ -1,14 +1,22 @@
-Ska se snygg ut på alla skärmstorlekar
+Ska se snygg ut på alla skärmstorlekar. Är det redan så?
+
+* när sker pushen? Vid publicering eller när posten skapas?
 
 push för android... verkar inte funka från wordpress
 
-hur länge cacheas datan? Längre än en dag?
+* hur länge cacheas datan? Längre än en dag?
 
-Knappar funkar inte första gången på mobilen
+Man ska scrolla till höger numera...
 
 ---
 LÅG PRIO
 ---
+
+Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
+
+Settings ska inte "tryckas ihop" när menyn glider in/ut
+
+Man kan scrolla ner när settings är öppet om artikeln bakom är lång
 
 "Loading" för att ladda in fler artiklar
 
