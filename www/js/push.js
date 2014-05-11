@@ -104,6 +104,17 @@
         }
     };
 
+    //ios reset badge:
+    var devicePlatform = device.platform;
+    console.log("devicePlatform: \"" + devicePlatform + "\"");
+    if (devicePlatform === "iPhone") {
+        console.log("gonna reset badge!");
+        PushNotification.resetBadge(function (data) {
+            console.log("resetBadge callback");
+        });
+    }
+
+
     //set this to return to "first boot"-state.
 //    localStorage.removeItem(PUSH);
 
