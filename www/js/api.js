@@ -26,7 +26,8 @@
             error: function (jqXHR, textStatus, errorThrown) {
                 callback();
             },
-            async: true
+            async: true,
+            cache: false
         });
     };
 
@@ -66,7 +67,8 @@
             error: function (jqXHR, textStatus, errorThrown) {
                 callback();
             },
-            async: true
+            async: true,
+            cache: false
         });
     };
 
