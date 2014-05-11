@@ -14,7 +14,9 @@
 }
 
 *, *:before, *:after {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -55,11 +57,26 @@ body {
     width: 100%;
 }
 
+#settings-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    pointer-events: none;
+}
+
+#hamburger {
+    float: right;
+    pointer-events: auto;
+}
+
 #content {
     width: 100%;
 }
 
-#init-loading {
+.big-message {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -214,6 +231,12 @@ body {
     display: none;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .menu-item {
     display: inline-block;
     width: 24%;
@@ -224,42 +247,66 @@ body {
     display: inline-block;
 }
 
-a.prev:link {
-    content: url('../img/prev.png');
-}
+/*a.prev:link {*/
+/*content: url('../img/prev.png');*/
+/*}*/
 
-a.prev:active {
-    content: url('../img/prev-pressed.png');
+/*a.prev:active {*/
+/*content: url('../img/prev-pressed.png');*/
+/*}*/
+
+/*a.prev-disabled:link {*/
+/*content: url('../img/prev-disabled.png');*/
+/*}*/
+
+/*a.next:link {*/
+/*content: url('../img/next.png');*/
+/*}*/
+
+/*a.next:active {*/
+/*content: url('../img/next-pressed.png');*/
+/*}*/
+
+/*a.next-disabled:link {*/
+/*content: url('../img/next-disabled.png');*/
+/*}*/
+
+/*a.plus:link {*/
+/*content: url('../img/plus.png');*/
+/*}*/
+
+/*a.plus:active {*/
+/*content: url('../img/plus-pressed.png');*/
+/*}*/
+
+/*a.share:link {*/
+/*content: url('../img/share.png');*/
+/*}*/
+
+/*a.share:active {*/
+/*content: url('../img/share-pressed.png');*/
+/*}*/
+
+a.prev {
+    content: url('../img/prev.png');
 }
 
 a.prev-disabled:link {
     content: url('../img/prev-disabled.png');
 }
 
-a.next:link {
+a.next {
     content: url('../img/next.png');
-}
-
-a.next:active {
-    content: url('../img/next-pressed.png');
 }
 
 a.next-disabled:link {
     content: url('../img/next-disabled.png');
 }
 
-a.plus:link {
+a.plus {
     content: url('../img/plus.png');
 }
 
-a.plus:active {
-    content: url('../img/plus-pressed.png');
-}
-
-a.share:link {
+a.share {
     content: url('../img/share.png');
-}
-
-a.share:active {
-    content: url('../img/share-pressed.png');
 }

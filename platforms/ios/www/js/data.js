@@ -94,7 +94,7 @@
             console.log("dont update");
             return;
         }
-        console.log("update");
+//        console.log("update");
 
         isRetrieving = true;
         getNextPage();
