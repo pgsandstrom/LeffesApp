@@ -243,6 +243,7 @@ $(function () {
     //vänta nån sekund, jag tror biblioteket måste laddas eller nåt...
     setTimeout(function () {
         innovation.push.init();
+        innovation.push.resetBadge();
     }, 1000);
 
 });
