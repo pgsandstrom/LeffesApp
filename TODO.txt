@@ -6,8 +6,6 @@ push för android... verkar inte funka från wordpress
 
 * hur länge cacheas datan? Längre än en dag?
 
-Man ska scrolla till höger numera...
-
 ---
 LÅG PRIO
 ---
