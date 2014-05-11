@@ -104,6 +104,44 @@
         }
     };
 
+    innovation.push.resetBadge = function () {
+        try {
+            var devicePlatform = window.device.platform;
+            console.log("devicePlatform: \"" + devicePlatform + "\"");
+            if (devicePlatform === "iPhone") {
+                console.log("gonna reset badge!");
+                PushNotification.resetBadge(function (data) {
+                    console.log("resetBadge callback");
+                });
+            } else {
+                console.log("This is not iPhone, not resetting badge");
+            }
+        } catch (e) {
+            console.log("failed to detect device and reset badge: " + e);
+        }
+    };
+
+    document.addEventListener("resume",
+        function () {
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            console.log("resume!!");
+            innovation.push.resetBadge();
+        }, false);
+
+
     //set this to return to "first boot"-state.
 //    localStorage.removeItem(PUSH);
 
