@@ -22,7 +22,7 @@
 	<!-- If the app is in production or not -->
 	<preference name="com.urbanairship.in_production" value="false" />
 	<!-- Enable push when the application launches (instead of waiting for enablePush js call).  Defaults to false -->
-	<preference name="com.urbanairship.enable_push_onlaunch" value="true" />
+	<preference name="com.urbanairship.enable_push_onlaunch" value="false" />
 	<!-- Only required for Android. -->
-	<preference name="com.urbanairship.gcm_sender" value="tusentips1" />
+	<preference name="com.urbanairship.gcm_sender" value="1038001972805" />
 </widget>

@@ -10,6 +10,35 @@ $(function () {
 
     var itemCount = $('.carousel > li').length;
 
+    $('input').click(function () {
+        // Detta är ett fulhack som kommer behöva fixas när vi inför fler settings
+        var inputStuff = $(this);
+//        var checked = inputStuff.attr('checked');
+        var checked = inputStuff[0].checked;
+        innovation.push.setPush(checked);
+    });
+
+    innovation.view.setPushCheckbox = function (active) {
+        if (active && active !== "false") {
+            $('input')[0].checked = active;
+        } else {
+            $('input')[0].checked = undefined;
+        }
+    };
+
+    $("#hamburger").on("click", function () {
+        $("#settings").toggle();
+        setTimeout(function () {
+            $("#settings").toggleClass("settings-open");
+        }, 1);
+    });
+
+    $(".reload").on("click", function () {
+        $('#init-loading').show();
+        $('#network-error').hide();
+        innovation.data.update(currentIndex);
+    });
+
     $(".plus").on("click", function () {
         console.log("clicked plus");
         $('#comment-window').toggle();
@@ -126,6 +155,7 @@ $(function () {
     var updateView = function (newPosts) {
 //        console.log("update view");
         $('#init-loading').hide();
+        $('#network-error').hide();
 
 //        newPosts.forEach(function (post) {
         _.each(newPosts, function (post) {
@@ -138,8 +168,7 @@ $(function () {
             $carousel.append($post);
 
             //fix links in content:
-
-            //this needs a plugin...
+            //this requires a plugin...
             //http://stackoverflow.com/questions/17887348/phonegap-open-link-in-browser
             var $aList = $post.find('a');
             $aList.each(function (index) {
@@ -149,7 +178,7 @@ $(function () {
                 $a.attr('onclick', 'window.open("' + href + '", "_system");');
             });
 
-            //does not work for iOS7:
+            //this link-fix does not work for iOS7:
 //            var $aList = $post.find('a');
 //            $aList.each(function (index) {
 //                var $a = $(this);
@@ -157,7 +186,6 @@ $(function () {
 //                $a.attr('href', '#');
 //                $a.attr('onclick', "navigator.app.loadUrl('" + href + "', { openExternal:true });");
 //            });
-
 
             //fix comments:
             var $comments = $post.find('.comments');
@@ -203,10 +231,18 @@ $(function () {
      */
     innovation.view.retrieveError = function (firstPage) {
         if (firstPage) {
-            $('#init-loading').html("<div>Nätverksfel.</div><div>Var god starta om appen.</div>");
+            $('#init-loading').hide();
+            $('#network-error').show();
         }
     };
 
     updateButtons();
     innovation.data.update(currentIndex);
+
+    //ful lösning, men här initeras push:
+    //vänta nån sekund, jag tror biblioteket måste laddas eller nåt...
+    setTimeout(function () {
+        innovation.push.init();
+    }, 1000);
+
 });

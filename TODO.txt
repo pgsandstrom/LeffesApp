@@ -1,25 +1,27 @@
-Ska se snygg ut på alla skärmstorlekar
+Ska se snygg ut på alla skärmstorlekar. Är det redan så?
 
-"hamburgare"
+* när sker pushen? Vid publicering eller när posten skapas?
 
-push för android
+push för android... verkar inte funka från wordpress
 
-stänga av push...
+* hur länge cacheas datan? Längre än en dag?
 
-Hitta något länk-sätt som funkar... eller stäng av dem...
-
-Bättre felhantering så man inte behöver döda appen...
+Man ska scrolla till höger numera...
 
 ---
 LÅG PRIO
 ---
+
+Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
+
+Settings ska inte "tryckas ihop" när menyn glider in/ut
+
+Man kan scrolla ner när settings är öppet om artikeln bakom är lång
 
 "Loading" för att ladda in fler artiklar
 
 Felhantering avancerad (nätverk etc)
 
 Klicka på disablad knapp å du scrollas till toppen
-
-Knappar funkar inte första gången på mobilen
 
 Fixa snygg rotation
