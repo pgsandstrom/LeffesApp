@@ -1,10 +1,12 @@
 Ska se snygg ut på alla skärmstorlekar. Är det redan så?
 
-* när sker pushen? Vid publicering eller när posten skapas?
+* Fixa pluginet till wordpress så det pushar när sakerna blir publicerade... å kolla så den funkar för ios också
 
 ---
 LÅG PRIO
 ---
+
+slide för att stänga settings...
 
 Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
 

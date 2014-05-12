@@ -4,13 +4,13 @@ ANDROID
 Setup
 -----
 Installera cordova, phonegap ger bara problem: https://cordova.apache.org/
-Fixa alla miljövariabler: Java, Android, Ant
+Fixa alla miljÃ¶variabler: Java, Android, Ant
 
 Skapa projekt
 -------------
 tror det var typ "create ./ se.tusentips.app LeffesApp"
 
-Kör följande kommando för att fixa plugin:
+KÃ¶r fÃ¶ljande kommando fÃ¶r att fixa plugin:
 cordova plugin add https://github.com/leecrossley/cordova-plugin-social-message.git
 
 
@@ -22,7 +22,17 @@ Bygg
 ----
 cordova build android
 
-sen hitta apk och kör:
+sen hitta apk och kÃ¶r:
 adb install -r *apk-namn*
-eller om du inte vill behålla datan:
+eller om du inte vill behÃ¥lla datan:
 adb uninstall se.tusentips.app & adb install *apk-namn*
+
+Bygg fÃ¶r release
+----
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore C:\work\keystore_tusentips.keystore C:\work\TusenTips-release-unsigned.apk TusenTips
+
+jarsigner -verify C:\work\TusenTips-release-unsigned.apk
+
+zipalign 4 C:\work\TusenTips-signed.apk C:\work\Tusentips.apk
+
+keystore pass: **********************

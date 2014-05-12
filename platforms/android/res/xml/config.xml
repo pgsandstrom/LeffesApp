@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="se.tusentips.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="se.tusentips.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
@@ -29,8 +29,8 @@
     <preference name="Fullscreen" value="false" />
     <preference name="WebViewBounce" value="true" />
     <preference name="Orientation" value="portrait" />
-    <preference name="com.urbanairship.production_app_key" value="PRODUCTION_APP_KEY" />
-    <preference name="com.urbanairship.production_app_secret" value="PRODUCTION_APP_SECRET" />
+    <preference name="com.urbanairship.production_app_key" value="U-XGsW7EQ1SkrXhsMUEWhw" />
+    <preference name="com.urbanairship.production_app_secret" value="FGO3dQ0JQbaLHB9bTXTeFg" />
     <preference name="com.urbanairship.development_app_key" value="GPulvSYLTm6zy2sW438R3w" />
     <preference name="com.urbanairship.development_app_secret" value="M0s9mNlYTuOBilfov07aHw" />
     <preference name="com.urbanairship.in_production" value="false" />
