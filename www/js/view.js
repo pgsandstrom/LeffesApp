@@ -27,10 +27,21 @@ $(function () {
     };
 
     $("#hamburger").on("click", function () {
-        $("#settings").toggle();
-        setTimeout(function () {
-            $("#settings").toggleClass("settings-open");
-        }, 1);
+        var $settings = $("#settings");
+        var settingsVisible = $("#settings").is(":visible");
+        if (settingsVisible) {
+            $settings.bind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd", function () {
+                $settings.toggle();
+                $settings.unbind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd");
+            });
+            $settings.toggleClass("settings-open");
+        } else {
+            $settings.toggle();
+            setTimeout(function () {
+                $settings.toggleClass("settings-open");
+            }, 1);
+        }
+
     });
 
     $(".reload").on("click", function () {
