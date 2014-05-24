@@ -52,6 +52,6 @@ var app = {
 };
 
 //Uncomment to make stuff load when developing on computer:
-setTimeout(function () {
-    app.onDeviceReady();
-}, 50);
+//setTimeout(function () {
+//    app.onDeviceReady();
+//}, 250);
