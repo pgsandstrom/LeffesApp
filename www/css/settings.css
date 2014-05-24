@@ -16,8 +16,13 @@
     padding-right: 10px;
 }
 
+.setting-row a {
+    font-family: 'Gotham-Light';
+    color: white !important;
+}
+
 .settings-text {
-    float:left;
+    float: left;
     font-family: 'Gotham-Light';
     display: inline-block;
     color: white;
@@ -37,7 +42,7 @@ input[type=checkbox] {
 }
 
 .squaredOne {
-    float:left;
+    float: left;
     width: 28px;
     height: 28px;
     background: #fcfff4;
