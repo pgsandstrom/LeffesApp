@@ -66,10 +66,6 @@
         }
     };
 
-//    innovation.data.getNewPosts = function () {
-//        return newPosts;
-//    };
-
     innovation.data.getPost = function(index) {
         return postList[index];
     };

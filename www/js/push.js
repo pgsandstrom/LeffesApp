@@ -10,22 +10,7 @@
     document.addEventListener("urbanairship.registration", function (event) {
         if (event.error) {
             console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
-            console.log('there was an error registering for push notifications');
         } else {
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
-            console.log("Registered with ID: " + event.pushID);
             console.log("Registered with ID: " + event.pushID);
         }
     }, false);
@@ -44,39 +29,16 @@
 
         if (active) {
             console.log("ENABLE PUSH");
-            console.log("ENABLE PUSH");
-            console.log("ENABLE PUSH");
-            console.log("ENABLE PUSH");
-            console.log("ENABLE PUSH");
             try {
                 PushNotification.enablePush();
             } catch (e) {
                 console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
-                console.log("failed to enable push: " + e);
             }
         } else {
-            console.log("DISABLE PUSH");
-            console.log("DISABLE PUSH");
-            console.log("DISABLE PUSH");
-            console.log("DISABLE PUSH");
             console.log("DISABLE PUSH");
             try {
                 PushNotification.disablePush();
             } catch (e) {
-                console.log("failed to disable push: " + e);
-                console.log("failed to disable push: " + e);
-                console.log("failed to disable push: " + e);
-                console.log("failed to disable push: " + e);
-                console.log("failed to disable push: " + e);
-                console.log("failed to disable push: " + e);
-                console.log("failed to disable push: " + e);
                 console.log("failed to disable push: " + e);
             }
         }
@@ -94,6 +56,7 @@
     };
 
     innovation.push.init = function () {
+        console.log("innovation.push.init");
         var active = localStorage.getItem(PUSH);
         if (active === undefined || active === null) {
             console.log("push was undefined, setting to true");
@@ -105,6 +68,7 @@
     };
 
     innovation.push.resetBadge = function () {
+        console.log("resetBadge");
         try {
             var devicePlatform = window.device.platform;
             console.log("devicePlatform: \"" + devicePlatform + "\"");
@@ -120,27 +84,6 @@
             console.log("failed to detect device and reset badge: " + e);
         }
     };
-
-    document.addEventListener("resume",
-        function () {
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            console.log("resume!!");
-            innovation.push.resetBadge();
-        }, false);
-
 
     //set this to return to "first boot"-state.
 //    localStorage.removeItem(PUSH);

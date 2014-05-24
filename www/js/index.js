@@ -19,7 +19,6 @@
 var app = {
     // Application Constructor
     initialize: function() {
-//        console.log("init");
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -28,24 +27,26 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener('resume', this.onResume, false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-//        console.log("device ready");
-        app.receivedEvent('deviceready');
-//        console.log("device ready done");
+        console.log("onDeviceReady");
+        if (window.jQuery) {
+            innovation.push.init();
+            app.onResume();
+        } else {
+            setTimeout(function () {
+                app.onDeviceReady();
+            }, 100);
+        }
     },
-    receivedEvent: function(id) {
-//        var parentElement = document.getElementById(id);
-//        var listeningElement = parentElement.querySelector('.listening');
-//        var receivedElement = parentElement.querySelector('.received');
-//
-//        listeningElement.setAttribute('style', 'display:none;');
-//        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
+    onResume: function() {
+        console.log("onResume");
+        innovation.push.resetBadge();
+        innovation.view.resetView();
     }
 };

@@ -247,14 +247,11 @@ $(function () {
         }
     };
 
-    updateButtons();
-    innovation.data.update(currentIndex);
+    innovation.view.resetView = function () {
+        //TODO denna ska funka...
+        updateButtons();
+        innovation.data.update(currentIndex);
+    };
 
-    //ful lösning, men här initeras push:
-    //vänta nån sekund, jag tror biblioteket måste laddas eller nåt...
-    setTimeout(function () {
-        innovation.push.init();
-        innovation.push.resetBadge();
-    }, 1000);
 
 });

@@ -21,3 +21,14 @@ Felhantering avancerad (nätverk etc)
 Klicka på disablad knapp å du scrollas till toppen
 
 Fixa snygg rotation
+
+
+
+
+new:
+
+kommentarer måste vara tydligare i appen
+
+ikonerna till ios är fula
+
+iOS refreshar inte artiklar när den öppnas å redan låg i minnet. Fixat?
