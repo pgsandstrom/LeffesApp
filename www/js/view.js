@@ -170,9 +170,12 @@ $(function () {
 
 //        newPosts.forEach(function (post) {
         _.each(newPosts, function (post) {
-            //TODO: This is some ugly code right here
+            //TODO: This is some ugly code right here. It should be split up.
+
+            //If this is the first post to add, set it as active
             var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
+
             var date = post.date.split(' ')[0]; // Split after first space to avoid time of day.
 
             var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
@@ -225,15 +228,8 @@ $(function () {
         return re.test(email);
     }
 
-    innovation.view.update = function (status, newPosts) {
-//        console.log("status update: " + status);
-        if (status === innovation.data.Status.UPDATED) {
-            updateView(newPosts);
-        } else if (status === innovation.data.Status.NETWORK_ERROR) {
-            //TODO just nu använder vi retrieveError-funktionen...
-        } else if (status === innovation.data.Status.SERVER_ERROR) {
-            //TODO just nu använder vi retrieveError-funktionen...
-        }
+    innovation.view.update = function (newPosts) {
+        updateView(newPosts);
     };
 
     /**
@@ -248,8 +244,13 @@ $(function () {
     };
 
     innovation.view.resetView = function () {
-        //TODO denna ska funka...
+        $('#init-loading').show();
+        $carousel.empty();
+        currentIndex = 0;
+        itemCount = $('.carousel > li').length;
+
         updateButtons();
+        innovation.data.reset();
         innovation.data.update(currentIndex);
     };
 

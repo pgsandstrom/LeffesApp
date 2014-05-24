@@ -50,3 +50,8 @@ var app = {
         innovation.view.resetView();
     }
 };
+
+//Uncomment to make stuff load when developing on computer:
+setTimeout(function () {
+    app.onDeviceReady();
+}, 50);
