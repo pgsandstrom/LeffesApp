@@ -1,14 +1,32 @@
-#settings {
+#hamburger {
     float: right;
-    width: 0%;
+    pointer-events: auto;
+    -webkit-transition: margin 300ms ease-in-out;
+    -moz-transition: margin 300ms ease-in-out;
+    -o-transition: margin 300ms ease-in-out;
+    transition: margin 300ms ease-in-out;
+}
+
+.hamburger-open {
+    margin-right: 70%;
+}
+
+#settings {
+    position: fixed;
+    right: -70%;
+    width: 70%;
     height: 100%;
     background-color: #444444;
     z-index: 500;
     pointer-events: auto;
-    -webkit-transition: width 300ms ease-in-out, height 300ms ease-in-out;
-    -moz-transition: width 300ms ease-in-out, height 300ms ease-in-out;
-    -o-transition: width 300ms ease-in-out, height 300ms ease-in-out;
-    transition: width 300ms ease-in-out, height 300ms ease-in-out;
+    -webkit-transition: right 300ms ease-in-out;
+    -moz-transition: right 300ms ease-in-out;
+    -o-transition: right 300ms ease-in-out;
+    transition: right 300ms ease-in-out;
+}
+
+.settings-open {
+    right: 0px !important;
 }
 
 .setting-row {
@@ -31,10 +49,6 @@
 
 .settings-label {
     padding-top: 27px;
-}
-
-.settings-open {
-    width: 70% !important;
 }
 
 input[type=checkbox] {

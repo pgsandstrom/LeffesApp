@@ -67,11 +67,6 @@ body {
     pointer-events: none;
 }
 
-#hamburger {
-    float: right;
-    pointer-events: auto;
-}
-
 #content {
     width: 100%;
 }

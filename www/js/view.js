@@ -27,6 +27,7 @@ $(function () {
     };
 
     $("#hamburger").on("click", function () {
+        var $hamburger = $("#hamburger");
         var $settings = $("#settings");
         var settingsVisible = $("#settings").is(":visible");
         if (settingsVisible) {
@@ -35,10 +36,12 @@ $(function () {
                 $settings.unbind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd");
             });
             $settings.toggleClass("settings-open");
+            $hamburger.toggleClass("hamburger-open");
         } else {
             $settings.toggle();
             setTimeout(function () {
                 $settings.toggleClass("settings-open");
+                $hamburger.toggleClass("hamburger-open");
             }, 1);
         }
 
