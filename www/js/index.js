@@ -27,7 +27,6 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.addEventListener('resume', this.onResume, false);
     },
     // deviceready Event Handler
     //
@@ -35,9 +34,12 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         console.log("onDeviceReady");
+
         if (window.jQuery) {
             innovation.push.init();
             app.onResume();
+            //According to the API, it is better to add other listeners after deviceready:
+            document.addEventListener('resume', this.onResume, false);
         } else {
             setTimeout(function () {
                 app.onDeviceReady();
