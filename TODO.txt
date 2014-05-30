@@ -11,8 +11,6 @@ slide för att stänga settings...
 
 Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
 
-Settings ska inte "tryckas ihop" när menyn glider in/ut
-
 Man kan scrolla ner när settings är öppet om artikeln bakom är lång
 
 "Loading" för att ladda in fler artiklar
