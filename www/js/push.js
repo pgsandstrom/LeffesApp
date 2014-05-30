@@ -65,6 +65,18 @@
             console.log("push was set, setting interface to " + active);
             innovation.view.setPushCheckbox(active);
         }
+
+        //enable autobadge, I don't know if this improves the badge handeling though...
+        try {
+            var devicePlatform = window.device.platform;
+            if (devicePlatform === "iPhone") {
+                PushNotification.setAutobadgeEnabled(true, function (data) {
+                    console.log("setAutobadgeEnabled callback");
+                });
+            }
+        } catch (e) {
+            console.log("failed to detect device and activate autobadge: " + e);
+        }
     };
 
     innovation.push.resetBadge = function () {
