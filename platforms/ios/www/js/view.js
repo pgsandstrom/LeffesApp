@@ -27,10 +27,24 @@ $(function () {
     };
 
     $("#hamburger").on("click", function () {
-        $("#settings").toggle();
-        setTimeout(function () {
-            $("#settings").toggleClass("settings-open");
-        }, 1);
+        var $hamburger = $("#hamburger");
+        var $settings = $("#settings");
+        var settingsVisible = $("#settings").is(":visible");
+        if (settingsVisible) {
+            $settings.bind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd", function () {
+                $settings.toggle();
+                $settings.unbind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd");
+            });
+            $settings.toggleClass("settings-open");
+            $hamburger.toggleClass("hamburger-open");
+        } else {
+            $settings.toggle();
+            setTimeout(function () {
+                $settings.toggleClass("settings-open");
+                $hamburger.toggleClass("hamburger-open");
+            }, 1);
+        }
+
     });
 
     $(".reload").on("click", function () {
@@ -159,9 +173,12 @@ $(function () {
 
 //        newPosts.forEach(function (post) {
         _.each(newPosts, function (post) {
-            //TODO: This is some ugly code right here
+            //TODO: This is some ugly code right here. It should be split up.
+
+            //If this is the first post to add, set it as active
             var firstAdd = $carousel.children().length === 0;
             var initClass = firstAdd ? 'active' : '';
+
             var date = post.date.split(' ')[0]; // Split after first space to avoid time of day.
 
             var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');
@@ -214,15 +231,8 @@ $(function () {
         return re.test(email);
     }
 
-    innovation.view.update = function (status, newPosts) {
-//        console.log("status update: " + status);
-        if (status === innovation.data.Status.UPDATED) {
-            updateView(newPosts);
-        } else if (status === innovation.data.Status.NETWORK_ERROR) {
-            //TODO just nu använder vi retrieveError-funktionen...
-        } else if (status === innovation.data.Status.SERVER_ERROR) {
-            //TODO just nu använder vi retrieveError-funktionen...
-        }
+    innovation.view.update = function (newPosts) {
+        updateView(newPosts);
     };
 
     /**
@@ -236,14 +246,16 @@ $(function () {
         }
     };
 
-    updateButtons();
-    innovation.data.update(currentIndex);
+    innovation.view.resetView = function () {
+        $('#init-loading').show();
+        $carousel.empty();
+        currentIndex = 0;
+        itemCount = $('.carousel > li').length;
 
-    //ful lösning, men här initeras push:
-    //vänta nån sekund, jag tror biblioteket måste laddas eller nåt...
-    setTimeout(function () {
-        innovation.push.init();
-        innovation.push.resetBadge();
-    }, 1000);
+        updateButtons();
+        innovation.data.reset();
+        innovation.data.update(currentIndex);
+    };
+
 
 });

@@ -6,18 +6,20 @@
     var innovation = window.innovation = window.innovation || {};
     innovation.data = innovation.data || {};
 
-    innovation.data.Status = {};
-    innovation.data.Status.UPDATED = "updated";
-    innovation.data.Status.NETWORK_ERROR = "network_error";
-    innovation.data.Status.SERVER_ERROR = "server_error";
-
     var postList;
-    var newPosts;
 
     var pagesCount;
-    var retrievedPagesCount = 0;
-    var isRetrieving = false;
+    var retrievedPagesCount;
+    var isRetrieving;
 
+    innovation.data.reset = function () {
+        //TODO: Use OO-design instead of fugly reset-functions...
+        postList = undefined;
+        pagesCount = undefined;
+        retrievedPagesCount = 0;
+        isRetrieving = false;
+    };
+    innovation.data.reset();
 
     var isNextPage = function () {
         return pagesCount === undefined || retrievedPagesCount < pagesCount;
@@ -30,7 +32,7 @@
     var receivedNewPage = function (data) {
 
         //if error:
-        if(data === undefined) {
+        if (data === undefined) {
             var firstPage = pagesCount === undefined;
             innovation.view.retrieveError(firstPage);
             isRetrieving = false;
@@ -59,18 +61,14 @@
     var update = function (newPosts) {
         try {
             updatePostList(newPosts);
-            innovation.view.update(innovation.data.Status.UPDATED, newPosts);
+            innovation.view.update(newPosts);
         } finally {
 //            console.log("finished update");
             isRetrieving = false;
         }
     };
 
-//    innovation.data.getNewPosts = function () {
-//        return newPosts;
-//    };
-
-    innovation.data.getPost = function(index) {
+    innovation.data.getPost = function (index) {
         return postList[index];
     };
 
@@ -80,7 +78,7 @@
         innovation.share.link(post.title, post.url);
     };
 
-    innovation.data.update = function (currentIndex) {
+    innovation.data.update = function (currentIndex) {  //TODO rename function
         if (isRetrieving) {
             return;
         }

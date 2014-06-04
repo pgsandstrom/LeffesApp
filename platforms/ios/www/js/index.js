@@ -16,36 +16,68 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+var innovation = window.innovation = window.innovation || {};
+innovation.index = innovation.index || {};
+
 var app = {
-    // Application Constructor
-    initialize: function() {
-//        console.log("init");
+    initialize: function () {
         this.bindEvents();
     },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
+
+    bindEvents: function () {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        //The redundant "resume"-triggers are stupid fixes to ensure that resume is run on all devices... iOS, I'm looking at you!!!
+        document.addEventListener('resume', app.onResume, false);
+        document.addEventListener("urbanairship.registration", app.onResume, false);
     },
-    // deviceready Event Handler
-    //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-//        console.log("device ready");
-        app.receivedEvent('deviceready');
-//        console.log("device ready done");
-    },
-    receivedEvent: function(id) {
-//        var parentElement = document.getElementById(id);
-//        var listeningElement = parentElement.querySelector('.listening');
-//        var receivedElement = parentElement.querySelector('.received');
-//
-//        listeningElement.setAttribute('style', 'display:none;');
-//        receivedElement.setAttribute('style', 'display:block;');
+    onDeviceReady: function () {
+        console.log("onDeviceReady");
 
-        console.log('Received Event: ' + id);
+        if (window.jQuery) {
+            innovation.push.init();
+            app.onResume();
+            document.addEventListener('resume', app.onResume, false);
+        } else {
+            setTimeout(function () {
+                app.onDeviceReady();
+            }, 100);
+        }
+    },
+    onResume: function () {
+
+        //since we have a lot of resume-triggers, just ensure that it wont run to often...
+        var time = new Date().getTime();
+
+        try {
+            if (innovation.index.resumeLastTime !== undefined) {
+                if (time - innovation.index.resumeLastTime < 3000) {
+                    console.log("was just " + (time - innovation.index.resumeLastTime) + " since last onresume. Ignoring");
+                    return;
+                } else {
+                    console.log("was " + (time - innovation.index.resumeLastTime) + " since last onresume");
+                    innovation.index.resumeLastTime = time;
+                }
+            } else {
+                console.log("no earlier resume");
+                innovation.index.resumeLastTime = time;
+            }
+        } catch (e) {
+            console.log("onresume crash: " + e);
+        }
+
+        //Another "hängsle and livrem"-fix to ensure iOS does not fail with onResume...
+        setTimeout(function () {
+            console.log("onResume");
+            innovation.push.resetBadge();
+            innovation.view.resetView();
+        }, 0);
     }
 };
+
+//Uncomment to make stuff load when developing on computer:
+//setTimeout(function () {
+//    app.onDeviceReady();
+//}, 250);
