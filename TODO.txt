@@ -1,13 +1,28 @@
-
-ikonerna till ios är fula
-
-iOS refreshar inte artiklar när den öppnas å redan låg i minnet. Fixat?
-
 ---
 LÅG PRIO
 ---
 
-slide för att stänga settings...
+"laddar artiklar" syns inte alltid
+
+knapparna hoppar till lite i början...
+
+"push-notifieringar" -> "notifieringar". Inte heller i caps.
+
+Förklarande text till "notifieringar"
+
+fadea in skugga när settings åker ut
+
+Avskiljare i settings mellan punkterna
+
+Fadea bort hamburgaren när settings öppnas, typ.
+
+"din kommentar" -> "Kommentera på tipset" typ
+
+Snyggare knappar när man postar kommentarer
+
+settings: push-knappen underst
+
+större text i settings
 
 Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
 
