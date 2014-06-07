@@ -1,12 +1,6 @@
 ---
-LÅG PRIO
+TODO
 ---
-
-"laddar artiklar" syns inte alltid
-
-knapparna hoppar till lite i början...
-
-"push-notifieringar" -> "notifieringar". Inte heller i caps.
 
 Förklarande text till "notifieringar"
 
@@ -15,8 +9,6 @@ fadea in skugga när settings åker ut
 Avskiljare i settings mellan punkterna
 
 Fadea bort hamburgaren när settings öppnas, typ.
-
-"din kommentar" -> "Kommentera på tipset" typ
 
 Snyggare knappar när man postar kommentarer
 
@@ -31,6 +23,19 @@ Man kan scrolla ner när settings är öppet om artikeln bakom är lång
 "Loading" för att ladda in fler artiklar
 
 Klicka på disablad knapp å du scrollas till toppen
+
+---
+LÅG PRIO
+---
+
+"laddar artiklar" syns inte på android om appen startas från scratch. Vet ej vad det beror på.
+
+knapparna hoppar till lite i början... fixa det genom att ha båda utseendena i samma bild, du vet:
+    http://stackoverflow.com/questions/819336/how-to-preload-images-without-javascript
+
+---
+VÄNTA MED DESSA
+---
 
 Fixa snygg rotation
 
