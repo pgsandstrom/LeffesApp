@@ -7,6 +7,7 @@ $(function () {
 
 	var $hamburger = $("#hamburger");
 	var $settings = $("#settings");
+	var $settingsHolder = $("#settings-holder");
 
 	var switchOpen = function () {
 		var settingsVisible = $settings.is(":visible");
@@ -20,6 +21,7 @@ $(function () {
 				$settings.removeClass("animate");
 				$settings.unbind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd");
 			});
+			$settingsHolder.removeClass("settings-holder-open");
 			$settings.removeClass("settings-open");
 			$hamburger.removeClass("hamburger-open");
 		} else {
@@ -29,6 +31,7 @@ $(function () {
 			$settings.show();
 			setTimeout(function () {
 //				console.log('switch opening callback');
+				$settingsHolder.addClass("settings-holder-open");
 				$settings.addClass("settings-open");
 				$hamburger.addClass("hamburger-open");
 				$settings.bind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd", function () {
@@ -43,6 +46,7 @@ $(function () {
 	var close = function () {
 		var callback = function () {
 			$settings.hide();
+			$settingsHolder.removeClass("settings-holder-open");
 			$settings.removeClass("settings-open");
 			$hamburger.removeClass("hamburger-open");
 			setContainerOffset(0, false);
@@ -53,6 +57,7 @@ $(function () {
 	var open = function () {
 //		console.log('open');
 		var callback = function () {
+			$settingsHolder.addClass("settings-holder-open");
 			$settings.addClass("settings-open");
 			$hamburger.addClass("hamburger-open");
 		};
@@ -104,10 +109,8 @@ $(function () {
 		}
 	}
 
-	var $container = $("#settings-holder");
-	var $swipeThingy = $container;
-
 	//init hammer:
+	var $swipeThingy = $settingsHolder;
 	new Hammer($swipeThingy[0], {
 		behavior: {
 			userSelect: true
@@ -131,23 +134,23 @@ $(function () {
 
 		if (animate) {
 			$hamburger.addClass("animate");
-			$container.addClass("animate");
+			$settingsHolder.addClass("animate");
 
-			$container.bind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd", function () {
-				$container.css("transform", "");
+			$settingsHolder.bind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd", function () {
+				$settingsHolder.css("transform", "");
 				$hamburger.removeClass("animate");
-				$container.removeClass("animate");
+				$settingsHolder.removeClass("animate");
 				if (callback !== undefined) {
 					callback();
 				}
-				$container.unbind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd");
+				$settingsHolder.unbind("webkitTransitionEnd oTransitionEnd otransitionend transitionend msTransitionEnd");
 			});
 		}
 
 		if (Modernizr.csstransforms3d) {
-			$container.css("transform", "translate3d(" + percent + "%,0,0) scale3d(1,1,1)");
+			$settingsHolder.css("transform", "translate3d(" + percent + "%,0,0) scale3d(1,1,1)");
 		} else if (Modernizr.csstransforms) {
-			$container.css("transform", "translate(" + percent + "%,0)");
+			$settingsHolder.css("transform", "translate(" + percent + "%,0)");
 		} else {
 			console.log("whaeva we dont support this");
 //			var px = ((pane_width * pane_count) / 100) * percent;

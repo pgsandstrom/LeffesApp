@@ -5,13 +5,15 @@
 	width: 100%;
 	height: 100%;
 	z-index: 500;
+	pointer-events: none;
 }
 
-#settings-holder a {
-	z-index: 1500;
+.settings-holder-open {
+	pointer-events: auto !important;
 }
 
 #hamburger {
+	pointer-events: auto;
 	float: right;
 }
 
