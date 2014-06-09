@@ -2,27 +2,11 @@
 TODO
 ---
 
-Förklarande text till "notifieringar"
+Snyggare knappar när man postar kommentarer
 
 fadea in skugga när settings åker ut
 
-Avskiljare i settings mellan punkterna
-
 Fadea bort hamburgaren när settings öppnas, typ.
-
-Snyggare knappar när man postar kommentarer
-
-settings: push-knappen underst
-
-större text i settings
-
-Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
-
-Man kan scrolla ner när settings är öppet om artikeln bakom är lång
-
-"Loading" för att ladda in fler artiklar
-
-Klicka på disablad knapp å du scrollas till toppen
 
 ---
 LÅG PRIO
@@ -33,6 +17,12 @@ LÅG PRIO
 knapparna hoppar till lite i början... fixa det genom att ha båda utseendena i samma bild, du vet:
     http://stackoverflow.com/questions/819336/how-to-preload-images-without-javascript
 
+Klicka på disablad knapp å du scrollas till toppen
+
+"Loading" för att ladda in fler artiklar
+
+Man kan scrolla ner när settings är öppet om artikeln bakom är lång
+
 ---
 VÄNTA MED DESSA
 ---
@@ -40,3 +30,5 @@ VÄNTA MED DESSA
 Fixa snygg rotation
 
 kommentarer måste vara tydligare i appen
+
+Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
