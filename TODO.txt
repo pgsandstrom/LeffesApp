@@ -1,22 +1,34 @@
+---
+TODO
+---
 
-ikonerna till ios är fula
+Snyggare knappar när man postar kommentarer
 
-iOS refreshar inte artiklar när den öppnas å redan låg i minnet. Fixat?
+fadea in skugga när settings åker ut
+
+Fadea bort hamburgaren när settings öppnas, typ.
 
 ---
 LÅG PRIO
 ---
 
-slide för att stänga settings...
+"laddar artiklar" syns inte på android om appen startas från scratch. Vet ej vad det beror på.
 
-Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
+knapparna hoppar till lite i början... fixa det genom att ha båda utseendena i samma bild, du vet:
+    http://stackoverflow.com/questions/819336/how-to-preload-images-without-javascript
 
-Man kan scrolla ner när settings är öppet om artikeln bakom är lång
+Klicka på disablad knapp å du scrollas till toppen
 
 "Loading" för att ladda in fler artiklar
 
-Klicka på disablad knapp å du scrollas till toppen
+Man kan scrolla ner när settings är öppet om artikeln bakom är lång
+
+---
+VÄNTA MED DESSA
+---
 
 Fixa snygg rotation
 
 kommentarer måste vara tydligare i appen
+
+Knappar funkar inte första gången på mobilen om vi har grafik på knapparna
