@@ -69,7 +69,7 @@
         //enable autobadge, I don't know if this improves the badge handeling though...
         try {
             var devicePlatform = window.device.platform;
-            if (devicePlatform === "iPhone") {
+            if (devicePlatform === "iPhone" || devicePlatform === "iOS") {
                 PushNotification.setAutobadgeEnabled(true, function (data) {
                     console.log("setAutobadgeEnabled callback");
                 });
@@ -84,7 +84,7 @@
         try {
             var devicePlatform = window.device.platform;
             console.log("devicePlatform: \"" + devicePlatform + "\"");
-            if (devicePlatform === "iPhone") {
+            if (devicePlatform === "iPhone" || devicePlatform === "iOS") {
                 console.log("gonna reset badge!");
                 PushNotification.resetBadge(function (data) {
                     console.log("resetBadge callback");
