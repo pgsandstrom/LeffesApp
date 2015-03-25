@@ -177,11 +177,11 @@ body {
 }
 
 #comment-post {
-    background-color: green;
+    background-color: #2FB9D7;
 }
 
 #comment-cancel {
-    background-color: red;
+    background-color: #E03636;
 }
 
 .comment-extra {
