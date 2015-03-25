@@ -20,7 +20,7 @@
 	<preference name="com.urbanairship.development_app_key" value="GPulvSYLTm6zy2sW438R3w" />
 	<preference name="com.urbanairship.development_app_secret" value="M0s9mNlYTuOBilfov07aHw" />
 	<!-- If the app is in production or not -->
-	<preference name="com.urbanairship.in_production" value="true" />
+	<preference name="com.urbanairship.in_production" value="false" />
 	<!-- Enable push when the application launches (instead of waiting for enablePush js call).  Defaults to false -->
 	<preference name="com.urbanairship.enable_push_onlaunch" value="false" />
 	<!-- Only required for Android. -->
