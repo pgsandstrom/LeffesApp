@@ -4,6 +4,7 @@ ANDROID
 Setup
 -----
 Installera cordova, phonegap ger bara problem: https://cordova.apache.org/
+Cordova kan installeras genom "npm install -g cordova"
 Fixa alla miljövariabler: Java, Android, Ant
 
 Skapa projekt
