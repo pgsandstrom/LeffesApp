@@ -37,7 +37,6 @@ var app = {
 		console.log("onDeviceReady");
 
 		if (window.jQuery) {
-			innovation.push.init();
 			app.onResume();
 			document.addEventListener('resume', app.onResume, false);
 		} else {
@@ -71,7 +70,6 @@ var app = {
 		//Another "hängsle and livrem"-fix to ensure iOS does not fail with onResume...
 		setTimeout(function () {
 			console.log("onResume");
-			innovation.push.resetBadge();
 			innovation.view.resetView();
 		}, 0);
 	}
