@@ -1,1 +1,8 @@
-{"source":{"type":"git","url":"https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git","subdir":".","ref":"master"}}
+{
+  "source": {
+    "type": "git",
+    "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git",
+    "subdir": ".",
+    "ref": "master"
+  }
+}

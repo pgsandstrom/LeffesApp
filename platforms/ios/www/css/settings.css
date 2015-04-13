@@ -7,20 +7,16 @@
 	z-index: 500;
 	pointer-events: none;
 }
-
 .settings-holder-open {
 	pointer-events: auto !important;
 }
-
 #hamburger {
 	pointer-events: auto;
 	float: right;
 }
-
 .hamburger-open {
 	margin-right: 70%;
 }
-
 #settings {
 	position: fixed;
 	right: -70%;
@@ -30,22 +26,18 @@
 	z-index: 500;
 	padding-top: 25px;
 }
-
 .settings-open {
 	right: 0px !important;
 }
-
 .setting-row {
 	margin-left: 20px;
 	padding-right: 10px;
 }
-
 .setting-row a {
 	font-family: 'Gotham-Light';
 	font-size: 15px;
 	color: white !important;
 }
-
 .settings-title {
 	float: left;
 	font-family: 'Gotham-Light';
@@ -53,7 +45,6 @@
 	color: white;
 	font-size: 15px;
 }
-
 .settings-text {
 	float: left;
 	font-family: 'Gotham-Light';
@@ -61,22 +52,18 @@
 	color: lightgray;
 	font-size: 13px;
 }
-
 .settings-label {
 	padding-top: 12px;
 }
-
 input[type=checkbox] {
 	visibility: hidden;
 }
-
 .divider {
 	margin-top: 10px;
 	height: 1px;
 	width: 100%;
-	background-color:#444444;
+	background-color: #444444;
 }
-
 .squaredOne {
 	float: left;
 	width: 28px;
@@ -96,7 +83,6 @@ input[type=checkbox] {
 	position: relative;
 	display: inline-block;
 }
-
 .squaredOne label {
 	cursor: pointer;
 	position: absolute;
@@ -116,7 +102,6 @@ input[type=checkbox] {
 	background: linear-gradient(top, #222 0%, #45484d 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#45484d', GradientType=0);
 }
-
 .squaredOne label:after {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
@@ -140,13 +125,11 @@ input[type=checkbox] {
 	-moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-
 .squaredOne label:hover::after {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 	filter: alpha(opacity=30);
 	opacity: 0.3;
 }
-
 .squaredOne input[type=checkbox]:checked + label:after {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);

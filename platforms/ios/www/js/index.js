@@ -37,7 +37,6 @@ var app = {
 		console.log("onDeviceReady");
 
 		if (window.jQuery) {
-			innovation.push.init();
 			app.onResume();
 			document.addEventListener('resume', app.onResume, false);
 		} else {
@@ -45,6 +44,8 @@ var app = {
 				app.onDeviceReady();
 			}, 100);
 		}
+
+		innovation.notification.start();
 	},
 	onResume: function () {
 
@@ -54,14 +55,14 @@ var app = {
 		try {
 			if (innovation.index.resumeLastTime !== undefined) {
 				if (time - innovation.index.resumeLastTime < 3000) {
-					console.log("was just " + (time - innovation.index.resumeLastTime) + " since last onresume. Ignoring");
+					//console.log("was just " + (time - innovation.index.resumeLastTime) + " since last onresume. Ignoring");
 					return;
 				} else {
-					console.log("was " + (time - innovation.index.resumeLastTime) + " since last onresume");
+					//console.log("was " + (time - innovation.index.resumeLastTime) + " since last onresume");
 					innovation.index.resumeLastTime = time;
 				}
 			} else {
-				console.log("no earlier resume");
+				//console.log("no earlier resume");
 				innovation.index.resumeLastTime = time;
 			}
 		} catch (e) {
@@ -71,7 +72,6 @@ var app = {
 		//Another "hängsle and livrem"-fix to ensure iOS does not fail with onResume...
 		setTimeout(function () {
 			console.log("onResume");
-			innovation.push.resetBadge();
 			innovation.view.resetView();
 		}, 0);
 	}
@@ -79,5 +79,5 @@ var app = {
 
 //Uncomment to make stuff load when developing on computer:
 setTimeout(function () {
-    app.onDeviceReady();
+	app.onDeviceReady();
 }, 250);
