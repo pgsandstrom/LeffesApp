@@ -5,27 +5,30 @@
 	innovation.notification = innovation.notification || {};
 
 	innovation.notification.start = function () {
-		//	cordova.plugins.notification.local.schedule({
-		//		id: 1,
-		//		title: "Production Jour fixe",
-		//		text: "Duration 1h",
-		//		firstAt: monday_9_am,
-		//		every: "day",
-		//		//sound: "file://sounds/reminder.mp3",
-		//		//icon: "http://icons.com/?cal_id=1",
-		//		data: { meetingId:"123#fg8" }
-		//	});
-		//
-		//	cordova.plugins.notification.local.on("click", function (notification) {
-		//		joinMeeting(notification.data.meetingId);
-		//	});
+
+		var tomorrow = new Date();
+		tomorrow.setDate(tomorrow.getDate() + 1);
+
+		tomorrow.setHours(9);
+		tomorrow.setMinutes(0);
+
+		var dateString = tomorrow.getUTCFullYear() + "/" + (tomorrow.getUTCMonth() + 1) + "/" + tomorrow.getUTCDate() + " " + tomorrow.getUTCHours() + ":" + tomorrow.getUTCMinutes() + ":" + tomorrow.getUTCSeconds();
+		console.log("3 plox date: " + dateString);
+
+		var soon = new Date();
+		soon.setSeconds(soon.getSeconds() + 3);
 
 		cordova.plugins.notification.local.schedule({
-			title: "New Message",
-			message: "Hi, are you ready? We are waiting."
-			//sound: "file://sounds/message.mp3",
-			//icon: "http://my.domain.de/avatar/user#id=123"
+			title: "Tusentips",
+			text: "Ett nytt tips har publicerats",
+			every: "day",
+			//,			firstAt:  new Date()
+			at: soon
 		});
+
+		//cordova.plugins.notification.local.on("click", function (notification) {
+		//joinMeeting(notification.data.meetingId);
+		//});
 	};
 
 

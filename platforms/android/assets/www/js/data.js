@@ -29,7 +29,9 @@
 		innovation.api.get(retrievedPagesCount + 1, receivedNewPage);
 	};
 
-	var receivedNewPage = function (data) {
+	var receivedNewPage = function (data, hasAddedRandom) {
+		console.log("receivedNewPage 1: " + hasAddedRandom);
+		console.log("receivedNewPage 2: " + data.posts.length);
 
 		//if error:
 		if (data === undefined) {
@@ -44,9 +46,32 @@
 //            console.log("pages: " + pagesCount);
 		}
 
+		//If this is the first page, check if we should get a random first post:
+		if (!hasAddedRandom && retrievedPagesCount === 0) {
+			console.log("adding random page");
+			var isRequired = checkIsRandomPostRequired(data);
+			if (isRequired) {
+				addRandomPost(data);
+				return;
+			}
+		}
+
 		retrievedPagesCount++;
 
 		update(data.posts);
+	};
+
+	var checkIsRandomPostRequired = function (data) {
+		var posts = data.posts;
+		var newestPost = posts[0];
+		var date = newestPost.date.split(' ')[0];
+
+		//TODO
+		return true;
+	};
+
+	var addRandomPost = function (data) {
+		innovation.api.addRandom(data, receivedNewPage);
 	};
 
 	var updatePostList = function (newPosts) {
