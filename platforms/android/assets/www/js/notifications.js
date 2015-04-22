@@ -47,8 +47,8 @@
 			title: "Tusentips",
 			text: "Dagens tips",
 			every: "day",
-			at: soon
-			//at: tomorrow
+			//at: soon
+			at: tomorrow
 		});
 
 		//cordova.plugins.notification.local.on("click", function (notification) {
