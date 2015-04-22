@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="se.tusentips.app" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="se.tusentips.app" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>TusenTips</name>
 	<description>
-		A sample Apache Cordova application that responds to the deviceready event.
+		En app för att visa innehållet från tusentips.se
 	</description>
-	<author email="dev@cordova.apache.org" href="http://cordova.io">
-		Apache Cordova Team
+	<author email="pg.sandstrom@gmail.com" href="http://persandstrom.se">
+		Per Sandström
 	</author>
 	<content src="index.html"/>
 	<access origin="*"/>
@@ -13,17 +13,4 @@
 	<preference name="WebViewBounce" value="true"/>
 	<preference name="Orientation" value="portrait"/>
 
-	<!-- push stuff -->
-	<!-- Urban Airship app credentials -->
-	<preference name="com.urbanairship.production_app_key" value="U-XGsW7EQ1SkrXhsMUEWhw"/>
-	<preference name="com.urbanairship.production_app_secret" value="FGO3dQ0JQbaLHB9bTXTeFg"/>
-	<preference name="com.urbanairship.development_app_key" value="GPulvSYLTm6zy2sW438R3w"/>
-	<preference name="com.urbanairship.development_app_secret" value="M0s9mNlYTuOBilfov07aHw"/>
-	<!-- If the app is in production or not -->
-	<preference name="com.urbanairship.in_production" value="false"/>
-	<!-- Enable push when the application launches (instead of waiting for enablePush js call).  Defaults to false -->
-	<preference name="com.urbanairship.enable_push_onlaunch" value="false"/>
-	<!-- Only required for Android. -->
-	<preference name="com.urbanairship.gcm_sender" value="1038001972805"/>
-	<!--<plugin name="de.appplant.cordova.plugin.local-notification" />-->
 </widget>
