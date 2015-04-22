@@ -26,6 +26,16 @@ $(function () {
 		}
 	};
 
+	$('#startup-window-ok').click(function () {
+		$('#startup-popup').hide();
+		innovation.popupinfo.remove();
+	});
+
+	innovation.view.showInfoPopup = function () {
+		console.log("innovation.view.showInfoPopup");
+		$('#startup-popup').show();
+	};
+
 	$(".reload").on("click", function () {
 		$('#init-loading').show();
 		$('#network-error').hide();

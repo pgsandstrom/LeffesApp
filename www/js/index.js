@@ -46,6 +46,7 @@ var app = {
 		}
 
 		innovation.notification.start();
+		innovation.popupinfo.start();
 	},
 	onResume: function () {
 

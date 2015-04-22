@@ -45,7 +45,7 @@
 		cordova.plugins.notification.local.schedule({
 			id: NOTIFICATION_ID,
 			title: "Tusentips",
-			text: "Ett nytt tips har publicerats",
+			text: "Klicka f&ouml;r ett nytt tips",
 			every: "day",
 			at: soon
 		});

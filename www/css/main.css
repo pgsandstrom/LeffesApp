@@ -104,21 +104,22 @@ body {
 	font-size: 80%;
 	padding-bottom: 15px;
 }
-#comment-window {
+
+.popup-window {
 	position: absolute;
 	top: 0;
 	z-index: 100;
 	width: 100%;
 	height: 100%;
 }
-#comment-background {
+.popup-background {
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	background-color: #000000;
 	opacity: 0.5;
 }
-#comment-popup {
+.popup {
 	position: absolute;
 	background-color: #ffffff;
 	top: 25%;
@@ -134,7 +135,7 @@ body {
 	width: 100%;
 	font-size: 18px;
 }
-.comment-button {
+.popup-button {
 	display: inline-block;
 	width: 49.5%;
 	height: 50px;
@@ -149,9 +150,14 @@ body {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
-#comment-post {
+.popup-button-ok {
 	background-color: #2FB9D7;
 }
+
+.popup-button-big {
+	width: 100%;
+}
+
 #comment-cancel {
 	background-color: #E03636;
 }
