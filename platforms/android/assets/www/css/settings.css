@@ -33,10 +33,12 @@
 	margin-left: 20px;
 	padding-right: 10px;
 }
-.setting-row a {
+#homepage-link {
 	font-family: 'Gotham-Light';
 	font-size: 15px;
 	color: white !important;
+	padding-top: 10px;
+	display:inline-block;
 }
 .settings-title {
 	float: left;

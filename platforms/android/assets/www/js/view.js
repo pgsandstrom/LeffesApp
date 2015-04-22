@@ -27,13 +27,13 @@ $(function () {
 	};
 
 	$('#startup-window-ok').click(function () {
-		$('#startup-popup').hide();
+		$('#popup-window').hide();
 		innovation.popupinfo.remove();
 	});
 
 	innovation.view.showInfoPopup = function () {
 		console.log("innovation.view.showInfoPopup");
-		$('#startup-popup').show();
+		$('#popup-window').show();
 	};
 
 	$(".reload").on("click", function () {

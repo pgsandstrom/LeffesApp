@@ -158,11 +158,15 @@ body {
 	width: 100%;
 }
 
+#popup-window > div > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 #comment-cancel {
 	background-color: #E03636;
 }
 .comment-extra {
-	/*display: block;*/
 	width: 49.5%;
 	font-size: 18px;
 	margin-bottom: 10px;

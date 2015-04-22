@@ -33,8 +33,8 @@
 		var tomorrow = new Date();
 		tomorrow.setDate(tomorrow.getDate() + 1);
 
-		tomorrow.setHours(9);
-		tomorrow.setMinutes(0);
+		tomorrow.setHours(8);
+		tomorrow.setMinutes(30);
 
 		var dateString = tomorrow.getUTCFullYear() + "/" + (tomorrow.getUTCMonth() + 1) + "/" + tomorrow.getUTCDate() + " " + tomorrow.getUTCHours() + ":" + tomorrow.getUTCMinutes() + ":" + tomorrow.getUTCSeconds();
 		console.log("3 plox date: " + dateString);
@@ -45,9 +45,10 @@
 		cordova.plugins.notification.local.schedule({
 			id: NOTIFICATION_ID,
 			title: "Tusentips",
-			text: "Klicka f&ouml;r ett nytt tips",
+			text: "Dagens tips",
 			every: "day",
 			at: soon
+			//at: tomorrow
 		});
 
 		//cordova.plugins.notification.local.on("click", function (notification) {
