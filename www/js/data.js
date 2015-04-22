@@ -30,8 +30,8 @@
 	};
 
 	var receivedNewPage = function (data, hasAddedRandom) {
-		console.log("receivedNewPage 1: " + hasAddedRandom);
-		console.log("receivedNewPage 2: " + data.posts.length);
+		//console.log("receivedNewPage 1: " + hasAddedRandom);
+		//console.log("receivedNewPage 2: " + data.posts.length);
 
 		//if error:
 		if (data === undefined) {
@@ -48,7 +48,7 @@
 
 		//If this is the first page, check if we should get a random first post:
 		if (!hasAddedRandom && retrievedPagesCount === 0) {
-			console.log("adding random page");
+			//console.log("adding random page");
 			var isRequired = checkIsRandomPostRequired(data);
 			if (isRequired) {
 				addRandomPost(data);

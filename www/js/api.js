@@ -80,8 +80,8 @@
 					newData = JSON.parse(newData);
 				}
 
-				console.log("newData 0: " + newData);
-				console.log("newData 1: " + JSON.stringify(newData));
+				//console.log("newData 0: " + newData);
+				//console.log("newData 1: " + JSON.stringify(newData));
 				data.posts.unshift(newData);
 				callback(data, true);
 			},

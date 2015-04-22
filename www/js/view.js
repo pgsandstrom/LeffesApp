@@ -10,6 +10,22 @@ $(function () {
 
 	var itemCount = $('.carousel > li').length;
 
+	$('input').click(function () {
+		console.log("checkbox clicked");
+		// Detta är ett fulhack som kommer behöva fixas om vi inför fler settings
+		var inputStuff = $(this);
+		var checked = inputStuff[0].checked;
+		innovation.notification.setNotification(checked);
+	});
+
+	innovation.view.setPushCheckbox = function (active) {
+		if (active && active !== "false") {
+			$('input')[0].checked = active;
+		} else {
+			$('input')[0].checked = undefined;
+		}
+	};
+
 	$(".reload").on("click", function () {
 		$('#init-loading').show();
 		$('#network-error').hide();

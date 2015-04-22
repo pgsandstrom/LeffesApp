@@ -72,19 +72,16 @@
 			url: url,
 			success: function (newData, textStatus, jqXHR) {
 
-				//ugly code...
+				//ugly code to compensate for my weird /random url
 				if (typeof newData == 'string' || newData instanceof String) {
-					//newData = newData.replace('\\\\r\\\\n','<br>');
-					//newData = newData.replace('\\\\r\\\\n','<br>');
-					//newData = newData.replace('\\r\\n','<br>');
-					//newData = newData.replace('\\r\\n','<br>');
-					//newData = newData.replace('&nbsp;','<br>');
-					//newData = newData + '<br>';
+					newData = newData.replace('\\\\r\\\\n','<br>');
+					newData = newData.replace('\\r\\n','<br>');
+					newData = newData.replace('&nbsp;','<br>');
 					newData = JSON.parse(newData);
 				}
 
-				console.log("newData 0: " + newData);
-				console.log("newData 1: " + JSON.stringify(newData));
+				//console.log("newData 0: " + newData);
+				//console.log("newData 1: " + JSON.stringify(newData));
 				data.posts.unshift(newData);
 				callback(data, true);
 			},
