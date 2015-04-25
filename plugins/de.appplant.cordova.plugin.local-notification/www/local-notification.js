@@ -32,7 +32,7 @@
  * @return {Object}
  */
 exports.getDefaults = function () {
-	return this.core.getDefaults();
+    return this.core.getDefaults();
 };
 
 /**
@@ -41,7 +41,7 @@ exports.getDefaults = function () {
  * @param {Object} defaults
  */
 exports.setDefaults = function (defaults) {
-	this.core.setDefaults(defaults);
+    this.core.setDefaults(defaults);
 };
 
 /**
@@ -55,7 +55,7 @@ exports.setDefaults = function (defaults) {
  *      The scope for the callback function
  */
 exports.schedule = function (opts, callback, scope) {
-	this.core.schedule(opts, callback, scope);
+    this.core.schedule(opts, callback, scope);
 };
 
 /**
@@ -69,7 +69,7 @@ exports.schedule = function (opts, callback, scope) {
  *      The scope for the callback function
  */
 exports.update = function (opts, callback, scope) {
-	this.core.update(opts, callback, scope);
+    this.core.update(opts, callback, scope);
 };
 
 /**
@@ -83,7 +83,7 @@ exports.update = function (opts, callback, scope) {
  *      The scope for the callback function
  */
 exports.clear = function (ids, callback, scope) {
-	this.core.clear(ids, callback, scope);
+    this.core.clear(ids, callback, scope);
 };
 
 /**
@@ -95,7 +95,7 @@ exports.clear = function (ids, callback, scope) {
  *      The scope for the callback function
  */
 exports.clearAll = function (callback, scope) {
-	this.core.clearAll(callback, scope);
+    this.core.clearAll(callback, scope);
 };
 
 /**
@@ -109,7 +109,7 @@ exports.clearAll = function (callback, scope) {
  *      The scope for the callback function
  */
 exports.cancel = function (ids, callback, scope) {
-	this.core.cancel(ids, callback, scope);
+    this.core.cancel(ids, callback, scope);
 };
 
 /**
@@ -121,7 +121,7 @@ exports.cancel = function (ids, callback, scope) {
  *      The scope for the callback function
  */
 exports.cancelAll = function (callback, scope) {
-	this.core.cancelAll(callback, scope);
+    this.core.cancelAll(callback, scope);
 };
 
 /**
@@ -135,7 +135,7 @@ exports.cancelAll = function (callback, scope) {
  *      The scope for the callback function
  */
 exports.isPresent = function (id, callback, scope) {
-	this.core.isPresent(id, callback, scope);
+    this.core.isPresent(id, callback, scope);
 };
 
 /**
@@ -149,7 +149,7 @@ exports.isPresent = function (id, callback, scope) {
  *      The scope for the callback function
  */
 exports.isScheduled = function (id, callback, scope) {
-	this.core.isScheduled(id, callback, scope);
+    this.core.isScheduled(id, callback, scope);
 };
 
 /**
@@ -163,7 +163,7 @@ exports.isScheduled = function (id, callback, scope) {
  *      The scope for the callback function
  */
 exports.isTriggered = function (id, callback, scope) {
-	this.core.isTriggered(id, callback, scope);
+    this.core.isTriggered(id, callback, scope);
 };
 
 /**
@@ -175,14 +175,14 @@ exports.isTriggered = function (id, callback, scope) {
  *      The scope for the callback function
  */
 exports.getAllIds = function (callback, scope) {
-	this.core.getAllIds(callback, scope);
+    this.core.getAllIds(callback, scope);
 };
 
 /**
  * Alias for `getAllIds`.
  */
 exports.getIds = function () {
-	this.getAllIds.apply(this, arguments);
+    this.getAllIds.apply(this, arguments);
 };
 
 /**
@@ -194,7 +194,7 @@ exports.getIds = function () {
  *      The scope for the callback function
  */
 exports.getScheduledIds = function (callback, scope) {
-	this.core.getScheduledIds(callback, scope);
+    this.core.getScheduledIds(callback, scope);
 };
 
 /**
@@ -206,7 +206,7 @@ exports.getScheduledIds = function (callback, scope) {
  *      The scope for the callback function
  */
 exports.getTriggeredIds = function (callback, scope) {
-	this.core.getTriggeredIds(callback, scope);
+    this.core.getTriggeredIds(callback, scope);
 };
 
 /**
@@ -221,7 +221,7 @@ exports.getTriggeredIds = function (callback, scope) {
  *      The scope for the callback function
  */
 exports.get = function () {
-	this.core.get.apply(this.core, arguments);
+    this.core.get.apply(this.core, arguments);
 };
 
 /**
@@ -233,7 +233,7 @@ exports.get = function () {
  *      The scope for the callback function
  */
 exports.getAll = function (callback, scope) {
-	this.core.getAll(callback, scope);
+    this.core.getAll(callback, scope);
 };
 
 /**
@@ -248,7 +248,7 @@ exports.getAll = function (callback, scope) {
  *      The scope for the callback function
  */
 exports.getScheduled = function () {
-	this.core.getScheduled.apply(this.core, arguments);
+    this.core.getScheduled.apply(this.core, arguments);
 };
 
 /**
@@ -260,7 +260,7 @@ exports.getScheduled = function () {
  *      The scope for the callback function
  */
 exports.getAllScheduled = function (callback, scope) {
-	this.core.getAllScheduled(callback, scope);
+    this.core.getAllScheduled(callback, scope);
 };
 
 /**
@@ -275,7 +275,7 @@ exports.getAllScheduled = function (callback, scope) {
  *      The scope for the callback function
  */
 exports.getTriggered = function () {
-	this.core.getTriggered.apply(this.core, arguments);
+    this.core.getTriggered.apply(this.core, arguments);
 };
 
 /**
@@ -287,7 +287,7 @@ exports.getTriggered = function () {
  *      The scope for the callback function
  */
 exports.getAllTriggered = function (callback, scope) {
-	this.core.getAllTriggered(callback, scope);
+    this.core.getAllTriggered(callback, scope);
 };
 
 /**
@@ -299,7 +299,7 @@ exports.getAllTriggered = function (callback, scope) {
  *      The callback function's scope
  */
 exports.hasPermission = function (callback, scope) {
-	this.core.hasPermission(callback, scope);
+    this.core.hasPermission(callback, scope);
 };
 
 /**
@@ -311,7 +311,7 @@ exports.hasPermission = function (callback, scope) {
  *      The callback function's scope
  */
 exports.registerPermission = function (callback, scope) {
-	this.core.registerPermission(callback, scope);
+    this.core.registerPermission(callback, scope);
 };
 
 
@@ -323,9 +323,9 @@ exports.registerPermission = function (callback, scope) {
  * Schedule a new local notification.
  */
 exports.add = function () {
-	console.warn('Depreated: Please use `notification.local.schedule` instead.');
+    console.warn('Depreated: Please use `notification.local.schedule` instead.');
 
-	this.schedule.apply(this, arguments);
+    this.schedule.apply(this, arguments);
 };
 
 /**
@@ -333,9 +333,9 @@ exports.add = function () {
  * if not already granted.
  */
 exports.promptForPermission = function () {
-	console.warn('Depreated: Please use `notification.local.registerPermission` instead.');
+    console.warn('Depreated: Please use `notification.local.registerPermission` instead.');
 
-	this.registerPermission.apply(this, arguments);
+    this.registerPermission.apply(this, arguments);
 };
 
 
@@ -354,7 +354,7 @@ exports.promptForPermission = function () {
  *      The callback function's scope
  */
 exports.on = function (event, callback, scope) {
-	this.core.on(event, callback, scope);
+    this.core.on(event, callback, scope);
 };
 
 /**
@@ -366,5 +366,5 @@ exports.on = function (event, callback, scope) {
  *      The function to be exec as callback
  */
 exports.un = function (event, callback) {
-	this.core.un(event, callback, scope);
+    this.core.un(event, callback, scope);
 };

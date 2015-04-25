@@ -40,9 +40,26 @@
 					<li>Dela tips med dina vänner och kolleger</li>
 				</ul>
 				<div class="clearfix"></div>
-				<a href="#" onclick="window.open('http://tusentips.se', '_system');">Gå till webbplatsen</a>
+				<div class="divider"></div>
+			</div>
+			<div class="setting-row">
+				<div class="squaredOne">
+					<input type="checkbox" value="None" id="squaredOne" name="check"/>
+					<label for="squaredOne"></label>
+				</div>
+				<div style="overflow:hidden;">
+					<span class="settings-title settings-label">Notifieringar</span>
 
+					<div class="clearfix"></div>
+					<span class="settings-text">Ger dig en notifiering varje morgon</span>
+				</div>
+
+
+				<div class="divider"></div>
 				<div class="clearfix"></div>
+			</div>
+			<div class="setting-row">
+				<a id="homepage-link" href="#" onclick="window.open('http://tusentips.se', '_system');">Gå till webbplatsen</a>
 			</div>
 		</div>
 		<a id="hamburger" href="#">
@@ -84,17 +101,25 @@
 		</ul>
 	</div>
 
-	<!--<div id="comment-window">-->
-	<div id="comment-window" style="display: none">
-		<div id="comment-background"></div>
-		<div id="comment-popup">
+	<div id="comment-window" class="popup-window" style="display: none">
+		<div class="popup-background"></div>
+		<div id="comment-popup" class="popup">
 			<textarea name="comment-input" id="comment-input" cols="30" rows="10" placeholder="Kommentera på tipset"></textarea>
 			<textarea id="comment-name" class="comment-extra" rows="1" placeholder="Namn"></textarea>
 			<textarea id="comment-mail" class="comment-extra" rows="1" placeholder="Mail"></textarea>
-			<a id="comment-post" class="comment-button" href="#">SKICKA</a>
-			<a id="comment-cancel" class="comment-button" href="#">AVBRYT</a>
+			<a id="comment-post" class="popup-button popup-button-ok" href="#">SKICKA</a>
+			<a id="comment-cancel" class="popup-button" href="#">AVBRYT</a>
 		</div>
 	</div>
+
+	<div id="popup-window" class="popup-window" style="display: none">
+		<div class="popup-background"></div>
+		<div class="popup">
+			<div>Numera får du en notifiering varje morgon om att det finns ett tips att läsa. Du kan stänga av detta i inställningarna för appen.</div>
+			<a id="startup-window-ok" class="popup-button popup-button-ok popup-button-big" href="#">OK</a>
+		</div>
+	</div>
+
 
 </div>
 
@@ -103,6 +128,7 @@
 <script type="text/javascript" src="js/vendor/underscore-min.js"></script>
 <script type="text/javascript" src="js/vendor/hammer.js"></script>
 <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" src="js/popup-info.js"></script>
 <script type="text/javascript" src="js/notifications.js"></script>
 <script type="text/javascript" src="js/share.js"></script>
 <script type="text/javascript" src="js/api.js"></script>

@@ -40,7 +40,7 @@
 		console.log("3 plox date: " + dateString);
 
 		var soon = new Date();
-		soon.setSeconds(soon.getSeconds() + 5);
+		soon.setSeconds(soon.getSeconds() + 10);
 
 		cordova.plugins.notification.local.schedule({
 			id: NOTIFICATION_ID,

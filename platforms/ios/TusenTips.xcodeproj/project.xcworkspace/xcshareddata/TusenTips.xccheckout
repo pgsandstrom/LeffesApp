@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>412D8A7F-5A90-4451-BABC-A8D828348CD4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TusenTips</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ACCFE44B95255C1A47251A64FDC798F9572ECB63</key>
+		<string>https://github.com/pgsandstrom/LeffesApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/TusenTips.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ACCFE44B95255C1A47251A64FDC798F9572ECB63</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pgsandstrom/LeffesApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ACCFE44B95255C1A47251A64FDC798F9572ECB63</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ACCFE44B95255C1A47251A64FDC798F9572ECB63</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LeffesApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

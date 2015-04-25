@@ -21,8 +21,8 @@ cordova.define("de.appplant.cordova.plugin.local-notification.LocalNotification.
  * @APPPLANT_LICENSE_HEADER_END@
  */
 
-var exec = require('cordova/exec'),
-	channel = require('cordova/channel');
+var exec    = require('cordova/exec'),
+    channel = require('cordova/channel');
 
 
 /***********
@@ -31,14 +31,14 @@ var exec = require('cordova/exec'),
 
 // Default values
 exports._defaults = {
-	text: '',
-	title: '',
-	sound: 'res://platform_default',
-	badge: 0,
-	id: "0",
-	data: undefined,
-	every: undefined,
-	at: undefined
+    text:  '',
+    title: '',
+    sound: 'res://platform_default',
+    badge: 0,
+    id:    "0",
+    data:  undefined,
+    every: undefined,
+    at:    undefined
 };
 
 // listener
@@ -56,19 +56,19 @@ exports._listener = {};
  *      The default properties for the platform
  */
 exports.applyPlatformSpecificOptions = function () {
-	var defaults = this._defaults;
+    var defaults = this._defaults;
 
-	switch (device.platform) {
-		case 'Android':
-			defaults.icon = 'res://icon';
-			defaults.smallIcon = 'res://ic_popup_reminder';
-			defaults.ongoing = false;
-			defaults.autoClear = true;
-			defaults.led = 'FFFFFF';
-			break;
-	}
+    switch (device.platform) {
+    case 'Android':
+        defaults.icon      = 'res://icon';
+        defaults.smallIcon = 'res://ic_popup_reminder';
+        defaults.ongoing   = false;
+        defaults.autoClear = true;
+        defaults.led       = 'FFFFFF';
+        break;
+    }
 
-	return defaults;
+    return defaults;
 };
 
 /**
@@ -81,40 +81,42 @@ exports.applyPlatformSpecificOptions = function () {
  *      The merged property list
  */
 exports.mergeWithDefaults = function (options) {
-	var defaults = this.getDefaults();
+    var defaults = this.getDefaults();
 
-	options.at = this.getValueFor(options, 'at', 'firstAt', 'date');
-	options.text = this.getValueFor(options, 'text', 'message');
-	options.data = this.getValueFor(options, 'data', 'json');
+    options.at   = this.getValueFor(options, 'at', 'firstAt', 'date');
+    options.text = this.getValueFor(options, 'text', 'message');
+    options.data = this.getValueFor(options, 'data', 'json');
 
-	options.autoClear = this.getValueFor(options, 'autoClear', 'autoCancel');
+    if (defaults.hasOwnProperty('autoClear')) {
+        options.autoClear = this.getValueFor(options, 'autoClear', 'autoCancel');
+    }
 
-	if (options.autoClear !== true && options.ongoing) {
-		options.autoClear = false;
-	}
+    if (options.autoClear !== true && options.ongoing) {
+        options.autoClear = false;
+    }
 
-	if (options.at === undefined || options.at === null) {
-		options.at = new Date();
-	}
+    if (options.at === undefined || options.at === null) {
+        options.at = new Date();
+    }
 
-	for (var key in defaults) {
-		if (options[key] === null || options[key] === undefined) {
-			if (options.hasOwnProperty(key) && ['data', 'sound'].indexOf(key) > -1) {
-				options[key] = undefined;
-			} else {
-				options[key] = defaults[key];
-			}
-		}
-	}
+    for (var key in defaults) {
+        if (options[key] === null || options[key] === undefined) {
+            if (options.hasOwnProperty(key) && ['data','sound'].indexOf(key) > -1) {
+                options[key] = undefined;
+            } else {
+                options[key] = defaults[key];
+            }
+        }
+    }
 
-	for (key in options) {
-		if (!defaults.hasOwnProperty(key)) {
-			delete options[key];
-			console.warn('Unknown property: ' + key);
-		}
-	}
+    for (key in options) {
+        if (!defaults.hasOwnProperty(key)) {
+            delete options[key];
+            console.warn('Unknown property: ' + key);
+        }
+    }
 
-	return options;
+    return options;
 };
 
 /**
@@ -128,39 +130,43 @@ exports.mergeWithDefaults = function (options) {
  */
 exports.convertProperties = function (options) {
 
-	if (options.id) {
-		if (isNaN(options.id)) {
-			options.id = this.getDefaults().id;
-		} else {
-			options.id = options.id.toString();
-		}
-	}
+    if (options.id) {
+        if (isNaN(options.id)) {
+            options.id = this.getDefaults().id;
+        } else {
+            options.id = options.id.toString();
+        }
+    }
 
-	if (options.title) {
-		options.title = options.title.toString();
-	}
+    if (options.title) {
+        options.title = options.title.toString();
+    }
 
-	if (options.text) {
-		options.text = options.text.toString();
-	}
+    if (options.text) {
+        options.text  = options.text.toString();
+    }
 
-	if (options.badge) {
-		if (isNaN(options.badge)) {
-			options.badge = this.getDefaults().badge;
-		} else {
-			options.badge = Number(options.badge);
-		}
-	}
+    if (options.badge) {
+        if (isNaN(options.badge)) {
+            options.badge = this.getDefaults().badge;
+        } else {
+            options.badge = Number(options.badge);
+        }
+    }
 
-	if (typeof options.at == 'object') {
-		options.at = Math.round(options.at.getTime() / 1000);
-	}
+    if (options.at) {
+        if (typeof options.at == 'object') {
+            options.at = options.at.getTime();
+        }
 
-	if (typeof options.data == 'object') {
-		options.data = JSON.stringify(options.data);
-	}
+        options.at = Math.round(options.at/1000);
+    }
 
-	return options;
+    if (typeof options.data == 'object') {
+        options.data = JSON.stringify(options.data);
+    }
+
+    return options;
 };
 
 /**
@@ -175,12 +181,12 @@ exports.convertProperties = function (options) {
  *      The new callback function
  */
 exports.createCallbackFn = function (callbackFn, scope) {
-	if (typeof callbackFn != 'function')
-		return;
+    if (typeof callbackFn != 'function')
+        return;
 
-	return function () {
-		callbackFn.apply(scope || this, arguments);
-	};
+    return function () {
+        callbackFn.apply(scope || this, arguments);
+    };
 };
 
 /**
@@ -191,13 +197,13 @@ exports.createCallbackFn = function (callbackFn, scope) {
  * @return Array of Strings
  */
 exports.convertIds = function (ids) {
-	var convertedIds = [];
+    var convertedIds = [];
 
-	for (var i = 0; i < ids.length; i++) {
-		convertedIds.push(ids[i].toString());
-	}
+    for (var i = 0; i < ids.length; i++) {
+        convertedIds.push(ids[i].toString());
+    }
 
-	return convertedIds;
+    return convertedIds;
 };
 
 /**
@@ -209,15 +215,15 @@ exports.convertIds = function (ids) {
  *      Key list
  */
 exports.getValueFor = function (options) {
-	var keys = Array.apply(null, arguments).slice(1);
+    var keys = Array.apply(null, arguments).slice(1);
 
-	for (var i = 0; i < keys.length; i++) {
-		var key = keys[i];
+    for (var i = 0; i < keys.length; i++) {
+        var key = keys[i];
 
-		if (options.hasOwnProperty(key)) {
-			return options[key];
-		}
-	}
+        if (options.hasOwnProperty(key)) {
+            return options[key];
+        }
+    }
 };
 
 /**
@@ -229,18 +235,18 @@ exports.getValueFor = function (options) {
  *      The callback's arguments
  */
 exports.fireEvent = function (event) {
-	var args = Array.apply(null, arguments).slice(1),
-		listener = this._listener[event];
+    var args     = Array.apply(null, arguments).slice(1),
+        listener = this._listener[event];
 
-	if (!listener)
-		return;
+    if (!listener)
+        return;
 
-	for (var i = 0; i < listener.length; i++) {
-		var fn = listener[i][0],
-			scope = listener[i][1];
+    for (var i = 0; i < listener.length; i++) {
+        var fn    = listener[i][0],
+            scope = listener[i][1];
 
-		fn.apply(scope, args);
-	}
+        fn.apply(scope, args);
+    }
 };
 
 /**
@@ -256,16 +262,16 @@ exports.fireEvent = function (event) {
  *      The scope for the function
  */
 exports.exec = function (action, args, callback, scope) {
-	var fn = this.createCallbackFn(callback, scope),
-		params = [];
+    var fn = this.createCallbackFn(callback, scope),
+        params = [];
 
-	if (Array.isArray(args)) {
-		params = args;
-	} else if (args) {
-		params.push(args);
-	}
+    if (Array.isArray(args)) {
+        params = args;
+    } else if (args) {
+        params.push(args);
+    }
 
-	exec(fn, null, 'LocalNotification', action, params);
+    exec(fn, null, 'LocalNotification', action, params);
 };
 
 
@@ -275,18 +281,18 @@ exports.exec = function (action, args, callback, scope) {
 
 // Called after 'deviceready' event
 channel.deviceready.subscribe(function () {
-	// Device is ready now, the listeners are registered
-	// and all queued events can be executed.
-	exec(null, null, 'LocalNotification', 'deviceready', []);
+    // Device is ready now, the listeners are registered
+    // and all queued events can be executed.
+    exec(null, null, 'LocalNotification', 'deviceready', []);
 });
 
 // Called before 'deviceready' event
 channel.onCordovaReady.subscribe(function () {
-	// Device plugin is ready now
-	channel.onCordovaInfoReady.subscribe(function () {
-		// Merge platform specifics into defaults
-		exports.applyPlatformSpecificOptions();
-	});
+    // Device plugin is ready now
+    channel.onCordovaInfoReady.subscribe(function () {
+        // Merge platform specifics into defaults
+        exports.applyPlatformSpecificOptions();
+    });
 });
 
 });

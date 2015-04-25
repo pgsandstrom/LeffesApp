@@ -1,21 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="se.tusentips.app" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <feature name="Device">
-        <param name="android-package" value="org.apache.cordova.device.Device" />
-    </feature>
-    <feature name="LocalNotification">
-        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
-    </feature>
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
     <feature name="SocialMessage">
         <param name="android-package" value="uk.co.ilee.socialmessage.SocialMessage" />
-    </feature>
-    <feature name="PushNotificationPlugin">
-        <param name="android-package" value="com.urbanairship.phonegap.PushNotificationPlugin" />
-        <param name="onload" value="true" />
     </feature>
     <name>TusenTips</name>
     <description>
@@ -36,4 +26,10 @@
     <preference name="com.urbanairship.in_production" value="false" />
     <preference name="com.urbanairship.enable_push_onlaunch" value="false" />
     <preference name="com.urbanairship.gcm_sender" value="1038001972805" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
 </widget>

@@ -10,6 +10,32 @@ $(function () {
 
 	var itemCount = $('.carousel > li').length;
 
+	$('input').click(function () {
+		console.log("checkbox clicked");
+		// Detta är ett fulhack som kommer behöva fixas om vi inför fler settings
+		var inputStuff = $(this);
+		var checked = inputStuff[0].checked;
+		innovation.notification.setNotification(checked);
+	});
+
+	innovation.view.setPushCheckbox = function (active) {
+		if (active && active !== "false") {
+			$('input')[0].checked = active;
+		} else {
+			$('input')[0].checked = undefined;
+		}
+	};
+
+	$('#startup-window-ok').click(function () {
+		$('#popup-window').hide();
+		innovation.popupinfo.remove();
+	});
+
+	innovation.view.showInfoPopup = function () {
+		console.log("innovation.view.showInfoPopup");
+		$('#popup-window').show();
+	};
+
 	$(".reload").on("click", function () {
 		$('#init-loading').show();
 		$('#network-error').hide();
@@ -142,6 +168,7 @@ $(function () {
 			var firstAdd = $carousel.children().length === 0;
 			var initClass = firstAdd ? 'active' : '';
 
+			//console.log("post: " + JSON.stringify(post));
 			var date = post.date.split(' ')[0]; // Split after first space to avoid time of day.
 
 			var $post = $('<li class="' + initClass + '"><div class=post-date>' + date + '</div><div class=post-title>' + post.title + '</div><div class="post-body">' + post.content + '</div><div class="comments"></div></li>');

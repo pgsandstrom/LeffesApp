@@ -72,6 +72,9 @@
 
         [[UIApplication sharedApplication]
          registerUserNotificationSettings:settings];
+        
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"UIApplicationRegisterUserNotificationSettings" object:settings];
     }
 }
 

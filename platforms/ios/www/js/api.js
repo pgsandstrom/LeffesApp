@@ -34,7 +34,7 @@
 	/**
 	 * get the articles and stuff!
 	 * @param page 1-indexed
-	 * @param callback callback that takes the data (send null if error)
+	 * @param callback callback that takes the data (send null if error) and if we have added a random post to the data
 	 */
 	innovation.api.get = function (page, callback) {
 		var url;
@@ -45,24 +45,10 @@
 			url = HOST + '/page/' + page + '/?json=1';
 		}
 
-//        var url = HOST;
-//        $.get(url, function (data) {
-//            alert("success");
-//        })
-//            .done(function (data) {
-//                alert("second success");
-//            })
-//            .fail(function (data) {
-//                alert("error");
-//            })
-//            .always(function (data) {
-////                alert( "finished" );
-//            });
-
 		$.ajax({
 			url: url,
 			success: function (data, textStatus, jqXHR) {
-				callback(data);
+				callback(data, false);
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
 				callback();
@@ -72,5 +58,39 @@
 		});
 	};
 
+	/**
+	 * Add a random post to the list of posts
+	 * @param data the data that is received from api.get()
+	 * @param callback callback that takes the data (send null if error) and if we have added a random post to the data
+	 */
+	innovation.api.addRandom = function (data, callback) {
+		var url = HOST + '/random';
+
+		//TODO: Excludera ref-taggen! Fast gör det på server-sidan...
+
+		$.ajax({
+			url: url,
+			success: function (newData, textStatus, jqXHR) {
+
+				//ugly code to compensate for my weird /random url
+				if (typeof newData == 'string' || newData instanceof String) {
+					newData = newData.replace('\\\\r\\\\n','<br>');
+					newData = newData.replace('\\r\\n','<br>');
+					newData = newData.replace('&nbsp;','<br>');
+					newData = JSON.parse(newData);
+				}
+
+				//console.log("newData 0: " + newData);
+				//console.log("newData 1: " + JSON.stringify(newData));
+				data.posts.unshift(newData);
+				callback(data, true);
+			},
+			error: function (jqXHR, textStatus, errorThrown) {
+				callback();
+			},
+			async: true,
+			cache: false
+		});
+	};
 
 })();
